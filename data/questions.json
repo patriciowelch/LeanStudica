@@ -1,0 +1,1132 @@
+{
+  "materia": "Lean Manufacturing",
+  "generado_desde": "/resumen",
+  "temas": [
+    "Unidad 1: Administración de la Producción y Operaciones",
+    "Unidad 2: JIT y Herramientas Lean"
+  ],
+  "preguntas": [
+    {
+      "id": "q001",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "opcion_multiple",
+      "dificultad": "facil",
+      "capciosa": false,
+      "enunciado": "¿Cuáles son las tres funciones primarias en los negocios?",
+      "opciones": [
+        { "id": "a", "texto": "Marketing, Finanzas y Recursos Humanos" },
+        { "id": "b", "texto": "Mercadotecnia, Producción y Finanzas" },
+        { "id": "c", "texto": "Producción, Logística y Ventas" },
+        { "id": "d", "texto": "Compras, Manufactura y Distribución" }
+      ],
+      "correcta": "b",
+      "explicacion": "Las tres funciones primarias son mercadotecnia (crea demanda), producción (convierte insumos en productos) y finanzas (logra los objetivos financieros). Las demás opciones mezclan funciones secundarias o inventadas."
+    },
+    {
+      "id": "q002",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿Qué define a un 'sistema de producción'?",
+      "opciones": [
+        { "id": "a", "texto": "La planta física donde se fabrican los bienes" },
+        { "id": "b", "texto": "El software de gestión que administra los recursos productivos" },
+        { "id": "c", "texto": "El proceso de conversión de insumos en productos y servicios" },
+        { "id": "d", "texto": "El conjunto de trabajadores que operan en una fábrica" }
+      ],
+      "correcta": "c",
+      "explicacion": "Un sistema de producción es el proceso de conversión: toma insumos y los transforma en productos o servicios. No es la planta física ni el personal, sino el proceso en sí, junto con el subsistema de control que da retroalimentación a los gerentes."
+    },
+    {
+      "id": "q003",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "opcion_multiple",
+      "dificultad": "facil",
+      "capciosa": false,
+      "enunciado": "¿En qué país y siglo surgió la Revolución Industrial?",
+      "opciones": [
+        { "id": "a", "texto": "Francia, siglo XVII" },
+        { "id": "b", "texto": "Alemania, siglo XVIII" },
+        { "id": "c", "texto": "Estados Unidos, siglo XIX" },
+        { "id": "d", "texto": "Inglaterra, siglo XVIII" }
+      ],
+      "correcta": "d",
+      "explicacion": "La Revolución Industrial surgió en el siglo XVIII en Inglaterra, permitiendo la sustitución generalizada de la energía humana e hidráulica por máquinas y el establecimiento del sistema de fabricación."
+    },
+    {
+      "id": "q004",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "opcion_multiple",
+      "dificultad": "dificil",
+      "capciosa": false,
+      "enunciado": "¿Qué principio, desarrollado en EEUU durante la Revolución Industrial, permitía que las piezas ajustaran desde el primer momento sin requerir adaptaciones individuales?",
+      "opciones": [
+        { "id": "a", "texto": "División del trabajo" },
+        { "id": "b", "texto": "Administración científica" },
+        { "id": "c", "texto": "Piezas intercambiables" },
+        { "id": "d", "texto": "Estandarización de procesos" }
+      ],
+      "correcta": "c",
+      "explicacion": "El principio de piezas intercambiables se desarrolló en EEUU: las piezas se producían con tolerancias que permitían que cada una ajustara desde el primer momento. Esto eliminó la necesidad de ajustes artesanales individuales. Adam Smith aporta la división del trabajo; Taylor la administración científica; son conceptos distintos."
+    },
+    {
+      "id": "q005",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "verdadero_falso",
+      "dificultad": "media",
+      "capciosa": true,
+      "enunciado": "Taylor es considerado el padre de las relaciones humanas en la industria.",
+      "opciones": [
+        { "id": "v", "texto": "Verdadero" },
+        { "id": "f", "texto": "Falso" }
+      ],
+      "correcta": "f",
+      "explicacion": "Taylor es el padre de la ADMINISTRACIÓN CIENTÍFICA, no de las relaciones humanas. El movimiento de relaciones humanas fue iniciado por Elton Mayo, quien descubrió la correlación entre el entorno físico y la eficiencia, e identificó factores humanos que afectaban la producción."
+    },
+    {
+      "id": "q006",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "opcion_multiple",
+      "dificultad": "facil",
+      "capciosa": false,
+      "enunciado": "¿Qué herramienta utilizaba Taylor para establecer el volumen estándar de trabajo por trabajador?",
+      "opciones": [
+        { "id": "a", "texto": "Encuestas de desempeño anuales" },
+        { "id": "b", "texto": "Estudios con cronómetro en cada tarea" },
+        { "id": "c", "texto": "Comparaciones con otros trabajadores del mercado" },
+        { "id": "d", "texto": "Modelos matemáticos de simulación" }
+      ],
+      "correcta": "b",
+      "explicacion": "Taylor usaba estudios con cronómetro en cada tarea para establecer con precisión un volumen estándar por trabajador. Esta técnica, base de la medición del trabajo moderna, fue una de las innovaciones centrales de su sistema de taller."
+    },
+    {
+      "id": "q007",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "opcion_multiple",
+      "dificultad": "dificil",
+      "capciosa": true,
+      "enunciado": "Ford pagaba salarios más altos que el promedio de la época. ¿Cuál era la razón principal?",
+      "opciones": [
+        { "id": "a", "texto": "Era un requisito legal para las empresas de su tamaño" },
+        { "id": "b", "texto": "Sus líneas de ensamble requerían trabajadores más calificados que el promedio" },
+        { "id": "c", "texto": "Para que sus trabajadores pudieran adquirir sus propios productos" },
+        { "id": "d", "texto": "Para cumplir los requisitos del sindicato automotriz" }
+      ],
+      "correcta": "c",
+      "explicacion": "Ford pagaba más que el salario normal para que sus trabajadores pudieran adquirir sus propios productos. También estableció 'departamentos sociológicos' mostrando preocupación por el bienestar del trabajador, algo excepcional en esa época."
+    },
+    {
+      "id": "q008",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿Quién inició el movimiento de relaciones humanas en la industria?",
+      "opciones": [
+        { "id": "a", "texto": "Frederick Taylor" },
+        { "id": "b", "texto": "Henry Ford" },
+        { "id": "c", "texto": "Elton Mayo" },
+        { "id": "d", "texto": "Adam Smith" }
+      ],
+      "correcta": "c",
+      "explicacion": "El movimiento por las relaciones humanas comenzó con los trabajos de Elton Mayo. Sus estudios determinaron la correlación entre el entorno físico (ej: iluminación) y la eficiencia de los trabajadores, descubriendo factores humanos que afectaban la producción."
+    },
+    {
+      "id": "q009",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "Según la definición de 'sistema' aplicada a producción, ¿qué es fundamental?",
+      "opciones": [
+        { "id": "a", "texto": "Que el sistema pueda subdividirse en partes sin alterar su funcionamiento global" },
+        { "id": "b", "texto": "Que el sistema no pueda subdividirse sin perder sus características esenciales" },
+        { "id": "c", "texto": "Que las partes sean completamente independientes entre sí" },
+        { "id": "d", "texto": "Que el todo sea la suma algebraica de sus partes" }
+      ],
+      "correcta": "b",
+      "explicacion": "Un sistema es un todo que NO puede subdividirse sin perder sus características esenciales, por lo tanto debe estudiarse como un todo. Las partes se explican en función del todo, no al revés. Esta inversión del enfoque analítico clásico es clave."
+    },
+    {
+      "id": "q010",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "opcion_multiple",
+      "dificultad": "facil",
+      "capciosa": false,
+      "enunciado": "Las decisiones estratégicas en operaciones se refieren principalmente a:",
+      "opciones": [
+        { "id": "a", "texto": "El control diario de calidad en planta" },
+        { "id": "b", "texto": "La planeación de la producción para cumplir con la demanda" },
+        { "id": "c", "texto": "Productos, procesos e instalaciones con significado a largo plazo" },
+        { "id": "d", "texto": "La programación del mantenimiento preventivo de maquinaria" }
+      ],
+      "correcta": "c",
+      "explicacion": "Las decisiones estratégicas tienen significado a largo plazo y se refieren a productos, procesos e instalaciones. Son de importancia estratégica. Las decisiones operativas cubren la planeación para cumplir demanda, y las de control las actividades cotidianas (calidad, costos, mantenimiento)."
+    },
+    {
+      "id": "q011",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": true,
+      "enunciado": "¿A qué tipo de decisión pertenece 'controlar los costos de producción y el mantenimiento de maquinaria'?",
+      "opciones": [
+        { "id": "a", "texto": "Estratégica" },
+        { "id": "b", "texto": "Operativa" },
+        { "id": "c", "texto": "Control" },
+        { "id": "d", "texto": "Táctica" }
+      ],
+      "correcta": "c",
+      "explicacion": "Las decisiones de control se refieren a las actividades cotidianas: calidad de productos y servicios, costos de producción y mantenimiento. Las estratégicas son a largo plazo (qué producir, con qué procesos); las operativas son sobre planeación para cumplir demanda a mediano plazo."
+    },
+    {
+      "id": "q012",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "opcion_multiple",
+      "dificultad": "dificil",
+      "capciosa": false,
+      "enunciado": "La implementación de TQM (Administración de la Calidad Total) implicó un cambio estructural. ¿Cuál fue?",
+      "opciones": [
+        { "id": "a", "texto": "Pasar de una estructura horizontal a una vertical, concentrando decisiones en la cima" },
+        { "id": "b", "texto": "Pasar de una calidad adecuada a excelente, con cambio de estructura vertical a más horizontal" },
+        { "id": "c", "texto": "Reducir los controles de calidad para bajar costos de producción" },
+        { "id": "d", "texto": "Concentrar las decisiones de calidad exclusivamente en el área de producción" }
+      ],
+      "correcta": "b",
+      "explicacion": "TQM implicó pasar de calidad adecuada a excelente y requirió un gran cambio organizacional: de estructura vertical a más horizontal, comprometiendo todos los niveles en la mejora continua y enfocándose en las necesidades del cliente."
+    },
+    {
+      "id": "q013",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "verdadero_falso",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "JIT permite reducir costos de inventario haciendo que los proveedores entreguen materiales justo cuando se necesitan en cada paso del proceso productivo.",
+      "opciones": [
+        { "id": "v", "texto": "Verdadero" },
+        { "id": "f", "texto": "Falso" }
+      ],
+      "correcta": "v",
+      "explicacion": "JIT reduce los niveles de inventarios y el tiempo de producción. Los proveedores entregan materiales exactamente cuando se necesitan en cada paso del proceso, eliminando la necesidad de mantener grandes stocks y reduciendo el desperdicio."
+    },
+    {
+      "id": "q014",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "verdadero_falso",
+      "dificultad": "dificil",
+      "capciosa": true,
+      "enunciado": "La ISO certifica que los productos de una empresa tienen la más alta calidad del mercado.",
+      "opciones": [
+        { "id": "v", "texto": "Verdadero" },
+        { "id": "f", "texto": "Falso" }
+      ],
+      "correcta": "f",
+      "explicacion": "ISO certifica un sistema de GESTIÓN de mejora continua (SGC), no la calidad de los productos en sí. Es un estándar que asegura que existe un sistema de gestión de calidad funcionando, permitiendo auditorías, gestión de reclamos y cumplimiento de especificaciones."
+    },
+    {
+      "id": "q015",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "verdadero_falso",
+      "dificultad": "media",
+      "capciosa": true,
+      "enunciado": "La investigación de operaciones siempre utiliza equipos interdisciplinarios para abordar los problemas.",
+      "opciones": [
+        { "id": "v", "texto": "Verdadero" },
+        { "id": "f", "texto": "Falso" }
+      ],
+      "correcta": "f",
+      "explicacion": "La investigación de operaciones NO necesariamente utiliza equipos interdisciplinarios; aplica las técnicas apropiadas de cada campo al sistema en estudio. Su característica central es modelar matemáticamente el sistema para reemplazar la toma de decisiones intuitiva."
+    },
+    {
+      "id": "q016",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "opcion_multiple",
+      "dificultad": "dificil",
+      "capciosa": true,
+      "enunciado": "¿Cuál de las siguientes afirmaciones sobre la investigación de operaciones es INCORRECTA?",
+      "opciones": [
+        { "id": "a", "texto": "Encara los problemas desde la perspectiva del sistema total" },
+        { "id": "b", "texto": "Reemplaza la toma de decisiones intuitiva por la mejor opción" },
+        { "id": "c", "texto": "Siempre requiere equipos interdisciplinarios para ser aplicada" },
+        { "id": "d", "texto": "Construye modelos matemáticos del sistema en estudio" }
+      ],
+      "correcta": "c",
+      "explicacion": "La afirmación incorrecta es la C: la IO NO necesariamente utiliza equipos interdisciplinarios. Sí aborda el sistema total, usa modelos matemáticos y computadoras, y reemplaza la intuición por la mejor opción analítica."
+    },
+    {
+      "id": "q017",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "Post-guerra civil en EEUU, ¿qué cambio fundamental ocurrió en la estructura empresarial?",
+      "opciones": [
+        { "id": "a", "texto": "El capitalista tomó el control directo de las operaciones diarias" },
+        { "id": "b", "texto": "Se separó al capitalista del trabajador, introduciendo gerentes como empleados asalariados" },
+        { "id": "c", "texto": "Los sindicatos tomaron el control de la producción industrial" },
+        { "id": "d", "texto": "Se eliminaron los empleados asalariados en favor de sistemas de comisiones" }
+      ],
+      "correcta": "b",
+      "explicacion": "El fin de la guerra civil dio comienzo al establecimiento de empresas con capital accionario, separando al capitalista del trabajador e introduciendo gerentes como empleados asalariados. Este fue un cambio estructural fundamental que moldeó la empresa moderna."
+    },
+    {
+      "id": "q018",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "relacion",
+      "dificultad": "dificil",
+      "capciosa": false,
+      "enunciado": "Relacioná cada pensador/evento con su aporte principal a la administración de operaciones.",
+      "columna_izq": [
+        { "id": "1", "texto": "Taylor" },
+        { "id": "2", "texto": "Ford" },
+        { "id": "3", "texto": "Elton Mayo" },
+        { "id": "4", "texto": "Adam Smith" }
+      ],
+      "columna_der": [
+        { "id": "a", "texto": "División del trabajo y especialización de tareas" },
+        { "id": "b", "texto": "Padre de la administración científica y estudios de tiempos" },
+        { "id": "c", "texto": "Líneas de ensamble y producción en masa" },
+        { "id": "d", "texto": "Movimiento de relaciones humanas en la fábrica" }
+      ],
+      "correcta": { "1": "b", "2": "c", "3": "d", "4": "a" },
+      "explicacion": "Taylor desarrolló la administración científica (estudios con cronómetro, estándares); Ford popularizó las líneas de ensamble y producción en masa; Elton Mayo inició el movimiento de relaciones humanas; Adam Smith enmarcó los beneficios de la división del trabajo."
+    },
+    {
+      "id": "q019",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "opcion_multiple",
+      "dificultad": "facil",
+      "capciosa": false,
+      "enunciado": "¿Cuál fue la primera industria de importancia durante la Revolución Industrial?",
+      "opciones": [
+        { "id": "a", "texto": "La automotriz" },
+        { "id": "b", "texto": "La textil" },
+        { "id": "c", "texto": "La ferroviaria" },
+        { "id": "d", "texto": "La minera del carbón" }
+      ],
+      "correcta": "b",
+      "explicacion": "La primera industria de importancia fue la textil. La Revolución Industrial también permitió el desarrollo del motor de gasolina y de la electricidad. La industria ferroviaria surgió más adelante como sistema de transporte nacional."
+    },
+    {
+      "id": "q020",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "opcion_multiple",
+      "dificultad": "dificil",
+      "capciosa": true,
+      "enunciado": "Según el enfoque sistémico de la producción, ¿cuál es la relación correcta entre el todo y sus partes?",
+      "opciones": [
+        { "id": "a", "texto": "El todo es la suma de sus partes independientes" },
+        { "id": "b", "texto": "Las partes se explican en función del todo, no el todo en función de sus partes" },
+        { "id": "c", "texto": "El todo puede dividirse sin perder sus características esenciales" },
+        { "id": "d", "texto": "Las partes determinan el comportamiento del sistema total" }
+      ],
+      "correcta": "b",
+      "explicacion": "El enfoque sistémico invierte la lógica clásica: 'las partes empezaron a ser explicadas en función del todo', no al revés. El todo no puede subdividirse sin perder sus características esenciales, y debe estudiarse como un conjunto."
+    },
+    {
+      "id": "q021",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿Cuál es la función del subsistema de control en un sistema de producción?",
+      "opciones": [
+        { "id": "a", "texto": "Definir los insumos necesarios para la producción" },
+        { "id": "b", "texto": "Gestionar la nómina del personal operativo" },
+        { "id": "c", "texto": "Brindar retroalimentación para que los gerentes tomen acciones correctivas" },
+        { "id": "d", "texto": "Automatizar el proceso de conversión de insumos en productos" }
+      ],
+      "correcta": "c",
+      "explicacion": "El subsistema de control verifica si la producción es aceptable en términos de calidad, cantidad y costos, y brinda retroalimentación para que los gerentes puedan tomar acciones correctivas. Asegura el desempeño del sistema total."
+    },
+    {
+      "id": "q022",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "verdadero_falso",
+      "dificultad": "facil",
+      "capciosa": false,
+      "enunciado": "La función de mercadotecnia es responsable de crear demanda para los productos y servicios de la organización.",
+      "opciones": [
+        { "id": "v", "texto": "Verdadero" },
+        { "id": "f", "texto": "Falso" }
+      ],
+      "correcta": "v",
+      "explicacion": "Los administradores en la función de mercadotecnia son responsables de la creación de demanda para los productos y servicios. Las finanzas se encargan de los objetivos financieros y producción de la conversión de insumos en productos."
+    },
+    {
+      "id": "q023",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "verdadero_falso",
+      "dificultad": "facil",
+      "capciosa": true,
+      "enunciado": "La función de finanzas en un negocio es responsable de crear la demanda para los productos de la empresa.",
+      "opciones": [
+        { "id": "v", "texto": "Verdadero" },
+        { "id": "f", "texto": "Falso" }
+      ],
+      "correcta": "f",
+      "explicacion": "La función de FINANZAS es responsable de lograr los OBJETIVOS FINANCIEROS de la empresa. La creación de demanda es responsabilidad de MERCADOTECNIA. Confundir estas funciones es un error conceptual común."
+    },
+    {
+      "id": "q024",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿Cuál de los 6 factores que afectan la administración de operaciones implica que las fronteras nacionales ya no protegen a las empresas?",
+      "opciones": [
+        { "id": "a", "texto": "Escasez de recursos de producción" },
+        { "id": "b", "texto": "Aspectos relacionados con la responsabilidad social" },
+        { "id": "c", "texto": "Realidad de la competencia global" },
+        { "id": "d", "texto": "Expansión rápida de tecnologías avanzadas de producción" }
+      ],
+      "correcta": "c",
+      "explicacion": "La realidad de la competencia global implica que las fronteras nacionales ya no proporcionan protección contra importaciones. Las empresas deben combinar calidad excepcional, entrega rápida y oportuna, y precios/costos bajos para sobrevivir."
+    },
+    {
+      "id": "q025",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "relacion",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "Relacioná cada tipo de decisión con su descripción correcta.",
+      "columna_izq": [
+        { "id": "1", "texto": "Decisión estratégica" },
+        { "id": "2", "texto": "Decisión operativa" },
+        { "id": "3", "texto": "Decisión de control" }
+      ],
+      "columna_der": [
+        { "id": "a", "texto": "Actividades cotidianas: calidad, costos, mantenimiento" },
+        { "id": "b", "texto": "Productos, procesos e instalaciones a largo plazo" },
+        { "id": "c", "texto": "Planeación de la producción para cumplir con la demanda" }
+      ],
+      "correcta": { "1": "b", "2": "c", "3": "a" },
+      "explicacion": "Las estratégicas definen el futuro de la organización (largo plazo); las operativas planifican para cumplir la demanda; las de control gestionan las actividades cotidianas de calidad, costos y mantenimiento."
+    },
+    {
+      "id": "q026",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿Qué aportó Adam Smith durante la Revolución Industrial?",
+      "opciones": [
+        { "id": "a", "texto": "El principio de piezas intercambiables" },
+        { "id": "b", "texto": "Los beneficios de la división del trabajo y especialización de tareas" },
+        { "id": "c", "texto": "El sistema de taller con estudios de tiempos y movimientos" },
+        { "id": "d", "texto": "El concepto de producción en masa con líneas de ensamble" }
+      ],
+      "correcta": "b",
+      "explicacion": "Adam Smith enmarcó los beneficios de la división del trabajo: los trabajadores ya no debían saber un oficio completo sino una actividad específica, lo que permitió planear y controlar el trabajo de manera más eficiente."
+    },
+    {
+      "id": "q027",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "verdadero_falso",
+      "dificultad": "dificil",
+      "capciosa": true,
+      "enunciado": "Ford popularizó las líneas de ensamble principalmente como consecuencia de aplicar los principios de Taylor al pie de la letra.",
+      "opciones": [
+        { "id": "v", "texto": "Verdadero" },
+        { "id": "f", "texto": "Falso" }
+      ],
+      "correcta": "f",
+      "explicacion": "Si bien Ford incorporó ELEMENTOS de la administración científica de Taylor, los superó con su propio modelo. Ford se enfocó en producción en masa, líneas mecanizadas, piezas intercambiables y bienestar de sus trabajadores ('departamentos sociológicos'), aspectos que van más allá de Taylor."
+    },
+    {
+      "id": "q028",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "opcion_multiple",
+      "dificultad": "dificil",
+      "capciosa": false,
+      "enunciado": "Luego de la Segunda Guerra Mundial, ¿qué fenómeno creó la necesidad de nuevos enfoques de administración de operaciones?",
+      "opciones": [
+        { "id": "a", "texto": "El crecimiento de las empresas manufactureras tradicionales" },
+        { "id": "b", "texto": "La creación acelerada de organizaciones de servicio" },
+        { "id": "c", "texto": "La automatización de las líneas de ensamble fordistas" },
+        { "id": "d", "texto": "La incorporación masiva de trabajadores inmigrantes al sector industrial" }
+      ],
+      "correcta": "b",
+      "explicacion": "Luego de la Segunda Guerra Mundial comenzó a acelerarse súbitamente la creación de organizaciones de servicio. Esto requirió nuevos enfoques de administración de operaciones adaptados a las características de los servicios (estructuras flexibles, planas, con poder de decisión en la base)."
+    },
+    {
+      "id": "q029",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "opcion_multiple",
+      "dificultad": "facil",
+      "capciosa": false,
+      "enunciado": "¿Qué caracteriza a las estructuras organizacionales en el sector servicios, según el texto?",
+      "opciones": [
+        { "id": "a", "texto": "Alta burocracia y jerarquía marcada con poder centralizado" },
+        { "id": "b", "texto": "Flexibles, no burocráticas, planas y con poder de decisión en la base" },
+        { "id": "c", "texto": "Centralización de todas las decisiones en la alta gerencia" },
+        { "id": "d", "texto": "Separación estricta de funciones por departamento especializado" }
+      ],
+      "correcta": "b",
+      "explicacion": "Los servicios tienen estructuras flexibles, no burocráticas, más planas y con el poder de decisión en la base. Esto contrasta con las estructuras verticales tradicionales de la manufactura del siglo XX."
+    },
+    {
+      "id": "q030",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "relacion",
+      "dificultad": "dificil",
+      "capciosa": false,
+      "enunciado": "Relacioná cada herramienta/concepto con su objetivo central.",
+      "columna_izq": [
+        { "id": "1", "texto": "JIT" },
+        { "id": "2", "texto": "TQM" },
+        { "id": "3", "texto": "ISO" },
+        { "id": "4", "texto": "Investigación de operaciones" }
+      ],
+      "columna_der": [
+        { "id": "a", "texto": "Modelos matemáticos para reemplazar decisiones intuitivas" },
+        { "id": "b", "texto": "Calidad excelente centrada en necesidades del cliente" },
+        { "id": "c", "texto": "Certifica un sistema de gestión de mejora continua (SGC)" },
+        { "id": "d", "texto": "Reducir inventarios entregando materiales cuando se necesitan" }
+      ],
+      "correcta": { "1": "d", "2": "b", "3": "c", "4": "a" },
+      "explicacion": "JIT = eliminar inventarios; TQM = calidad total centrada en el cliente (cambio estructural); ISO = certifica el SGC, no los productos; Investigación de operaciones = modelos matemáticos para tomar mejores decisiones."
+    },
+    {
+      "id": "q031",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿Cómo el sistema de taller de Taylor motivaba a los trabajadores sin que los supervisores presionaran constantemente?",
+      "opciones": [
+        { "id": "a", "texto": "Con contratos de largo plazo y estabilidad laboral garantizada" },
+        { "id": "b", "texto": "Con sistemas de pago de incentivos vinculados a la eficiencia" },
+        { "id": "c", "texto": "Con rotación de puestos para evitar la monotonía" },
+        { "id": "d", "texto": "Con participación de los trabajadores en las decisiones de producción" }
+      ],
+      "correcta": "b",
+      "explicacion": "Taylor inició sistemas de pago de incentivos para incrementar la eficiencia y liberar a los supervisores de la responsabilidad de estar presionando continuamente a los trabajadores. La productividad pasó a estar motivada económicamente."
+    },
+    {
+      "id": "q032",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "verdadero_falso",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "La administración de la producción y operaciones actual es una mezcla de prácticas del pasado probadas y nuevas maneras de administrar sistemas de producción.",
+      "opciones": [
+        { "id": "v", "texto": "Verdadero" },
+        { "id": "f", "texto": "Falso" }
+      ],
+      "correcta": "v",
+      "explicacion": "El texto define explícitamente la administración de la producción y operaciones como 'una mezcla de prácticas provenientes del pasado probadas con el transcurso del tiempo y de una búsqueda constante de nuevas maneras de administrar sistemas de producción'."
+    },
+    {
+      "id": "q033",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": true,
+      "enunciado": "¿Qué característica del sistema de taller de Taylor implicó el nacimiento de los ingenieros industriales?",
+      "opciones": [
+        { "id": "a", "texto": "La determinación de habilidades y capacidades de los trabajadores" },
+        { "id": "b", "texto": "Los estudios con cronómetro para establecer estándares de producción" },
+        { "id": "c", "texto": "La estandarización de métodos, flujo de trabajo y especificaciones" },
+        { "id": "d", "texto": "La incorporación de líneas de ensamble mecanizadas" }
+      ],
+      "correcta": "c",
+      "explicacion": "La estandarización de métodos, el flujo de trabajo y las especificaciones fue la contribución que dio origen a la ingeniería industrial como disciplina. El texto lo vincula directamente: 'Nacimiento de los ingenieros industriales' aparece como título post-Taylor y Ford."
+    },
+    {
+      "id": "q034",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "opcion_multiple",
+      "dificultad": "dificil",
+      "capciosa": false,
+      "enunciado": "¿Qué debió ocurrir para que las empresas pudieran implementar TQM exitosamente?",
+      "opciones": [
+        { "id": "a", "texto": "Aumentar el control jerárquico para asegurar cumplimiento de estándares" },
+        { "id": "b", "texto": "Comprometer todos los niveles en la mejora continua y reducir el tamaño corporativo" },
+        { "id": "c", "texto": "Contratar consultores externos especializados en calidad" },
+        { "id": "d", "texto": "Separar completamente la función de calidad del área de producción" }
+      ],
+      "correcta": "b",
+      "explicacion": "Para implementar TQM hubo un gran cambio organizacional: comprometer todos los niveles en la mejora continua y reducir el tamaño corporativo para obtener mayor flexibilidad. Se pasó de estructura vertical a horizontal, enfocándose en las necesidades del cliente."
+    },
+    {
+      "id": "q035",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "Los costos en el mercado se ajustan por varios factores. ¿Cuáles menciona el texto?",
+      "opciones": [
+        { "id": "a", "texto": "Sindicatos, negociaciones salariales y subsidios estatales" },
+        { "id": "b", "texto": "Grandes distribuidores, importaciones, reducción del desperdicio y de la estructura corporativa" },
+        { "id": "c", "texto": "Precios fijados por organismos internacionales de comercio" },
+        { "id": "d", "texto": "Acuerdos entre grandes fabricantes y el Estado" }
+      ],
+      "correcta": "b",
+      "explicacion": "Los costos son ajustados por el mercado a través de: grandes distribuidores, importaciones, reducción del desperdicio y reducción de la estructura corporativa y del capital de trabajo. Todo esto sin afectar la calidad."
+    },
+    {
+      "id": "q036",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "opcion_multiple",
+      "dificultad": "facil",
+      "capciosa": false,
+      "enunciado": "¿Cuáles son los 3 componentes básicos para implementar JIT?",
+      "opciones": [
+        { "id": "a", "texto": "Kanban, SMED y Kaizen" },
+        { "id": "b", "texto": "Flujo, calidad e intervención de los empleados" },
+        { "id": "c", "texto": "Heijunka, Jidoka y Mura" },
+        { "id": "d", "texto": "Stock cero, proveedores únicos y celdas de trabajo" }
+      ],
+      "correcta": "b",
+      "explicacion": "Los 3 componentes básicos de JIT son: flujo (equilibrado), calidad (Jidoka) e intervención de los empleados (Kaizen). El resto (Kanban, SMED, Heijunka) son herramientas que apoyan estos tres pilares."
+    },
+    {
+      "id": "q037",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "opcion_multiple",
+      "dificultad": "facil",
+      "capciosa": false,
+      "enunciado": "La definición de JIT es:",
+      "opciones": [
+        { "id": "a", "texto": "Producir la mayor cantidad posible con los recursos mínimos disponibles" },
+        { "id": "b", "texto": "Producir los elementos que se necesitan, en las cantidades que se necesitan, en el momento en que se necesitan" },
+        { "id": "c", "texto": "Reducir el inventario a través de compras planificadas semestralmente" },
+        { "id": "d", "texto": "Automatizar la línea de producción para eliminar errores humanos" }
+      ],
+      "correcta": "b",
+      "explicacion": "JIT (Just-In-Time) significa producir lo necesario, cuando se necesita, en la cantidad exacta. Su objetivo central es eliminar MUDA (desperdicio). No se trata de producir al máximo, sino de producir exactamente lo demandado."
+    },
+    {
+      "id": "q038",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "Según la definición de Toyota, ¿qué es MUDA?",
+      "opciones": [
+        { "id": "a", "texto": "Todo aquello que requiere más de un proveedor para producirse" },
+        { "id": "b", "texto": "Todo lo distinto de la cantidad mínima de equipo, materiales, piezas y tiempo laboral absolutamente necesarios para la producción" },
+        { "id": "c", "texto": "Los defectos detectados únicamente al final de la línea de ensamble" },
+        { "id": "d", "texto": "El tiempo de espera entre operaciones sucesivas de la línea" }
+      ],
+      "correcta": "b",
+      "explicacion": "Toyota define MUDA como 'todo lo que sea distinto de la cantidad mínima de equipo, materiales, piezas y tiempo laboral absolutamente necesarios para la producción'. Los americanos tienen definición similar pero centrada en 'agregar valor al producto'."
+    },
+    {
+      "id": "q039",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿Cuál de las siguientes actividades agrega valor según la filosofía JIT?",
+      "opciones": [
+        { "id": "a", "texto": "Inspección de calidad al final del proceso" },
+        { "id": "b", "texto": "Transporte de materiales entre operaciones" },
+        { "id": "c", "texto": "Transformación física de los productos" },
+        { "id": "d", "texto": "Almacenamiento en inventario de seguridad" }
+      ],
+      "correcta": "c",
+      "explicacion": "Agrega valor SOLO aquello que produce una transformación física en los productos. La inspección, el transporte y el almacenamiento NO agregan valor: son ejemplos clásicos de MUDA que JIT busca eliminar."
+    },
+    {
+      "id": "q040",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": true,
+      "enunciado": "¿Cuántos tipos de MUDA clasifica el texto del resumen?",
+      "opciones": [
+        { "id": "a", "texto": "5" },
+        { "id": "b", "texto": "6" },
+        { "id": "c", "texto": "7" },
+        { "id": "d", "texto": "8" }
+      ],
+      "correcta": "b",
+      "explicacion": "El texto clasifica 6 tipos de MUDA: sobreproducción, esperas, transporte, inventarios, movimientos innecesarios y defectos (inspección y retrabajo). La confusión con 7 es común porque otras clasificaciones del TPS agregan 'procesamiento innecesario', pero ese no aparece en este resumen."
+    },
+    {
+      "id": "q041",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "relacion",
+      "dificultad": "dificil",
+      "capciosa": false,
+      "enunciado": "Relacioná cada tipo de MUDA con el ejemplo que mejor lo ilustra.",
+      "columna_izq": [
+        { "id": "1", "texto": "Sobreproducción" },
+        { "id": "2", "texto": "Esperas" },
+        { "id": "3", "texto": "Movimientos innecesarios" },
+        { "id": "4", "texto": "Defectos" }
+      ],
+      "columna_der": [
+        { "id": "a", "texto": "Un operario busca herramientas en distintos lugares del puesto" },
+        { "id": "b", "texto": "Fabricar 1000 unidades cuando el pedido es de 800" },
+        { "id": "c", "texto": "Retrabajo de piezas que no cumplieron especificaciones" },
+        { "id": "d", "texto": "Máquinas detenidas esperando material o instrucciones" }
+      ],
+      "correcta": { "1": "b", "2": "d", "3": "a", "4": "c" },
+      "explicacion": "Sobreproducción = producir más de lo necesario; Esperas = recursos parados esperando; Movimientos innecesarios = desplazamientos del operario sin agregar valor; Defectos = corrección o retrabajo de errores. El transporte e inventarios son otros 2 tipos de MUDA."
+    },
+    {
+      "id": "q042",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "opcion_multiple",
+      "dificultad": "facil",
+      "capciosa": false,
+      "enunciado": "¿Qué es el Takt Time?",
+      "opciones": [
+        { "id": "a", "texto": "El tiempo total de producción de un lote completo" },
+        { "id": "b", "texto": "El tiempo transcurrido entre la demanda de dos productos, referencia para la nivelación de la planta" },
+        { "id": "c", "texto": "El tiempo de preparación de una máquina para cambiar de producto" },
+        { "id": "d", "texto": "El tiempo que tarda un operario en completar su ciclo completo de trabajo" }
+      ],
+      "correcta": "b",
+      "explicacion": "El Takt Time es el tiempo entre la demanda de dos productos y es la referencia para la nivelación de la planta. Superar el Takt Time (producir más rápido de lo que el cliente demanda) solo añadiría desperdicio y costo."
+    },
+    {
+      "id": "q043",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "verdadero_falso",
+      "dificultad": "media",
+      "capciosa": true,
+      "enunciado": "Acelerar la línea de producción por encima del Takt Time siempre es beneficioso porque se producen más unidades.",
+      "opciones": [
+        { "id": "v", "texto": "Verdadero" },
+        { "id": "f", "texto": "Falso" }
+      ],
+      "correcta": "f",
+      "explicacion": "Superar el Takt Time NO agrega valor: solo añade desperdicio y costo. El Takt Time se define en función de la demanda real del cliente, no de la capacidad máxima de la línea. Producir más de lo demandado crea sobreproducción, el primer tipo de MUDA."
+    },
+    {
+      "id": "q044",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿Qué es Jidoka?",
+      "opciones": [
+        { "id": "a", "texto": "La nivelación de la producción para eliminar irregularidades" },
+        { "id": "b", "texto": "El sistema visual de gestión de inventarios tirado por el cliente" },
+        { "id": "c", "texto": "Hacer las cosas bien la primera vez en todas las áreas de la organización (calidad en la fuente)" },
+        { "id": "d", "texto": "La reducción de los tiempos de cambio de formato a menos de 10 minutos" }
+      ],
+      "correcta": "c",
+      "explicacion": "Jidoka es 'calidad en la fuente': hacer las cosas bien la primera vez en todas las áreas. Sin Jidoka no puede asegurarse el equilibrio, sincronización y flujo necesarios para producir en el último momento posible (JIT)."
+    },
+    {
+      "id": "q045",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿Qué es Heijunka?",
+      "opciones": [
+        { "id": "a", "texto": "La participación de los empleados en la mejora continua (Kaizen)" },
+        { "id": "b", "texto": "La nivelación de la producción que elimina MURA (irregularidades) y combate MURI (excesos)" },
+        { "id": "c", "texto": "La calidad en la fuente: hacer bien las cosas la primera vez" },
+        { "id": "d", "texto": "El sistema de información visual para gestionar inventarios" }
+      ],
+      "correcta": "b",
+      "explicacion": "Heijunka es la nivelación que acelera el proceso como un todo, eliminando MURA (irregularidades), combatiendo MURI (excesos) y evitando operaciones por separado (que generan MUDA). Es uno de los pilares del flujo equilibrado."
+    },
+    {
+      "id": "q046",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "opcion_multiple",
+      "dificultad": "dificil",
+      "capciosa": true,
+      "enunciado": "¿Cuál es la diferencia correcta entre MURA, MURI y MUDA?",
+      "opciones": [
+        { "id": "a", "texto": "Son sinónimos usados en distintas regiones de Japón" },
+        { "id": "b", "texto": "MURA son irregularidades, MURI son excesos y MUDA son desperdicios" },
+        { "id": "c", "texto": "MURA es sobreproducción, MURI es transporte innecesario y MUDA son los defectos" },
+        { "id": "d", "texto": "Solo MUDA es un concepto formal del TPS; MURA y MURI son informales" }
+      ],
+      "correcta": "b",
+      "explicacion": "Son tres conceptos distintos del TPS: MUDA = desperdicios (las 6 categorías); MURA = irregularidades o desigualdades en el flujo; MURI = excesos o sobrecargas. Heijunka combate específicamente MURA. Un sistema equilibrado combate MURI."
+    },
+    {
+      "id": "q047",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "verdadero_falso",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "Las existencias o stocks son malas en sí mismas porque ocultan los problemas del proceso en lugar de resolverlos.",
+      "opciones": [
+        { "id": "v", "texto": "Verdadero" },
+        { "id": "f", "texto": "Falso" }
+      ],
+      "correcta": "v",
+      "explicacion": "El texto afirma que las existencias 'ocultan los problemas impidiendo que sean resueltos, haciendo que se adapten a ellos sin resolverlos.' La metáfora del agua y las rocas lo ilustra: el stock (agua) esconde los problemas del proceso (rocas)."
+    },
+    {
+      "id": "q048",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "La metáfora del 'agua y las rocas' en JIT representa:",
+      "opciones": [
+        { "id": "a", "texto": "El flujo de materiales (agua) y los cuellos de botella (rocas)" },
+        { "id": "b", "texto": "El stock/existencias (agua) que esconde los problemas del proceso (rocas)" },
+        { "id": "c", "texto": "La demanda del cliente (agua) y la capacidad productiva (rocas)" },
+        { "id": "d", "texto": "Los clientes (agua) y los proveedores (rocas) en la cadena de suministro" }
+      ],
+      "correcta": "b",
+      "explicacion": "El agua representa las existencias/stock que esconde las rocas (los problemas del proceso). Al reducir el nivel del agua (stock), las rocas quedan expuestas y deben resolverse. Este es el objetivo: evidenciar problemas para solucionarlos."
+    },
+    {
+      "id": "q049",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "opcion_multiple",
+      "dificultad": "dificil",
+      "capciosa": true,
+      "enunciado": "¿Cuál es el objetivo del SMED?",
+      "opciones": [
+        { "id": "a", "texto": "Reducir la CANTIDAD de cambios de formato en la producción" },
+        { "id": "b", "texto": "Eliminar los cambios de formato para trabajar con un único producto" },
+        { "id": "c", "texto": "Reducir los TIEMPOS de preparación para poder realizar cambios más frecuentes" },
+        { "id": "d", "texto": "Automatizar los cambios de formato sin intervención humana" }
+      ],
+      "correcta": "c",
+      "explicacion": "El objetivo del SMED es reducir los TIEMPOS de preparación (no la cantidad de cambios). El tiempo ahorrado se reinvierte en hacer cambios MÁS frecuentes. Esto habilita lotes más pequeños y mayor flexibilidad. Es un error clásico confundir 'menos tiempo' con 'menos cambios'."
+    },
+    {
+      "id": "q050",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "opcion_multiple",
+      "dificultad": "facil",
+      "capciosa": false,
+      "enunciado": "SMED define la preparación de máquina como:",
+      "opciones": [
+        { "id": "a", "texto": "El tiempo de calentamiento de la máquina antes de iniciar la producción" },
+        { "id": "b", "texto": "Las operaciones desde la última pieza buena del producto A hasta la primera pieza buena del producto B" },
+        { "id": "c", "texto": "El tiempo que lleva limpiar y mantener una máquina entre turnos" },
+        { "id": "d", "texto": "El proceso de calibración anual de los equipos de producción" }
+      ],
+      "correcta": "b",
+      "explicacion": "SMED define preparación como las operaciones desde 'la última pieza buena de un producto A hasta la primera pieza buena de un producto B'. El énfasis en 'pieza de calidad' es clave: el tiempo de preparación incluye hasta obtener la primera pieza buena del nuevo producto."
+    },
+    {
+      "id": "q051",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "verdadero_falso",
+      "dificultad": "media",
+      "capciosa": true,
+      "enunciado": "Las operaciones internas de SMED son aquellas que pueden realizarse con la máquina en marcha.",
+      "opciones": [
+        { "id": "v", "texto": "Verdadero" },
+        { "id": "f", "texto": "Falso" }
+      ],
+      "correcta": "f",
+      "explicacion": "Al contrario: las operaciones INTERNAS son las que DEBEN realizarse con la máquina PARADA (y son MUDA), mientras que las EXTERNAS pueden realizarse con la máquina en marcha. Una optimización clave de SMED es convertir operaciones internas en externas."
+    },
+    {
+      "id": "q052",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "opcion_multiple",
+      "dificultad": "dificil",
+      "capciosa": true,
+      "enunciado": "En SMED, ¿quiénes deben llevar a cabo los cambios de formato?",
+      "opciones": [
+        { "id": "a", "texto": "El departamento de ingeniería de planta" },
+        { "id": "b", "texto": "Los supervisores con apoyo del área de mantenimiento" },
+        { "id": "c", "texto": "Los empleados que realizan la preparación, trabajando en equipo" },
+        { "id": "d", "texto": "Contratistas externos especializados en cambios de formato" }
+      ],
+      "correcta": "c",
+      "explicacion": "Los cambios los deben hacer los empleados que realizan la preparación, trabajando en equipo, porque son quienes más conocen la máquina y sus procesos. Involucrar solo a ingeniería o externos descarta el conocimiento operativo más valioso."
+    },
+    {
+      "id": "q053",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "opcion_multiple",
+      "dificultad": "facil",
+      "capciosa": false,
+      "enunciado": "SMED busca llevar los cambios de formato a:",
+      "opciones": [
+        { "id": "a", "texto": "Menos de 1 minuto" },
+        { "id": "b", "texto": "Menos de 5 minutos" },
+        { "id": "c", "texto": "Menos de 10 minutos" },
+        { "id": "d", "texto": "Menos de 30 minutos" }
+      ],
+      "correcta": "c",
+      "explicacion": "SMED busca llevar los cambios de formato a MENOS DE 10 MINUTOS. Es una herramienta para la mejora continua donde participan todos, siendo los operarios quienes más conocen la máquina y sus procesos."
+    },
+    {
+      "id": "q054",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿Cuál es la secuencia correcta del método SMED?",
+      "opciones": [
+        { "id": "a", "texto": "Separar tareas → Estudio de la operación → Convertir internas en externas → Perfeccionar" },
+        { "id": "b", "texto": "Estudio de la operación → Separar tareas internas y externas → Convertir internas en externas → Perfeccionar" },
+        { "id": "c", "texto": "Convertir internas en externas → Estudio → Separar → Perfeccionar" },
+        { "id": "d", "texto": "Estudio de la operación → Perfeccionar internas → Separar → Convertir en externas" }
+      ],
+      "correcta": "b",
+      "explicacion": "El método SMED sigue: 1° Estudio de la operación, 2° Separar tareas internas y externas, 3° Convertir tareas internas en externas (paso clave para reducir tiempo con máquina parada), 4° Perfeccionar las tareas internas y externas. También se usa registro en video y análisis."
+    },
+    {
+      "id": "q055",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿Qué significa organizar la fábrica 'por productos' en lugar de 'por departamentos'?",
+      "opciones": [
+        { "id": "a", "texto": "Agrupar trabajadores según el tipo de producto que fabrican en departamentos separados" },
+        { "id": "b", "texto": "Organizar en celdas donde el producto fluye de a uno de máquina en máquina" },
+        { "id": "c", "texto": "Asignar un edificio separado para cada línea de producto" },
+        { "id": "d", "texto": "Eliminar los departamentos de calidad y mantenimiento" }
+      ],
+      "correcta": "b",
+      "explicacion": "La organización por productos implica celdas de trabajo donde cada producto fluye de a uno por vez de máquina en máquina. Esto habilita operaciones coincidentes. La organización por departamentos, en cambio, siempre termina produciendo por lotes."
+    },
+    {
+      "id": "q056",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿Qué caracteriza a una celda de trabajo en JIT (estructura celular)?",
+      "opciones": [
+        { "id": "a", "texto": "Alta especialización de máquinas para un solo tipo de operación, produciendo grandes lotes" },
+        { "id": "b", "texto": "Puede operar a distintos ritmos, produce de a uno, con trabajadores polivalentes" },
+        { "id": "c", "texto": "Separación física rígida de cada operación para evitar interferencias entre procesos" },
+        { "id": "d", "texto": "Requiere una cantidad fija de trabajadores independientemente del ritmo de producción" }
+      ],
+      "correcta": "b",
+      "explicacion": "Una celda JIT se caracteriza por: operar a distintos ritmos (tiempos de ciclo), producir de a uno por vez, regular la cantidad de trabajadores según el ritmo, tener visión integral del proceso, trabajadores polivalentes y menor costo de transporte entre operaciones."
+    },
+    {
+      "id": "q057",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "verdadero_falso",
+      "dificultad": "dificil",
+      "capciosa": true,
+      "enunciado": "Kanban siempre es un camino que conduce al JIT.",
+      "opciones": [
+        { "id": "v", "texto": "Verdadero" },
+        { "id": "f", "texto": "Falso" }
+      ],
+      "correcta": "f",
+      "explicacion": "El propio texto lo aclara con 'Kanban siempre es un camino al JIT: Falso'. Kanban acopla operaciones no coincidentes y gestiona inventarios. Para llegar al JIT se necesita reducir los tiempos de set up a cero y tener plena confianza en el proceso. Kanban es un camino posible, pero no garantiza el JIT."
+    },
+    {
+      "id": "q058",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "opcion_multiple",
+      "dificultad": "facil",
+      "capciosa": false,
+      "enunciado": "¿Qué es Kanban?",
+      "opciones": [
+        { "id": "a", "texto": "Un método para reducir los tiempos de preparación de máquinas" },
+        { "id": "b", "texto": "Un sistema de información visual para administración autónoma de inventario tirado por el cliente" },
+        { "id": "c", "texto": "Un indicador de la tasa de producción en relación con la demanda (Takt Time)" },
+        { "id": "d", "texto": "Una técnica de nivelación para eliminar MURA (irregularidades)" }
+      ],
+      "correcta": "b",
+      "explicacion": "Kanban es un sistema de información VISUAL que permite la administración AUTÓNOMA de inventario, donde la programación es TIRADA por el cliente. Es clave diferenciarlo: no es Heijunka (nivelación), no es SMED (cambios rápidos) ni Takt Time (ritmo de demanda)."
+    },
+    {
+      "id": "q059",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "opcion_multiple",
+      "dificultad": "dificil",
+      "capciosa": false,
+      "enunciado": "¿Por qué reducir a la mitad el tamaño de un lote mejora la calidad?",
+      "opciones": [
+        { "id": "a", "texto": "Porque los operarios están más atentos y concentrados en lotes pequeños" },
+        { "id": "b", "texto": "Porque los equipos sufren menos desgaste al procesar lotes pequeños" },
+        { "id": "c", "texto": "Porque el costo de una falla detectada al finalizar el lote también se reduce a la mitad" },
+        { "id": "d", "texto": "Porque más cambios de formato reducen la monotonía y mejoran la atención" }
+      ],
+      "correcta": "c",
+      "explicacion": "Con lotes más pequeños, si se detecta una falla al finalizar el lote, el costo es proporcional al tamaño del lote. Reducir el lote a la mitad reduce a la mitad el costo de esa falla tardíamente detectada. No es un efecto psicológico del operario sino matemático de la exposición al riesgo."
+    },
+    {
+      "id": "q060",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "relacion",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "Relacioná cada concepto japonés con su equivalente o descripción correcta.",
+      "columna_izq": [
+        { "id": "1", "texto": "Jidoka" },
+        { "id": "2", "texto": "Heijunka" },
+        { "id": "3", "texto": "MUDA" },
+        { "id": "4", "texto": "SMED" }
+      ],
+      "columna_der": [
+        { "id": "a", "texto": "Nivelación de la producción (elimina MURA)" },
+        { "id": "b", "texto": "Cambios rápidos de formato (menos de 10 min)" },
+        { "id": "c", "texto": "Calidad en la fuente (hacer bien las cosas la primera vez)" },
+        { "id": "d", "texto": "Desperdicio (6 categorías según el texto)" }
+      ],
+      "correcta": { "1": "c", "2": "a", "3": "d", "4": "b" },
+      "explicacion": "Jidoka = calidad en la fuente; Heijunka = nivelación (elimina MURA/irregularidades); MUDA = desperdicio en sus 6 formas; SMED = cambios rápidos de formato con objetivo de menos de 10 minutos."
+    },
+    {
+      "id": "q061",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": true,
+      "enunciado": "¿Qué tiene en común la línea de ensamble de Ford con el JIT respecto a la programación?",
+      "opciones": [
+        { "id": "a", "texto": "Ambos requieren programación detallada de cada operación individualmente" },
+        { "id": "b", "texto": "Ambos eliminan la necesidad de programar cada operación individualmente" },
+        { "id": "c", "texto": "Ambos dependen de lotes grandes para minimizar cambios de herramientas" },
+        { "id": "d", "texto": "Ambos fueron desarrollados por Toyota para la industria automotriz japonesa" }
+      ],
+      "correcta": "b",
+      "explicacion": "La línea de ensamble 'se programa a sí misma como un todo' si está equilibrada y sincronizada, al igual que JIT. La producción por lotes, en cambio, requiere programar cada operación. Toyota reconoció y validó el concepto de Ford en este punto."
+    },
+    {
+      "id": "q062",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "opcion_multiple",
+      "dificultad": "dificil",
+      "capciosa": false,
+      "enunciado": "Para lograr un sistema flexible de producción, ¿cuál es la secuencia lógica que describe el texto?",
+      "opciones": [
+        { "id": "a", "texto": "Primero Kanban, luego SMED, finalmente celdas de trabajo" },
+        { "id": "b", "texto": "Primero celdas, luego Kanban, finalmente SMED" },
+        { "id": "c", "texto": "Eliminar stocks intermedios → asegurar disponibilidad del equipo (SMED) → ajustar producción a la demanda" },
+        { "id": "d", "texto": "Primero SMED, luego Heijunka, finalmente Jidoka" }
+      ],
+      "correcta": "c",
+      "explicacion": "El texto describe la secuencia: 1° Concentrarse en eliminar stocks intermedios (evidencia problemas); 2° Asegurar disponibilidad del equipamiento mediante SMED y mantenimiento; 3° Ajustar la producción a la demanda (reducir stock de producto terminado, formar celdas de trabajo)."
+    },
+    {
+      "id": "q063",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "verdadero_falso",
+      "dificultad": "facil",
+      "capciosa": false,
+      "enunciado": "El mejoramiento continuo (Kaizen) requiere la participación activa de personas en todos los niveles de la organización.",
+      "opciones": [
+        { "id": "v", "texto": "Verdadero" },
+        { "id": "f", "texto": "Falso" }
+      ],
+      "correcta": "v",
+      "explicacion": "Para el mejoramiento continuo es necesario que participen más personas, gracias a la creación de grupos de empleados en distintos niveles de la organización que trabajan en la solución de problemas. No es responsabilidad exclusiva de la gerencia."
+    },
+    {
+      "id": "q064",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "opcion_multiple",
+      "dificultad": "dificil",
+      "capciosa": false,
+      "enunciado": "¿Cuál es el verdadero propósito de Kanban respecto al JIT?",
+      "opciones": [
+        { "id": "a", "texto": "Reemplaza completamente al JIT como sistema de gestión más avanzado" },
+        { "id": "b", "texto": "Es el paso final obligatorio para implementar JIT en cualquier empresa" },
+        { "id": "c", "texto": "Acopla operaciones no coincidentes y puede ser camino al JIT si el set up llega a cero" },
+        { "id": "d", "texto": "Garantiza automáticamente la aplicación de los principios JIT" }
+      ],
+      "correcta": "c",
+      "explicacion": "Kanban acopla operaciones no coincidentes y puede ser un camino hacia el JIT a medida que se gana confianza en el proceso. Si se logra que el tiempo de set up sea cero, ya no se necesitan stocks y se trabaja en JIT. Pero Kanban por sí solo no garantiza llegar al JIT."
+    },
+    {
+      "id": "q065",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿Cuál de los siguientes es un beneficio de Heijunka relacionado con la curva de aprendizaje?",
+      "opciones": [
+        { "id": "a", "texto": "Los operarios aprenden más rápido con lotes grandes por la repetición intensa" },
+        { "id": "b", "texto": "Al producir diariamente la misma cantidad de cada modelo, se elimina la parte descendente de la curva de aprendizaje" },
+        { "id": "c", "texto": "La curva de aprendizaje se elimina completamente gracias a la automatización" },
+        { "id": "d", "texto": "Los supervisores aprenden más rápido a gestionar con lotes pequeños" }
+      ],
+      "correcta": "b",
+      "explicacion": "Si un operario hace una pieza y luego de tiempo tiene que volver, 'se olvida y vuelve a empezar'. Con Heijunka (producción diaria de cada modelo) se elimina la parte descendente de la curva de aprendizaje, yendo directamente del método viejo al nuevo."
+    },
+    {
+      "id": "q066",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "verdadero_falso",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "En JIT, una celda de trabajo puede funcionar con distintos números de trabajadores dependiendo del ritmo de producción requerido.",
+      "opciones": [
+        { "id": "v", "texto": "Verdadero" },
+        { "id": "f", "texto": "Falso" }
+      ],
+      "correcta": "v",
+      "explicacion": "Una celda de trabajo puede operar a distintos ritmos (tiempos de ciclo) y se regula la cantidad de trabajadores necesarios para cada ritmo. Los trabajadores son polivalentes, lo que da flexibilidad para adaptarse a cambios en la demanda."
+    },
+    {
+      "id": "q067",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "verdadero_falso",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "Las operaciones coincidentes en JIT surgen cuando la fábrica se organiza por productos y el artículo fluye de a uno de máquina en máquina.",
+      "opciones": [
+        { "id": "v", "texto": "Verdadero" },
+        { "id": "f", "texto": "Falso" }
+      ],
+      "correcta": "v",
+      "explicacion": "Las operaciones coincidentes se logran organizando la fábrica por productos (no por departamentos), permitiendo que el producto fluya de a uno por vez dentro de una celda de trabajo. Esto elimina la necesidad de lotes entre operaciones."
+    },
+    {
+      "id": "q068",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "opcion_multiple",
+      "dificultad": "dificil",
+      "capciosa": true,
+      "enunciado": "¿Por qué la organización por departamentos tiende a generar producción por lotes?",
+      "opciones": [
+        { "id": "a", "texto": "Porque los departamentos trabajan a máxima velocidad para aprovechar la maquinaria" },
+        { "id": "b", "texto": "Porque es la manera estructural: cada departamento acumula trabajo antes de pasarlo al siguiente" },
+        { "id": "c", "texto": "Porque los clientes prefieren recibir lotes grandes con menor frecuencia" },
+        { "id": "d", "texto": "Porque los departamentos no tienen comunicación y acumulan trabajo accidentalmente" }
+      ],
+      "correcta": "b",
+      "explicacion": "La organización por departamentos genera producción por lotes de manera estructural: cada departamento procesa su 'lote' antes de pasarlo al siguiente. No es un problema de comunicación sino de diseño del flujo. La solución es la estructura celular (por productos)."
+    },
+    {
+      "id": "q069",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "verdadero_falso",
+      "dificultad": "dificil",
+      "capciosa": true,
+      "enunciado": "El análisis de valor agregado muestra que la línea de ensamble es más eficiente que la producción por lotes porque requiere programar cada operación detalladamente.",
+      "opciones": [
+        { "id": "v", "texto": "Verdadero" },
+        { "id": "f", "texto": "Falso" }
+      ],
+      "correcta": "f",
+      "explicacion": "Falso en dos sentidos: 1) El análisis de valor agregado muestra cuán INeficiente es el proceso TRADICIONAL (por lotes). 2) La línea de ensamble es más eficiente precisamente porque NO necesita programar cada operación (se programa como un todo), a diferencia de la producción por lotes que SÍ requiere programar cada operación."
+    },
+    {
+      "id": "q070",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "relacion",
+      "dificultad": "dificil",
+      "capciosa": false,
+      "enunciado": "Relacioná cada ventaja con el concepto de Heijunka del que es consecuencia directa.",
+      "columna_izq": [
+        { "id": "1", "texto": "Menor inventario de trabajo en proceso" },
+        { "id": "2", "texto": "Elimina la parte descendente de la curva de aprendizaje" },
+        { "id": "3", "texto": "Reacción casi inmediata ante cambios en la combinación de productos" },
+        { "id": "4", "texto": "Reducción del costo de fallas detectadas al final del lote" }
+      ],
+      "columna_der": [
+        { "id": "a", "texto": "Reducción del inventario (relación directa con tamaño de lote)" },
+        { "id": "b", "texto": "Mejora de la curva de aprendizaje por producción diaria" },
+        { "id": "c", "texto": "Mayor flexibilidad para combinar productos" },
+        { "id": "d", "texto": "Mejoramiento de la calidad por lotes más pequeños" }
+      ],
+      "correcta": { "1": "a", "2": "b", "3": "c", "4": "d" },
+      "explicacion": "Heijunka genera 4 beneficios encadenados: menor inventario (proporcional al tamaño del lote), mejor curva de aprendizaje (producción diaria evita el olvido), flexibilidad para combinar productos (stock diario de cada modelo) y mejor calidad (el costo de falla se reduce con el tamaño del lote)."
+    }
+  ]
+}

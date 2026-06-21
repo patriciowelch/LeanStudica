@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lean Manufacturing — App de Estudio</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ═══════════════════════════════════
+     USER SCREEN (login con nick)
+════════════════════════════════════ -->
+<div id="screen-user" class="screen">
+  <div class="app-header">
+    <h1>Lean Manufacturing</h1>
+    <div class="subtitle">Modo Preguntados · Final oral</div>
+  </div>
+  <div class="card user-card">
+    <div class="user-icon">👤</div>
+    <h2>¿Con qué nick jugás?</h2>
+    <p class="user-hint">Tu progreso se guarda con tu nick. Sin contraseña.</p>
+    <input type="text" id="nick-input" class="nick-input" placeholder="Tu nick..." maxlength="20" autocomplete="off" spellcheck="false">
+    <button class="btn-primary" id="btn-nick-ok">Entrar →</button>
+    <button class="btn-link" id="btn-leaderboard-from-user">Ver ranking 🏆</button>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════
+     HOME SCREEN
+════════════════════════════════════ -->
+<div id="screen-home" class="screen">
+  <div class="app-header">
+    <h1>Lean Manufacturing</h1>
+    <div class="subtitle">Modo Preguntados · Final oral</div>
+  </div>
+
+  <!-- Score banner -->
+  <div class="score-banner">
+    <div>
+      <div class="label">Puntos acumulados · <span id="user-nick-display" class="nick-badge"></span></div>
+      <div class="value" id="score-total">0</div>
+      <div class="record" id="score-record">Récord: 0</div>
+    </div>
+    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="24" cy="24" r="22" stroke="#6C63FF" stroke-width="2" opacity="0.3"/>
+      <text x="24" y="30" text-anchor="middle" font-size="22" fill="#FFD166">🏆</text>
+    </svg>
+  </div>
+
+  <!-- Modo de juego -->
+  <div class="card">
+    <h2>Modo de juego</h2>
+    <div class="mode-grid">
+      <button class="mode-btn" data-mode="rapida">
+        <span class="icon">⚡</span>
+        Partida rápida
+      </button>
+      <button class="mode-btn" data-mode="tema">
+        <span class="icon">📚</span>
+        Por tema
+      </button>
+      <button class="mode-btn" data-mode="examen">
+        <span class="icon">🎯</span>
+        Modo examen
+      </button>
+      <button class="mode-btn" data-mode="repaso">
+        <span class="icon">🔄</span>
+        Repaso errores
+      </button>
+    </div>
+  </div>
+
+  <!-- Selección de temas -->
+  <div class="card" id="topic-card" style="display:none">
+    <h2>Seleccioná tema/s</h2>
+    <div class="topic-list" id="topic-list"></div>
+  </div>
+
+  <!-- Cantidad de preguntas -->
+  <div class="card">
+    <h2>Cantidad de preguntas</h2>
+    <div class="qty-btns">
+      <button class="qty-btn" data-qty="10">10</button>
+      <button class="qty-btn" data-qty="20">20</button>
+      <button class="qty-btn" data-qty="50">50</button>
+      <button class="qty-btn" data-qty="999">Todas</button>
+    </div>
+  </div>
+
+  <button class="btn-primary" id="btn-start">¡Empezar!</button>
+  <div class="home-secondary-btns">
+    <button class="btn-secondary" id="btn-stats">Ver estadísticas 📊</button>
+    <button class="btn-secondary" id="btn-leaderboard">Ranking 🏆</button>
+    <button class="btn-link" id="btn-change-user">Cambiar usuario</button>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════
+     GAME SCREEN
+════════════════════════════════════ -->
+<div id="screen-game" class="screen">
+
+  <!-- Top bar -->
+  <div class="game-topbar">
+    <div class="left">
+      <div class="progress-label" id="progress-label">1 / 20</div>
+      <div class="progress-bar-wrap">
+        <div class="progress-bar-fill" id="progress-fill" style="width:0%"></div>
+      </div>
+    </div>
+    <div class="score-live">
+      <div class="pts" id="score-live-pts">0</div>
+      <div class="streak" id="streak-display"></div>
+    </div>
+    <button class="nav-btn" id="btn-home-from-game" title="Salir">✕</button>
+  </div>
+
+  <!-- Timer -->
+  <div class="timer-wrap">
+    <div class="timer-bar" id="timer-bar" style="width:100%"></div>
+  </div>
+  <div class="timer-txt" id="timer-txt">20s</div>
+
+  <!-- Question card -->
+  <div class="card">
+    <div class="question-meta">
+      <span class="badge badge-tema" id="badge-tema"></span>
+      <span class="badge badge-media" id="badge-dif"></span>
+      <span class="badge badge-capciosa" id="badge-capciosa" style="display:none">⚠️ Capciosa</span>
+    </div>
+    <div class="question-text" id="question-text"></div>
+    <div id="options-wrap"></div>
+  </div>
+
+  <!-- Feedback -->
+  <div class="feedback-box" id="feedback-box"></div>
+
+  <!-- Comodines -->
+  <div class="comodines-bar">
+    <button class="comodin-btn" id="comodin-defensa" title="Defensa: segunda oportunidad">
+      <span class="icon">🛡️</span>
+      <span class="cost">400pts</span>
+      <span class="lbl">Defensa</span>
+    </button>
+    <button class="comodin-btn" id="comodin-borrar2" title="Borrar 2 opciones incorrectas">
+      <span class="icon">✂️</span>
+      <span class="cost">200pts</span>
+      <span class="lbl">Borrar 2</span>
+    </button>
+    <button class="comodin-btn" id="comodin-tiempo" title="+15 segundos">
+      <span class="icon">⏱️</span>
+      <span class="cost">100pts</span>
+      <span class="lbl">+Tiempo</span>
+    </button>
+    <button class="comodin-btn" id="comodin-pista" title="Mostrar pista">
+      <span class="icon">💡</span>
+      <span class="cost">150pts</span>
+      <span class="lbl">Pista</span>
+    </button>
+  </div>
+
+  <!-- Next button -->
+  <button class="btn-next" id="btn-next">Siguiente pregunta →</button>
+</div>
+
+<!-- ═══════════════════════════════════
+     RESULT SCREEN
+════════════════════════════════════ -->
+<div id="screen-result" class="screen">
+
+  <div class="result-hero">
+    <div class="emoji" id="result-emoji">🎉</div>
+    <div class="final-score" id="result-score">0</div>
+    <div class="final-label">puntos</div>
+    <div class="accuracy" id="result-accuracy">0% de aciertos</div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-mini">
+      <div class="val" id="result-streak">0</div>
+      <div class="lbl">Racha máx.</div>
+    </div>
+    <div class="stat-mini">
+      <div class="val" id="result-correct">0</div>
+      <div class="lbl">Correctas</div>
+    </div>
+    <div class="stat-mini">
+      <div class="val" id="result-total">0</div>
+      <div class="lbl">Total</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Preguntas que fallaste</h2>
+    <div id="result-wrongs"></div>
+  </div>
+
+  <div class="result-actions">
+    <button class="btn-primary" id="btn-play-again">Jugar de nuevo 🎮</button>
+    <button class="btn-secondary" id="btn-repaso-errores">Repasar mis errores 🔄</button>
+    <button class="btn-secondary" id="btn-ver-stats">Ver estadísticas 📊</button>
+    <button class="btn-secondary" id="btn-leaderboard-from-result">Ver ranking 🏆</button>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════
+     STATS SCREEN
+════════════════════════════════════ -->
+<div id="screen-stats" class="screen">
+  <div class="app-header">
+    <h1>Estadísticas</h1>
+  </div>
+
+  <div id="stats-body"></div>
+
+  <div class="nav-bar">
+    <button class="nav-btn" id="btn-home-from-stats">← Inicio</button>
+    <button class="nav-btn danger" id="btn-reset">Borrar progreso</button>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════
+     LEADERBOARD SCREEN
+════════════════════════════════════ -->
+<div id="screen-leaderboard" class="screen">
+  <div class="app-header">
+    <h1>Ranking 🏆</h1>
+    <div class="subtitle">Mejor récord de cada jugador</div>
+  </div>
+
+  <div id="leaderboard-body" class="leaderboard-body">
+    <div class="loading-state">Cargando ranking...</div>
+  </div>
+
+  <div class="nav-bar">
+    <button class="nav-btn" id="btn-home-from-leaderboard">← Inicio</button>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

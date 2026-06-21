@@ -1,0 +1,6 @@
+resumen_extracted.txt
+__pycache__/
+*.pyc
+*.pyo
+node_modules/
+state/

@@ -1,0 +1,15 @@
+{
+  "name": "kmistudica",
+  "version": "1.0.0",
+  "description": "App de estudio Organización Industrial",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
