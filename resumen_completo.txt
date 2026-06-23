@@ -1,0 +1,1281 @@
+﻿Total pages: 36
+
+--- PAGE 1 ---
+Unidad 1 — Desarrollo de la industria: evolución histórica
+Para entender por qué Lean Manufacturing funciona como funciona, hay que entender de dónde viene:
+cada etapa histórica resuelve el problema de la etapa anterior, y deja a su vez una debilidad que la etapa
+siguiente corrige.
+Línea de tiempo
+Período Etapa Elementos clave
+El artesano domina todo el proceso: diseña, fabrica,
+Artesanado / sistema vende y conoce directamente a su cliente. Es dueño de
+Antes del s. XVIII
+rústico su tecnología y sus medios de producción. No existe la
+separación entre capital y trabajo.
+James Watt inventa la máquina a vapor. Sustitución de la
+energía humana/hidráulica por máquinas. Nace el
+Inglaterra, 1764 Revolución Industrial sistema de fábrica. Adam Smith formula los beneficios de
+la división del trabajo: cada tarea se fragmenta en
+actividades pequeñas y especializadas.
+Whitney desarrolla el principio de piezas intercambiables
+Piezas (tolerancias que permiten ensamblar sin ajuste manual).
+EEUU, 1790
+intercambiables Industria textil como principal rubro. Motor a nafta y
+electricidad.
+Abolición de la esclavitud, traslado del campo a la
+ciudad, inmigración → fuerza de trabajo urbana masiva.
+Post Guerra Civil Industrialización
+Nace el capital accionario: se separa el capitalista del
+EEUU (s. XIX) urbana
+trabajador, y el gerente aparece como empleado
+asalariado. Se desarrolla el ferrocarril.
+Taylor, padre de la administración científica y de la
+Administración ingeniería industrial, populariza el concepto de
+~1900
+científica (Taylor) eficiencia: lograr el resultado deseado con el mínimo
+desperdicio de tiempo, esfuerzo y materiales.
+Línea de ensamble, cinta transportadora,
+estandarización, producción en masa, piezas
+Fordismo (Henry intercambiables, especialización de la mano de obra.
+1908-1930
+Ford) Aparece el “trabajador-consumidor” (Ford pagaba
+salarios altos para que sus obreros pudieran comprar sus
+propios autos).
+Página 1 de 36
+
+--- PAGE 2 ---
+Período Etapa Elementos clave
+Estudios de Hawthorne: se buscaba el nivel óptimo de
+iluminación para maximizar la producción, pero no se
+Relaciones humanas pudo correlacionar el entorno físico con la eficiencia. Se
+1930-1950
+(Elton Mayo) descubre que factores psicológicos y sociales (sentido de
+pertenencia, motivación, trabajo en equipo) afectan la
+productividad.
+Toyota desarrolla el Just in Time tras la Segunda Guerra
+Mundial. Automatización. Investigación operativa: nace
+Posguerra / nace el
+1950-1970 por necesidades militares en la 2da Guerra Mundial,
+JIT en Japón
+después se traslada a la industria (programación lineal,
+teoría de colas, PERT-CPM).
+Tecnología de la información, mercado global, calidad,
+1970 en adelante Mundo actual productividad, innovación, producción flexible.
+Revolución de los servicios.
+El artesano: el punto de partida (y el espejo de todo lo que vino después)
+• Tiene conocimiento integral de todo el proceso: diseña, fabrica, vende.
+• Es el propio desarrollador de su tecnología (fabrica sus propias herramientas).
+• Conoce directamente a su cliente (produce por pedido, sin necesidad de canales de
+comunicación intermedios).
+• No existe la noción de capital ni de capitalista: el artesano no se financia con un capitalista,
+porque la separación capital-trabajo todavía no existe en esa época.
+Por qué importa el artesano para entender JIT
+El JIT, en cierto sentido, busca “recuperar” algunas virtudes del artesano (conocimiento integral del
+proceso, cercanía con la demanda real del cliente) pero aplicadas a una escala industrial. La celda de
+trabajo JIT, por ejemplo, le devuelve al operario una visión integral de su producto, algo que se había
+perdido con la especialización del taller y de la línea de Ford.
+Taylor y la administración científica
+Taylor estudia científicamente los problemas de la fábrica de su época y populariza la eficiencia: obtener
+el resultado deseado con el mínimo desperdicio de tiempo, esfuerzo y materiales. Su sistema de taller
+incluye:
+1. Evaluar la habilidad, fuerza y capacidad de aprendizaje de cada trabajador para ubicarlo en el
+puesto adecuado.
+2. Usar estudios con cronómetro para definir un volumen estándar por tarea.
+3. Estandarizar métodos, flujo de trabajo y especificaciones.
+4. Mejorar la selección y capacitación de supervisores.
+5. Implementar sistemas de pago por incentivos.
+Página 2 de 36
+
+--- PAGE 3 ---
+Su principal aporte NO es comprender que el trabajador tiene sentimientos (eso es Elton Mayo). El
+aporte de Taylor es la estandarización y el estudio de métodos y tiempos para maximizar la
+productividad. Con Taylor nace, además, el ingeniero industrial.
+Ford: la línea de ensamble y su debilidad
+Ford incorpora los elementos de la administración científica a gran escala: diseño de producto
+estandarizado, producción en masa, bajo costo de manufactura, líneas de ensamble mecanizadas,
+especialización de la mano de obra y piezas intercambiables. Con el Ford T se logró una reducción del
+tiempo de ciclo del 99,8%, un aumento de utilidades de 336 veces y una reducción del precio del 54%.
+Pero la línea de Ford tiene una debilidad estructural: fomenta la especialización extrema, de modo que
+cada operario hace una sola tarea repetitiva y pierde la noción del producto completo (no sabe el “por
+qué” ni el “para qué” de lo que hace). Es un sistema de control “panóptico”: se controla todo para poder
+vigilarlo todo. Esa es exactamente la debilidad que Toyota va a revisar más adelante.
+Relación clave: Ford → Toyota
+Las filosofías japonesas NO son independientes del fordismo: son una profundización de sus ideas.
+Toyota toma el flujo equilibrado y sincronizado que Ford ya tenía dentro de la línea de ensamble, y
+lo extiende a TODA la fábrica (compras, logística, calidad), para que todas las áreas trabajen al
+mismo ritmo. La diferencia central es que en Toyota la calidad ya no se controla al final, sino que se
+fabrica desde el origen, porque los propios trabajadores participan en la mejora continua del
+proceso.
+Elton Mayo: el trabajador como persona
+Elton Mayo descubre, a partir de un estudio sobre niveles óptimos de iluminación (Estudios de
+Hawthorne) que existen factores psicológicos y sociales que sí influyen en la producción: el trabajador
+necesita sentirse “parte” de un grupo social, no solo cumplir una función mecánica. De ahí nacen
+conceptos como motivación, trabajo en equipo, psicología laboral y “trabajo socializado”.
+Investigación operativa y revolución de los servicios
+La investigación de operaciones nace por necesidades militares en la Segunda Guerra Mundial: aborda
+los problemas desde la perspectiva del sistema total, usa modelos matemáticos y computadoras, y
+busca reemplazar la toma de decisiones intuitiva por la mejor opción posible. Con el crecimiento de la
+industria post guerra, el concepto se aplico y adapto a la misma.
+El mundo actual: calidad, servicio, costo, globalización
+Los factores que afectan hoy a la administración de la producción son: competencia global, calidad y
+servicio al cliente, expansión de tecnologías avanzadas, crecimiento del sector servicios, escasez de
+recursos y responsabilidad social. La idea de fondo es que las fronteras nacionales ya no protegen contra
+la competencia extranjera: las empresas deben combinar calidad excepcional, entrega rápida y costos
+bajos al mismo tiempo, sin resignar ninguno de los tres.
+Calidad
+Página 3 de 36
+
+--- PAGE 4 ---
+Pasar de una calidad “adecuada” a una calidad “excelente” obliga a adoptar la Administración de la
+Calidad Total (TQM), centrada en las necesidades del cliente. Esto exige reestructurar la organización:
+pasar de una estructura vertical a una más horizontal, comprometer a todos los niveles con la mejora
+continua y dar autoridad a los trabajadores. Las normas ISO certifican un sistema de gestión de mejora
+continua, son un estándar internacional, organizan la gestión de reclamos, habilitan auditorías y exigen
+el cumplimiento de especificaciones.
+Servicio
+Se necesitan estructuras flexibles, no burocráticas, “más chatas”, donde el poder de decisión está en la
+base (no en la cúpula). Esto permite reaccionar más rápido a los cambios de demanda.
+Costo
+Se ajusta en base a la reducción del desperdicio, presión de grandes distribuidores e importaciones,
+reducción de la estructura corporativa y del capital de trabajo (stocks) — todo esto sin afectar la calidad.
+Por qué la estructura organizacional se “achata”
+Las estructuras actuales buscan bajar el nivel de decisión NO para reducir costos de gerencia (ese es
+un efecto secundario, no el objetivo), sino para que las decisiones se tomen lo más rápido posible,
+desde los puestos más bajos, descentralizando el poder de decisión. Una estructura más chata
+implica menos niveles que un problema tiene que atravesar antes de resolverse.
+Definición correcta de “empresa flexible”
+Una empresa flexible NO es la que se adapta rápido a cambios organizacionales o culturales. Es la
+que se adapta rápido y fácilmente a los cambios en la demanda del cliente. Esta definición es la
+bisagra hacia toda la Unidad 2 (JIT), porque la flexibilidad frente a la demanda es exactamente lo
+que persiguen el Takt Time, el SMED y el Kanban.
+Página 4 de 36
+
+--- PAGE 5 ---
+Unidad 2 — Flujo de procesos: JIT, SMED y Kanban
+Todo gira alrededor de una sola pregunta: ¿cómo logro que mi fábrica produzca exactamente lo que el
+cliente necesita, en el momento en que lo necesita y en la cantidad que lo necesita sin generar
+desperdicio? .
+Para responderla el JIT es la filosofía y objetivo. El Takt Time es la métrica que mide la velocidad de la
+demanda. El SMED y la estructura celular son las herramientas técnicas que permiten acercarse al JIT. El
+Kanban es el sistema que administra lo que todavía no se puede hacer de forma perfectamente JIT.
+MUDA, MURA y MURI: el lenguaje base de todo Lean
+Antes de hablar de JIT hay que tener claro cada una:
+Concepto Significado Ejemplo
+7 mudas de Toyota:
+Todo lo que sea distinto de la cantidad Inventarios, transporte,
+mínima de equipo, materiales, piezas y sobreproducción, esperas,
+MUDA (desperdicio)
+tiempo laboral absolutamente necesarios movimientos innecesarios,
+para agregar valor al producto. defectos/reprocesos, procesos
+innecesarios .
+Una estación tarda 3 minutos
+Desequilibrio en la capacidad productiva
+MURA (desigualdad / por pieza y la siguiente tarda
+de las distintas estaciones: diferencias en
+variabilidad) 8: se generan esperas y stocks
+los tiempos de las operaciones o tareas.
+intermedios.
+Forzar una máquina a
+Las personas, recursos o máquinas están
+funcionar por encima de su
+sometidas a un esfuerzo mayor al
+MURI (sobrecarga) capacidad de diseño, o exigirle
+razonable, lo que puede generar daños y
+a un operario un ritmo
+errores.
+insostenible.
+Toyota define el desperdicio como “todo lo que sea distinto de la cantidad mínima de equipo,
+materiales, piezas y tiempo laboral absolutamente esencial para la producción”. La versión occidental
+agrega el matiz de “agregar valor al producto”: agregar valor es transformar físicamente el producto.
+Solo las operaciones (en un diagrama de proceso) pueden agregar valor — aunque no necesariamente lo
+hacen siempre.
+2.1 — Justo a Tiempo (JIT): historia y filosofía
+Motivación real para implementar JIT
+El JIT se introduce porque la producción se concibe como un arma estratégica: sirve para aumentar
+la calidad, mejorar el servicio y bajar costos al mismo tiempo. NO se implementa primero por reducir
+costos o inventarios — eso es una consecuencia, no la motivación de fondo.
+Página 5 de 36
+
+--- PAGE 6 ---
+Definición de JIT: producir los elementos que se necesitan, en las cantidades que se necesitan, en el
+momento en que se necesitan. Esto requiere 3 elementos simultáneos: flujo, calidad e intervención de
+los empleados.
+Elementos / pilares del JIT
+• Calidad en la fuente (Jidoka).
+• Flujo (equilibrado y continuo).
+• Intervención de los trabajadores.
+• Carga fabril uniforme (Heijunka).
+• Celdas de manufactura.
+• Kanban.
+• Compras JIT.
+Aspectos técnicos vs. administrativos del JIT
+• Aspecto técnico: eliminación del desperdicio.
+• Aspecto administrativo: los directivos deben comprender la importancia del JIT para la empresa,
+y los trabajadores deben comprender su importancia para sí mismos. Esto implica cambiar los
+sistemas de medición e incentivos vigentes.
+JIT: flujo
+El modelo de referencia es la línea de ensamble de Ford: equilibrio, sincronización y flujo
+ininterrumpido, produciendo de a una unidad por vez. La idea central es acelerar el proceso COMO UN
+TODO, nunca por partes separadas, porque acelerar etapas de forma aislada genera desperdicio (stocks
+intermedios, movimientos, almacenamiento, espacio, recuento).
+Cómo se acelera un proceso según JIT
+Se trabaja con una única referencia de tiempo, de forma que todas las etapas se aceleren
+simultáneamente — ninguna etapa va más rápido ni más lento que las demás. Buscamos producir
+pieza a pieza
+Cuando no se puede acelerar todo el proceso de manera integral, a veces se opta por desacelerar
+procesos para lograr el equilibrio ya que es preferible a que algunas etapas acumulen inventario
+esperando a otras.
+JIT: eliminación de stocks (la metáfora del agua y las rocas)
+Los inventarios no solo generan costo financiero: ocultan problemas. La metáfora clásica es la del agua y
+las rocas: el agua (inventario) tapa las rocas (problemas del proceso, como fallas de calidad, cuellos de
+botella o mantenimiento deficiente). Al bajar el nivel de agua adaptando la producción a la demanda
+(reducir el stock), las rocas (problemas) emergen y se vuelven visibles — y entonces se pueden resolver.
+Si no se bajan los stocks, la empresa se acostumbra a convivir con sus problemas en lugar de resolverlos.
+JIT: carga fabril uniforme (Heijunka)
+Heijunka significa nivelación de la producción. Tiene dos componentes:
+• Tiempo de ciclo: la rapidez de producción acorde a la demanda.
+Página 6 de 36
+
+--- PAGE 7 ---
+• Carga nivelada: la frecuencia de producción acorde a la demanda (en lugar de producir 20.000
+unidades de un artículo de una sola vez y luego 4.000 de otro, se reparte la producción de forma
+uniforme en pequeñas cantidades repetidas a lo largo del período).
+Heijunka combate dos males a la vez: el MURA (la desigualdad/variación entre operaciones, al evitar
+picos y valles de producción) y el MURI (la sobrecarga, al evitar que en ciertos momentos se le exija al
+sistema una velocidad excesiva).
+Beneficios de la carga fabril uniforme
+• Mejora la curva de aprendizaje: al repetir frecuentemente la misma tarea, el operario no pierde
+práctica ni se olvida del proceso.
+• Mayor flexibilidad para combinar productos: si todos los días se produce la combinación de
+modelos requerida ese día, la empresa reacciona más rápido ante combinaciones distintas de
+pedido.
+• Reducción de inventarios: el inventario en proceso está directamente relacionado con el tamaño
+de los lotes.
+• Tiempos de producción más cortos: al reducir el tiempo de alistamiento de las máquinas (esto
+es justamente el rol de SMED), se reduce también el tamaño de lote necesario y el tiempo total
+de producción.
+• Mejora de calidad: si el lote es más chico, el costo de una falla detectada afecta solo a la mitad
+(o menos) de las piezas en juego, comparado con un lote grande.
+Takt Time (tiempo de ritmo / tiempo de ciclo de demanda)
+Definición de Takt Time
+El Takt Time es el tiempo disponible para producir una unidad de producto, de manera que la
+producción coincida con la tasa de demanda del cliente. Equivale al tiempo que transcurre entre que
+el cliente “retira” (compra) un producto y demanda otro. Se calcula dividiendo el tiempo disponible
+para producir por la cantidad de unidades que hay que producir para cubrir la demanda del cliente.
+El Takt Time mira a la demanda: La producción se acomoda a ese ritmo, no al revés. Es fundamental
+porque permite alinear la producción con la demanda real, detectar cuellos de botella, reducir
+desperdicios y diseñar un flujo de trabajo equilibrado.
+Página 7 de 36
+
+--- PAGE 8 ---
+2.2 — SMED (cambios rápidos / Single Minute Exchange of Dies)
+“El SMED hace posible responder rápidamente a las fluctuaciones de la demanda y crea las condiciones
+necesarias para las reducciones de los plazos de fabricación. La producción flexible solamente es
+accesible a través del SMED”.
+Definición de cambio de formato (set up / PAP)
+Definición exacta — clave para no equivocarse en el parcial
+El cambio de formato (o preparación de máquina, PAP) es el conjunto de operaciones comprendidas
+desde que sale la ÚLTIMA PIEZA BUENA (de calidad) del producto A, hasta que sale la PRIMERA
+PIEZA BUENA (de calidad) del producto B. No se mide hasta que “se termina de poner a punto” la
+máquina.
+¿Por qué cambia el paradigma del tamaño de lote?
+El pensamiento de la “fabricación antigua” razonaba así: lotes más grandes → menos tiempo relativo de
+producción perdido en cambios → mayor productividad → menores costos. El SMED invierte
+completamente esta lógica: el objetivo NO es reducir la cantidad de cambios de formato por día (eso
+sería seguir la lógica de lote grande). El objetivo es reducir el TIEMPO que toma cada cambio, para poder
+hacer MÁS cambios por día, en lotes cada vez MÁS CHICOS, y así responder con flexibilidad a la
+demanda real del cliente.
+Reglas básicas de SMED
+• Reducir el TIEMPO de preparación, no la cantidad de cambios.
+• Ir de una pieza de calidad a otra pieza de calidad.
+• Apuntar a una reducción del 75% a bajo costo (en dos etapas de 50% cada una
+aproximadamente).
+• Reinvertir el tiempo ahorrado en hacer cambios MÁS FRECUENTES — no en reducir personal.
+• Debe ser realizado por los mismos empleados que hacen la preparación, trabajando en equipo.
+• No requiere grandes inversiones de dinero: son técnicas sencillas, centradas en la optimización
+de métodos, no en comprar tecnología nueva.
+Operaciones internas y externas
+Tipo de operación Definición Ejemplos
+Deben realizarse obligatoriamente Cambiar mordazas, ajustar, centrar
+Internas
+con la máquina parada. pieza.
+Pueden realizarse con la máquina Buscar el kit de cambio, barrer la zona
+Externas en marcha (mientras se sigue de trabajo, buscar tornillos o insertos
+produciendo). en el pañol.
+Toda tarea interna representa, en sí misma, desperdicio (la máquina detenida no agrega valor). La regla
+de oro es: toda actividad que se pueda realizar con la máquina produciendo, se hace mientras la
+máquina está andando.
+Página 8 de 36
+
+--- PAGE 9 ---
+Método SMED — los 5 pasos
+1. Observar y comprender el proceso: filmar, formar un equipo interdisciplinario, documentar cada
+actividad.
+2. Clasificar las tareas en internas y externas.
+3. Convertir tareas internas en externas: cambiar métodos, tener listos los materiales y
+herramientas antes de parar la máquina, usar checklists, planificar reparaciones, eventualmente
+duplicar partes (más costoso).
+4. Optimizar los set-ups internos y externos por separado.
+5. Estandarizar: documentar, procedimentar, capacitar.
+Optimización de set-ups internos
+• Mejorar métodos de trabajo.
+• Realizar operaciones en paralelo (varias personas trabajando simultáneamente).
+• Reemplazar tornillos/tuercas por sujeciones rápidas.
+• Eliminar ajustes mediante el uso de calibres fijos (piezas centradoras).
+• Unificar tornillos, usar códigos de color.
+Optimización de set-ups externos
+• Mejorar la localización/disponibilidad de herramientas y dispositivos (5S en el área de
+preparación, orden en el pañol).
+• Controles visuales, tableros de sombra.
+• Kit de cambio preparado de antemano.
+Beneficios de SMED
+• Reducción del tamaño de los lotes e inventarios.
+• Mayor flexibilidad para adaptarse a la demanda.
+• Mejor utilización de los equipos.
+• Aumenta los ingresos sin necesidad de grandes inversiones.
+• Reduce defectos de calidad y de arranque.
+• Mejora la respuesta al cliente.
+Página 9 de 36
+
+--- PAGE 10 ---
+Estructura celular
+Tradicionalmente, la fábrica se organiza por departamentos: cada subproceso vive en un sector
+separado, y eso obliga a trabajar por lotes (porque hay que trasladar piezas entre departamentos, y ese
+transporte solo se justifica con cantidades grandes).
+El JIT propone organizar la fábrica por PRODUCTOS, en celdas de trabajo. Una celda agrupa, en un
+espacio físico reducido, todas las máquinas/operaciones necesarias para fabricar un producto (o familia
+de productos) de punta a punta.
+Características de una celda de manufactura JIT
+• Configuración típica en “C”: ventaja de menor costo de transporte entre operaciones (el punto
+de entrada y salida quedan cerca).
+• Requiere empleados polivalentes: capaces de operar varias máquinas/operaciones distintas.
+• Produce de a una pieza por vez (operaciones coincidentes): el producto fluye de máquina en
+máquina sin esperar a que se forme un lote.
+• Es flexible en su nivel productivo: según el nivel de demanda, se puede aumentar o disminuir la
+cantidad de operarios SIN rediseñar la celda.
+• No es aplicable a cualquier producto: funciona bien para productos chicos y de pocas
+operaciones, manejables por una sola persona. NO es viable para productos grandes y con
+muchas operaciones (ej. una heladera, un auto), porque ahí una sola persona se vería
+sobrecargada y los niveles de producción serían demasiado bajos.
+• Ayuda a la calidad: como no se puede “comunicar” un defecto a la siguiente estación,
+directamente no se avanza si la pieza no está bien — el error se corrige en el momento, no se
+transmite.
+• Genera conocimiento integral del proceso en el operario, lo que ayuda a implementar mejoras
+(esto conecta directamente con Kaizen / mejora continua, Unidad 5).
+2.3 — Kanban: administración de la cadena de valor
+Para entender Kanban hay que entender primero qué es una operación coincidente.
+Operaciones coincidentes
+Dos operaciones son coincidentes cuando, siendo consecutivas, el inicio de la segunda coincide con
+el fin de la primera, ambas sobre la misma pieza. Las celdas de trabajo JIT EXIGEN operaciones
+coinciden. Ejmplo, cortar y perforar caños, si corto los caños uno por uno y después los perforo todos
+juntos no son coincidentes, si corto uno y ahí no más lo perforo es coincidente
+KANBAN es el sistema que se usa precisamente cuando NO se pueden lograr operaciones coincidentes.
+Casos típicos en los que aparece la necesidad de Kanban:
+• Distancia física entre operaciones consecutivas.
+• Diferencias importantes de tiempos de alistamiento (la operación anterior necesita adelantarse
+para ganar ese tiempo).
+• Una misma máquina enlaza varias celdas distintas.
+• Problemas de mantenimiento en alguna máquina.
+Página 10 de 36
+
+--- PAGE 11 ---
+¿Qué es exactamente el Kanban?
+Kan = visual, Ban = tarjeta. Es un sistema de información visual (tarjetas, espacios señalizados,
+recipientes, o señales virtuales a proveedores) que permite la administración autónoma de un
+inventario, de modo que la reposición sea “tirada” (pull) por el consumo real, no “empujada” (push) por
+un programa.
+La analogía del supermercado
+Kanban funciona como un supermercado: el cliente determina el ritmo de consumo, lleva pequeñas
+cantidades, y el repositor coloca solo lo que falta. Las señales (tarjetas) autorizan a retirar del
+proceso anterior exactamente las pequeñas cantidades necesarias. En el recipiente vacío hay, en sí
+mismo, una autorización para que el proceso anterior produzca de nuevo.
+Kanban NO es JIT perfecto
+Idea central — muy preguntada
+Kanban es un sistema PROVISORIO, un camino hacia el JIT, mientras se llega al JIT perfecto: celdas
+donde se produce exactamente a la velocidad y frecuencia que pide la demanda, sincronizadas y
+equilibradas entre todas las operaciones, sin necesidad de tarjetas (porque al ser todas coincidentes,
+no hace falta administrar inventario intermedio).
+¿el Kanban SIEMPRE es un camino al JIT?
+FALSO. El Kanban es una herramienta visual de gestión de stock que sirve como camino al JIT
+solamente cuando las operaciones sobre las que trabaja se pueden volver coincidentes y reducir a
+cero su tiempo de cambio de formato (vía SMED). Pero el objetivo del Kanban en sí mismo no es ese:
+es administrar el stock para que la cantidad de inventario entre operaciones no coincidentes se
+regule según la velocidad real de la demanda. Si nunca se logra reducir el setup a cero, el Kanban
+seguirá siendo necesario indefinidamente, sin llegar al JIT puro. Esto debido a que con el Kanban
+trabajamos en lotes y no pieza a pieza como con el JIT
+Ventajas de implementar Kanban: visibiliza problemas, mejora el margen del negocio, enfoca en agregar
+valor, se adapta a la demanda, facilita la integración con SMED y la flexibilidad. No es el fin del JIT, sino
+un medio para alcanzarlo.
+¿Cómo disminuir (achicar) un Kanban?
+1. Aplicar SMED: al reducir los tiempos de setup, se pueden fabricar lotes más chicos y más
+seguido, acercándose al JIT.
+2. Trabajar con el stock de uso (SU) y el stock de seguridad (SS): se traspasa primero un “carro” del
+SU al SS, se verifica que la productividad se mantenga estable sin usar ese material extra del SS
+(el que lo toca se le corta la mano), y si se comprueba que no hace falta, se elimina ese carro
+extra del SS — reduciendo así el Kanban sin tocar el nivel de servicio.
+Página 11 de 36
+
+--- PAGE 12 ---
+MRP I y MRP II
+El MRP (Material Requirement Planning) es un sistema de planificación de materiales y gestión de
+stocks. Conceptualmente está en el extremo “push” / planificado, en contraste con la lógica “pull” de
+Kanban — aunque ambos pueden convivir en una misma fábrica según el tipo de pieza o proceso.
+MRP I
+• Responde a: cuánto y cuándo aprovisionarse de materiales.
+• Determina los materiales necesarios en función del PLAN PREVISTO (plan maestro de
+producción) y las políticas de inventario (como el stock de seguridad).
+• Trabaja con dos parámetros básicos: tiempos y capacidades.
+• Solo abarca producción. Surge de la práctica y la experiencia (no es un método sofisticado).
+Sistema abierto.
+• Resultados: plan de producción, plan de aprovisionamiento de compras, informes de
+excepción/retrasos.
+MRP II
+• Responde a: cuánto y cuándo se va a producir, y cuáles son los recursos disponibles para hacerlo
+(mano de obra y máquinas, no solo materiales).
+• Basado principalmente en la demanda y estudios de mercado.
+• Abarca más departamentos: no solo producción, también compras, calidad, financiero.
+• Es un sistema de bucle cerrado: permite la mejora continua de la calidad de los productos,
+replanificando ante errores. Surge del estudio del comportamiento de las empresas (método
+sofisticado).
+• Permite simulación del comportamiento del sistema productivo ante eventos futuros.
+MRP vs. Kanban
+“Los sistemas MRP, con la determinación de necesidades, anticipan posibles problemas de
+producción” → esto es así porque al planificar de antemano cuánto se consume y cuánto se
+necesita, la empresa nunca se queda sin materia prima. El MRP planifica “hacia adelante” (push); el
+Kanban regula “hacia atrás”, a partir del consumo real (pull). No son excluyentes: muchas plantas
+usan MRP para materia prima de proveedores externos (donde hace falta anticipación) y Kanban
+para el flujo interno entre celdas.
+Página 12 de 36
+
+--- PAGE 13 ---
+Cómo se integran flexibilidad, Kanban y SMED
+Respuesta modelo
+El SMED, al achicar los tiempos de cambio, permite que el Kanban funcione con lotes cada vez más
+chicos, lo que a su vez aumenta la flexibilidad del sistema para responder a las variaciones de la
+demanda (sistema pull). Los tres son condiciones necesarias para tender hacia un sistema JIT puro.
+Mapas de proceso y cadena de valor
+Los mapas de proceso registran los hechos de forma estandarizada para su análisis o procedimentación
+posterior. Se consignan: descripción de actividades, tipo de actividad, distancias recorridas, tiempos,
+equipos utilizados y quién realiza cada actividad. Existen mapas de material, de operario y de equipo.
+Simbología estándar: Operación (círculo), Inspección (cuadrado), Transporte (flecha), Almacenamiento
+(triángulo invertido), Espera (D).
+De todas las actividades del mapa, SOLO las operaciones (símbolo de círculo) pueden agregar valor —
+aunque no necesariamente lo hacen siempre. Analizar la cadena de valor implica: registrar el proceso,
+identificar qué actividades agregan valor, examinar críticamente el proceso (propósito, lugar, sucesión,
+persona, medios (preguntando qué se hace, por qué se hace, qué otra cosa podría hacerse, qué debería
+hacerse) y rediseñar el proceso. Esto puede derivar en una reingeniería (repensar el proceso desde cero)
+o en mejora continua (perfeccionar el proceso actual)
+Página 13 de 36
+
+--- PAGE 14 ---
+Unidad 3 — Administración de la Calidad Total
+3.1 — Evolución del concepto de calidad
+Los tres paradigmas históricos de la calidad
+Paradigma Lógica Cómo se sostiene la calidad
+Diseño y fabricación de cada
+Por contacto directo y ajuste
+producto para un cliente en
+Producción artesanal permanente a lo que el cliente
+particular. El fabricante conoce
+pide.
+directamente al cliente.
+Inspeccionando al final y
+detectando productos
+defectuosos, el problema de
+esto recae en que se encuentra
+Foco en fabricar para consumo el problema al final del todo,
+Producción e inspección
+masivo: se “empujan” los productos habiendo gastado tiempo y
+en masa
+al cliente, con opciones limitadas. recursos en un producto
+ineficiente, que se debe
+reprocesar o rechazar.
+Innovación de esta etapa:
+control estadístico de procesos.
+Enfocándose en PREVENIR los
+TQM / Calidad impulsada Los clientes potenciales determinan problemas y reducir la
+por el cliente qué diseñar y fabricar. variabilidad de los procesos, no
+en detectarlos al final.
+Las 4 etapas de evolución de la gestión de calidad
+Etapa Enfoque Lógica
+REACTIVA: encontrar
+1. Inspección Inspeccionar productos y arreglar errores ya
+ocurridos.
+Técnicas operativas para inspeccionar más
+2. Control de calidad REACTIVA
+eficientemente y reducir costos de calidad
+Transición hacia lo
+Acciones planeadas y sistemáticas para que
+proactivo: empieza a
+3. Aseguramiento de la calidad productos/servicios cumplan los
+poner énfasis en el
+requerimientos de la compañía
+diseño.
+Incorpora las etapas 2 y 3 en un sistema PROACTIVA: detiene
+4. Administración total de la
+que involucra a TODA la compañía, los problemas en la
+calidad (TQM)
+orientado a satisfacer al cliente fuente.
+Página 14 de 36
+
+--- PAGE 15 ---
+Cambio de paradigma: de reactivo a proactivo
+Enfoque REACTIVO Enfoque PROACTIVO
+Inspección Prevención
+NCA (nivel de calidad aceptable) CD (cero defectos)
+Orientado al producto Orientado a la organización
+Culpar Resolver problemas
+Los defectos deben esconderse Los defectos deben sacarse a la luz
+El depto. de calidad tiene los problemas de Compras, I&D, marketing y operaciones tienen
+calidad problemas de calidad
+Satisfacer las especificaciones Mejoramiento continuo
+La calidad es técnica La calidad es gerencial
+El programa (de producción) es primero Primero es la calidad
+Por qué TQM es proactivo
+El TQM es proactivo porque su objetivo central es prevenir errores y mejorar continuamente los
+procesos, en lugar de simplemente corregir los problemas después de que ocurrieron. A diferencia
+del enfoque reactivo (que detecta fallas ya producidas), TQM busca anticipar los problemas y tomar
+medidas preventivas para mejorar la calidad desde el principio del proceso (hacer las cosas bien a la
+primera), involucrando a todos los empleados de la organización.
+Página 15 de 36
+
+--- PAGE 16 ---
+Aspectos culturales del éxito japonés en calidad (Kaoru Ishikawa)
+A los japoneses les costó menos alcanzar la calidad porque la convirtieron en una responsabilidad
+compartida por toda la empresa, pensando a largo plazo. A diferencia de Occidente (que limitaba la
+calidad a un departamento de especialistas, trataba a los obreros como máquinas reemplazables
+motivadas solo por dinero y tenía gerentes elitistas enfocados en ganancias a plazos cortos o medios),
+Japón apostó por confiar en su gente. Su éxito se basó en garantizar empleo vitalicio para invertir en
+capacitación, formar a lideres internos, fomentar la polifuncionalidad y motivar al personal mediante el
+reconocimiento y la cooperación, facilitando lo que hoy se conoce como mejora continua.
+3.2 — Qué es calidad
+Definición de calidad
+“Dar al cliente lo que necesita, a tiempo, siempre, al precio justo.” Si la calidad no existe en la fuente
+el JIT es frágil, ya que al no haber stock una sola pieza defectuosa detiene toda la cadena de valor
+Calidad de diseño y de percepción del cliente: cómo varía el valor según la parte
+Pregunta clave del programa — respuesta completa
+La calidad se puede mirar desde dos puntos de vista, y cada uno construye “valor” de manera
+distinta:
+DESDE EL CLIENTE (visión más subjetiva): lo que importa es la calidad de diseño (el aspecto, la
+percepción y la funcionalidad del producto). Acá el valor se define como Valor = Calidad / Precio, y la
+clave es que ese valor es DIFERENTE para cada cliente, porque depende de sus propias expectativas,
+gustos y necesidades. Dos clientes distintos pueden percibir el mismo producto con calidades
+distintas, aun siendo objetivamente el mismo producto.
+DESDE EL PRODUCTOR (visión más objetiva): lo que importa es la calidad de diseño, la conformidad
+con los requisitos y la reducción de la variabilidad del proceso para que sea más previsibles. Acá la
+calidad se mide con indicadores objetivos, no con percepción.
+Un producto puede tener una calidad de diseño excelente desde la fábrica y sin embargo no ser
+percibido como de calidad por el cliente si esas especificaciones no coinciden con lo que el cliente
+realmente valora y viceversa
+• Características Reales vs. Sustitutas: Las reales son lo que el cliente espera (difícil de medir);
+las sustitutas son las variables medibles que usamos en fábrica para asegurar que el cliente
+esté satisfecho. Por ejemplo, la característica real es que el cliente quiere una mesa
+robusta, la sustitutiva seria colocar un tablón de lapacho de 3cm de espesor
+3.3 — Ciclo de control (Rueda de Deming aplicada a calidad)
+La Rueda de Deming (PDCA) se aplica también específicamente al control de calidad, no solo a la mejora
+continua general:
+• PLANEAR: determinar metas y objetivos; determinar los métodos para alcanzarlos
+(procedimientos, herramientas).
+Página 16 de 36
+
+--- PAGE 17 ---
+• HACER: brindar educación y capacitación para realizar el trabajo.
+• VERIFICAR: revisar y comparar los resultados con las metas.
+• ACTUAR: encontrar las causas raíz y actuar para evitar que los errores se repitan.
+Herramientas de la calidad
+¿Por qué medir?
+“Lo que no se puede medir, no se puede gestionar y si no se puede gestionar, no se puede mejorar.”
+El ciclo para mejorar con estas herramientas sigue la misma lógica de PDCA: identificación del problema
+→ observación → análisis → plan de acción → ejecución → verificación → estandarización/conclusión.
+Las 7 herramientas clásicas de la calidad
+Herramienta Qué es / para qué sirve
+Esta diseñada para recaudar datos de forma organizada en el
+1. Planillas de inspección lugar de trabajo en tiempo real. Se usa para determinar la
+frecuencia de ocurrencia de alguna variable
+Representan gráficamente la secuencia de los pasos, decisiones y
+2. Diagramas de flujo flujos de materiales o información del proceso, lo que nos ayuda a
+entenderlo e identificar cuellos de botella
+Organiza causas o problemas de mayor a menor según su impacto
+(regla 80/20: un pequeño número de causas suele explicar la
+3. Diagrama de Pareto mayoría de los problemas). ayuda a priorizar en la toma de
+decisiones y focalizar los esfuerzos en donde más impacto
+generan
+Relaciona un problema con sus posibles causas, clasificadas en 6
+4. Diagrama causa-efecto categorías: Máquina, Método, Mano de obra, Material, Medio
+(Ishikawa / espina de pescado) ambiente y Medición. Sirve para investigar todas las posibles
+causas de un problema.
+Gráfico de barras que muestra la distribución de un conjunto de
+5. Histogramas datos (defectos por día, tiempos de parada, etc.). Sirve para
+visualizar variabilidad y frecuencia de ocurrencias.
+Muestran la relación entre dos variables (ej. temperatura vs.
+6. Diagramas de dispersión y
+defectos). Sirven para ver si existe correlación y orientar acciones
+correlación
+correctivas.
+Monitorean un proceso a lo largo del tiempo incluyendo un límite
+central y límites de control superior e inferior, detectando cuándo
+7. Gráficos de control
+el proceso se sale de control. Sirven para controlar la estabilidad
+del proceso y prevenir fallas antes de que ocurran.
+¿Cuándo usar cada herramienta? (dentro del ciclo PDCA) (alta paja escribir el porqué de cada
+cosa, lean)
+Página 17 de 36
+
+--- PAGE 18 ---
+• Planear: Todas.
+• Hacer: planillas de inspección y diagramas de flujo.
+• Verificar: planillas de inspección, diagramas de flujo diagrama de Pareto, histograma y grafico de
+control .
+• planillas de inspección y diagramas de flujo.
+Página 18 de 36
+
+--- PAGE 19 ---
+Costos de la Calidad
+Definición
+“Los costos de la calidad son todos aquellos costos, de manufactura o de servicios, que se hubieran
+evitado si el producto o servicio se hubiera fabricado bien la primera vez.”
+Se dividen en dos grandes grupos, y dentro de ellos en 4 categorías:
+Grupo Categoría Definición Ejemplos
+Capacitación, rediseño de
+Inversión en actividades que producto o sistema, acciones
+Prevención tratan de evitar la mala correctivas, modificación o
+calidad. compra de equipos, planeación
+Obtención de
+del proceso.
+calidad
+(CONTROLABLES)
+Inversión en actividades Inspección de materiales de
+para evaluar si la calidad entrada, de proceso y de producto
+Evaluación
+especificada se logra y se final; ensayos; laboratorios de
+mantiene. calidad.
+Defectos incurridos dentro Retrabajos/reprocesos, scrap,
+Falla
+del sistema, antes de ser pérdidas de tiempo (personal
+interna
+transferidos al cliente. ocioso), revisión post-reproceso.
+No calidad (NO
+controlables) El producto o servicio no
+Reemplazo del producto,
+Falla cumple los requisitos de
+garantías, pérdida del cliente,
+externa calidad luego de ser
+manejo de reclamos, demandas.
+adquirido por el cliente.
+Otros costos de la no calidad son: mantenimiento de stocks intermedios que ofician de “reguladores”
+ante fallas previas, y el costo de subutilización de la capacidad instalada (“stock de seguridad”).
+¿Cuál es más costosa: una falla interna o una externa?
+La falla EXTERNA es más costosa, por su impacto directo en el cliente y en la marca (pérdida de
+confianza, reclamos, demandas, pérdida del cliente a futuro), más allá del costo monetario directo
+del reemplazo o la garantía.
+Calidad y Mejora Continua: por qué medir los costos de calidad
+Medir los costos de calidad contribuye a la mejora continua porque permite:
+• Identificar las pérdidas más significativas para un problema puntual, y los costos específicos a
+eliminar.
+• Identificar los “impulsores” de los costos de las actividades y sus “causas principales”.
+• Proporcionar una medida de la efectividad de las soluciones ya implementadas.
+• Constituir una métrica para el seguimiento en el tiempo.
+• Identificar futuras áreas para el desarrollo e implementación de nuevas mejoras.
+Página 19 de 36
+
+--- PAGE 20 ---
+• Justificar inversiones en calidad ante la dirección.
+¿Las actividades de calidad agregan valor?
+• Las actividades de PREVENCIÓN: sí agregan valor claramente, porque evitan pérdidas y errores
+futuros.
+• Las actividades de EVALUACIÓN: es discutible — no agregan valor directamente (no transforman
+el producto), pero son necesarias para verificar que el resultado cumple los requisitos. Evalúan,
+pero no mejoran por sí mismas.
+Conclusión sobre costos de calidad
+Medir los costos de la no calidad es una herramienta útil para cambiar la forma en que la dirección y los
+niveles tácticos-operativos piensan acerca de los errores: al transformar el problema en términos
+monetarios, se convierte un concepto abstracto en algo comprensible, imaginable y cuantificable. Medir
+los costos de calidad NO es un gasto: es una inversión para gestionar mejor la empresa. No suele ser
+comparable entre empresas distintas (salvo que tengan la misma actividad o usen la misma metodología
+de análisis), pero sí es muy útil para el seguimiento interno de una misma empresa en el tiempo.
+Página 20 de 36
+
+--- PAGE 21 ---
+Unidad 4 — Mantenimiento Productivo Total (TPM)
+Si la Unidad 2 resuelve “cómo fabricar exactamente lo necesario” y la Unidad 3 resuelve “cómo fabricar
+bien”, esta unidad resuelve “cómo asegurarme de que mis máquinas estén siempre disponibles para
+fabricar”.
+Objetivo del mantenimiento
+Definición: asegurar la disponibilidad de producción en las condiciones de calidad deseadas.
+La disponibilidad depende de dos factores críticos:
+• La frecuencia de las averías (fiabilidad).
+• El tiempo necesario para repararlas (mantenibilidad).
+Mejorar el mantenimiento, entonces, siempre significa actuar sobre uno de estos dos factores: o se
+reduce cuánto se rompe, o se reduce cuánto tarda en arreglarse.
+Tipos de mantenimiento
+Tipo Lógica Característica
+No existe programación de la tarea ni
+se usa la máquina hasta que falla o deja de planificación del aprovechamiento de
+Correctivo
+funcionar, y ahí se repara o reemplaza. equipos y mano de obra. Es la forma
+de mantenimiento más deficiente.
+Busca la mayor rentabilidad
+Busca detectar y/o prevenir posibles fallos económica en base a la máxima
+Preventivo antes de que ocurran, con inspecciones y producción. Resulta eficiente cuando
+reemplazos a períodos constantes. se cuenta con historial del equipo para
+armar planes efectivos. Es dinámico.
+Control más estricto que permite usar
+Los cambios o reparaciones se hacen al máximo las piezas, pero requiere
+según la condición real de las partes del métodos de inspección más
+Predictivo
+equipo, ajustándose al deterioro. Es un sofisticados para diagnosticar el
+proceso dinámico. deterioro y anticipar la etapa de fallas
+crecientes.
+Gestión integral con participación de
+Mejora continua y medible de equipos y
+todos: no reemplaza al
+maquinarias, a través del involucramiento,
+TPM mantenimiento profesional, lo
+dedicación y monitoreo de resultados
+complementa y libera tiempo para
+llevado a cabo por los propios empleados.
+tareas más técnicas.
+El TPM es un marco de gestión que incluye preventivo y predictivo, y les agrega la dimensión humana,
+que el propio operador (no solo el especialista de mantenimiento) se haga cargo de buena parte del
+cuidado diario del equipo.
+Página 21 de 36
+
+--- PAGE 22 ---
+TPM (Mantenimiento Productivo Total)
+Principios del TPM
+1. El mantenimiento básico de los equipos será llevado a cabo por las personas que los operan.
+2. Las metas, decisiones y actividades del TPM serán implementadas por los grupos de trabajo.
+3. La información de los objetivos del negocio a nivel operacional y sus resultados deberá estar a
+disposición de todos.
+Mayores retos y desafíos de una fábrica hoy (contexto que justifica el TPM)
+• Competencia mundial.
+• Cliente plenamente satisfecho.
+• Calidad.
+• Reducción de los ciclos de producción.
+• Costos (de producción y de mantenimiento).
+• Confiabilidad de los equipos.
+• Seguridad y medio ambiente.
+• Involucramiento de los empleados.
+• Tiempo de cambio y puesta a punto (esto conecta directamente con SMED, Unidad 2).
+Enfoques del TPM
+• Las personas.
+• Los equipos.
+◦ Procedimientos.
+◦ Problemas operacionales.
+• Seguridad.
+Metas del TPM (5 ceros)
+• Cero paradas no planeadas.
+• Cero defectos causados por el equipo.
+• Cero pérdida de velocidad del equipo.
+• Cero accidentes.
+• Mejora de habilidades del personal (técnicas y de trabajo en equipo).
+Página 22 de 36
+
+--- PAGE 23 ---
+Componentes del TPM
+El TPM se construye sobre tres pilares.
+Componente Contenido
+Mejoras de equipo, análisis del desempeño del equipo, análisis de
+Gerencia de Equipos (GE)
+pérdidas, trabajo con grupos naturales.
+Mantenimiento MP basado en el operador, inspección de equipo, MP dinámico,
+Preventivo (MP) mantenimiento predictivo.
+Mantenimiento Grupos autodirigidos, participación del empleado, mejora de habilidades,
+Autónomo (MA) involucramiento total del empleado.
+Gerencia de Equipos (GE) — actividades de mejora de equipo
+• Produce resultados inmediatos.
+• Es un involucramiento temprano, no amenazante, de los operadores en actividades de TPM.
+• Promueve la interacción entre los operadores y sus equipos.
+• Más adelante debe combinarse con TPM-MP y TPM-MA.
+Curva de confiabilidad
+Si se aplica la mejora de equipo desde el principio de la vida del equipo, se logra una etapa de operación
+normal sostenida y luego un desgaste gradual y previsible. En caso contrario la confiabilidad va bajando
+de forma mas abrupta y la vida útil del equipo se acorta. Mejorar la confiabilidad mediante TPM implica:
+1. Poner el equipo nuevo en condiciones de correr a la velocidad de diseño, corrigiendo errores de
+diseño/construcción (TPM-GE).
+2. Mantener el equipo a su más alto nivel de desempeño, extendiendo su vida útil (TPM-MP/GE).
+3. Reducir las consecuencias del desgaste, reemplazando piezas gastadas a tiempo (TPM-GE/MP).
+Mantenimiento Preventivo (MP) — un sistema efectivo
+1. Establecer una base de datos (inventario e historial).
+2. Asignar el tipo de MP según el grado de criticidad del equipo.
+3. Desarrollar listas de chequeo de MP (faltantes de repuestos o materiales).
+4. Desarrollar órdenes de trabajo para el MP (materiales, herramientas requeridas).
+5. Desarrollar responsabilidades dentro del MP.
+6. Desarrollar rutas de MP.
+7. Desarrollar un programa de MP.
+8. Escribir los reportes de MP.
+El “MP basado en el operador” asegura que el mantenimiento preventivo efectivamente se lleve a cabo
+y que el equipo esté en condiciones óptimas: incrementa el desempeño del equipo, reduce el costo de
+mantenimiento, requiere un programa de entrenamiento definido y ejecutado para los operadores, y
+permite transferirles tareas que antes eran exclusivas del personal especializado de mantenimiento.
+Página 23 de 36
+
+--- PAGE 24 ---
+Mantenimiento Autónomo (MA) — el corazón humano del TPM
+El MA busca que los propios operarios de la máquina se hagan cargo de las tareas básicas de cuidado
+diario del equipo: limpiar, inspeccionar, lubricar y realizar ajustes y reparaciones menores. El objetivo es
+lograr mayor control sobre los equipos, menor dependencia del personal de mantenimiento
+especializado, y que los operarios desarrollen un conocimiento más profundo de “su” máquina, de
+forma que detecten anomalías mucho antes de que se conviertan en fallas graves.
+Esto libera al personal especializado de mantenimiento para que se dedique a tareas más técnicas y
+complejas como reparaciones mayores, mantenimiento predictivo, diagnostico avanzado y mejora de la
+mantenibilidad del equipo (apoyo técnico, no tareas básicas).
+Etapas y pasos del Mantenimiento Autónomo (las 3 etapas / 7 pasos)
+El proceso se organiza en 3 grandes etapas, que a su vez se despliegan en 7 pasos concretos:
+Etapa 1 — Establecer la condición básica del equipo
+1. Llevar a cabo una limpieza inicial profunda.
+2. Eliminar las fuentes de contaminación y las áreas inaccesibles.
+3. Estandarizar los procedimientos de limpieza, inspección y lubricación.
+Etapa 2 — Realizar la inspección diaria y el mantenimiento básico
+4. Entrenar a los operadores para que lleven a cabo la inspección diaria y el mantenimiento básico.
+5. Los operadores inspeccionan, limpian, lubrican y realizan el mantenimiento básico.
+Etapa 3 — Impulsar la mejora continua y la calidad
+6. Los operadores son responsables de algunos aspectos de la organización física y administración
+del lugar de trabajo.
+7. Los operadores participan en actividades de mejora continua.
+Limpieza, inspección y lubricación: por qué van siempre juntas
+Limpiar no es solo estético: al limpiar el equipo, el operario lo esta tocando e inspeccionando al mismo
+tiempo, por lo que se detectan fugas, ruidos anormales o desgaste mucho antes de que se conviertan en
+una falla. Inspeccionar diariamente (con los 5 sentidos) permite anticipar el deterioro. Lubricar
+adecuadamente reduce la fricción y previene buena parte de las averías mecánicas.
+Relación entre Producción y Mantenimiento en el esquema de Mantenimiento Autónomo
+Rol de Producción (operarios) Rol de Mantenimiento (especialistas)
+Evitar el deterioro: operación correcta, ajustes
+Apoyar al mantenimiento autónomo: técnicas de
+correctos, mantener condiciones básicas,
+inspección y lubricación, ayudar a preparar
+predicción y detección de anormalidades,
+estándares.
+registro del mantenimiento.
+Medir el deterioro: inspección diaria con los 5 Tratar rápidamente el deterioro detectado;
+sentidos, inspección periódica. asistencia técnica a actividades de mejora.
+Predecir y restaurar el deterioro: pequeños
+servicios, reemplazo de piezas simples, informe Elevar la mantenibilidad, operabilidad y
+rápido y preciso de problemas, asistencia a la seguridad del equipo (vía tecnología).
+reparación.
+Página 24 de 36
+
+--- PAGE 25 ---
+Rol de Producción (operarios) Rol de Mantenimiento (especialistas)
+Medir y restaurar el deterioro: mantenimiento
+—
+planificado, preventivo y correctivo.
+Por qué el Mantenimiento Autónomo es clave (y también un riesgo)
+• Es el elemento clave del TPM y la razón de su gran éxito en Japón.
+• Puede ser difícil de implementar en compañías no japonesas si se hace a destiempo y sin la
+preparación adecuada (sin entrenamiento previo, sin convicción gerencial).
+• Es solo UN elemento del TPM, no su razón de ser: el Mantenimiento Autónomo sin Gerencia de
+Equipos ni Mantenimiento Preventivo profesional no constituye TPM completo.
+Grupos autodirigidos dentro del TPM
+• Participación e involucramiento del empleado.
+• Mejoras en las líneas de producción (problemas operativos y de seguridad).
+• Programa de sugerencias.
+Las entradas de estos grupos son proyectos/ideas para mejorar equipos, mantenimiento y procesos; las
+herramientas que usan son el OEE, el formato de observación (estudio base), la revisión de condiciones
+del equipo, el historial de equipo y la hoja de paradas diarias.
+Herramientas que usa el grupo de TPM
+• Espina de pescado (Ishikawa).
+• OEE.
+• Historial de máquinas.
+• Diagramas de Pareto.
+Mejoras orientadas
+Buscan maximizar la eficacia global de los equipos y eliminar pérdidas, con equipos de proyecto que
+combinan ingeniería, mantenimiento, producción y personal especializado, siguiendo un procedimiento
+planificado y supervisado. Sus resultados esperados son la reducción de costos y el aumento de la tasa de
+rotación de inventarios.
+Procedimiento para la mejora orientada (8 pasos)
+1. Selección del tema de mejora: formar el equipo de proyecto, planificar actividades.
+2. Comprender la situación: identificar cuellos de botella, medir pérdidas, establecer objetivos.
+3. Descubrir y eliminar anormalidades: restaurar el deterioro, establecer condiciones básicas.
+4. Analizar causas: priorizar pérdidas, aplicar técnicas analíticas, experimentar.
+5. Plan de mejora: diseñar la mejora, hacer planos, comparar alternativas (eficacia, costos),
+considerar desventajas posibles.
+6. Implantar la mejora: testear la mejora, dar instrucciones al equipo mejorado.
+7. Chequear resultados: verificar el logro de objetivos, realimentar el ciclo de mejora.
+Página 25 de 36
+
+--- PAGE 26 ---
+8. Consolidar beneficios: estandarizar el control, generar manuales de trabajo, retroalimentar al
+programa de mantenimiento.
+La relación con el ciclo Deming: Los pasos 1-2 son Plan, los pasos 3-6 son Do, el paso 7 es Check y el paso
+9 es Act.
+Simplificación de procesos — beneficios esperados: menor longitud de recorridos (menos fallas de
+proceso), ahorro de energía, reducción de fuentes de contaminación, menos equipos para supervisar
+(mejor operación) y liberación de espacio.
+Efectividad Global de la Planta — OEE (Overall Equipment Effectiveness)
+La Efectividad Global de la Planta es una de las herramientas del TPM para el gerenciamiento del equipo.
+Mide el desempeño real de los equipos industriales y detecta oportunidades de mejora, combinando tres
+tasas: disponibilidad, rendimiento y calidad.
+La cascada de tiempos del OEE (de A a E)
+El cálculo del OEE se construye restando, paso a paso, distintos tipos de pérdidas a partir del tiempo de
+calendario total:
+Nivel de tiempo Qué se resta para llegar a este nivel Tasa que se obtiene
+A — Tiempo de
+— Base de cálculo (100%).
+calendario
+B — Tiempo de trabajo Se restan las paradas programadas. —
+C — Tiempo de Se restan las paradas por fallas (de equipo o Disponibilidad = C / A ×
+operación de proceso). 100%
+D — Tiempo de Se restan las pérdidas de rendimiento Tasa de rendimiento = D /
+operación neto (producción normal/anormal). C × 100%
+E — Tiempo de Se restan las pérdidas por defectos (defectos Tasa de calidad = E / D ×
+operación eficaz de calidad y reprocesamiento). 100%
+La fórmula final, en términos de la cascada completa, es: Eficacia global de la planta = Disponibilidad ×
+Tasa de rendimiento × Tasa de calidad = E / A × 100%.
+Las pérdidas que afectan cada tasa
+Tasa afectada Tipos de pérdida
+Paradas programadas (capacitaciones, mantenimiento preventivo,
+descansos), ajustes de producción (paradas para reducir stock), fallos de
+Disponibilidad
+equipo (roturas), fallos de proceso (materiales fuera de especificación, errores
+de operación).
+Pérdidas de producción normales (pérdidas de velocidad en arranques,
+Rendimiento paradas o cambios de producto) y pérdidas de producción anormales
+(pérdidas de velocidad por disfunciones o anomalías).
+Página 26 de 36
+
+--- PAGE 27 ---
+Tasa afectada Tipos de pérdida
+Pérdidas por defectos de calidad (tiempo, dinero y recursos en productos que
+Calidad no cumplen los estándares) y pérdidas por reprocesamiento (reciclaje para
+hacer aceptable un producto rechazado).
+Objetivos del OEE
+• Medir el desempeño real de los equipos.
+• Conocer el potencial de mejora del equipo.
+• Enfocar el análisis en las pérdidas operacionales que afectan negativamente la efectividad del
+equipo.
+• Establecer indicadores, objetivos e incentivos.
+El OEE le da al TPM su métrica de diagnóstico: sin OEE, el TPM no tendría forma objetiva de saber dónde
+están las perdidas reales. Además, la tasa de calidad del OEE es el reflejo operativo de los costos de falla
+interna que se vieron en costos de calidad. La tasa de disponibilidad mejora exactamente con las mismas
+herramientas que reducen el tiempo de cambio de formato (SMED).
+Página 27 de 36
+
+--- PAGE 28 ---
+Unidad 5 — Administración total del piso de trabajo:
+Mejora Continua, 5S y Fábrica Visual
+Qué es la Mejora Continua (KAIZEN)
+La mejora continua son pequeños cambios incrementales en los procesos productivos y en las prácticas
+de trabajo que permiten mejorar algún indicador. No necesita de grandes inversiones para llevarse a cabo,
+y cuenta con la implicación de todos los componentes de la empresa.
+Kai = Cambio. Zen = Bueno (para mejorar).
+Objetivo: mejorar procesos e indicadores en la organización con el involucramiento de todas las personas
+que la integran, desde operarios hasta gerentes. Áreas donde se aplica: procesos operativos, diseño de
+productos, calidad, materiales, recorridos, funciones laborales.
+Características principales de la Mejora Continua
+• Usa el sentido común.
+• Es de bajo costo.
+• Es un progreso incremental y continuo (a largo plazo).
+• Está centrada en el proceso, no únicamente en el resultado.
+• Aplica a toda la empresa.
+Mantenimiento, Mejoramiento e Innovación: tres formas de actuar sobre los estándares
+Tipo de mejora Qué hace ¿Requiere inversión?
+Mantenimiento Conservar los estándares actuales. No
+Mejora continua (Kaizen) Elevar los estándares actuales. No (o muy baja)
+Innovación Cambios disruptivos. Sí (alta inversión)
+En la estructura jerárquica de una empresa, el mantenimiento de estándares es responsabilidad sobre
+todo de los trabajadores y supervisores; el Kaizen es responsabilidad de todos los niveles, pero
+especialmente de la gerencia media y los supervisores; y la innovación es responsabilidad principal de la
+alta gerencia. Por eso se dice que cuanto más se sube en la pirámide organizacional, más peso tiene la
+innovación, y cuanto más se baja, más peso tiene el mantenimiento — quedando el Kaizen como el puente
+que atraviesa todos los niveles.
+Sistemas Kaizen
+La Mejora Continua no es una técnica aislada: es el marco que integra y sostiene en el tiempo a todas las
+herramientas vistas en la materia. Los sistemas Kaizen son:
+1. TQM — Gestión de la Calidad Total.
+2. JIT — Justo a Tiempo.
+3. TPM — Mantenimiento Productivo Total.
+4. Despliegue de políticas.
+Página 28 de 36
+
+--- PAGE 29 ---
+5. Sistema de sugerencias.
+6. Actividades en grupos pequeños (equipos de mejora).
+Relación entre TPM-TQM-JIT-Kanban-SMED
+El JIT es el destino; SMED y Kanban son los caminos del flujo; TPM es la garantía de disponibilidad; TQM
+es la garantía de calidad; y Kaizen es el motor que impulsa a los cuatro de manera sostenida en el tiempo.
+Herramienta fundamental del Kaizen: el Círculo de Deming (PDCA)
+El PDCA (también llamado Rueda de Deming) es la metodología cíclica que permite aplicar la Mejora
+Continua de forma estructurada:
+Etapa Qué se hace
+Hacer un diagnóstico inicial para identificar problemas existentes, definir
+prioridades de mejora o detectar nuevas oportunidades. Desglosar el
+P — Plan (Planear) objetivo en metas posibles y tangibles, reunir datos e información. Crear
+un plan de acción con actividades, plazos, calendario de ejecución y
+responsables. Definir los indicadores de rendimiento.
+Poner en práctica lo planificado. Requiere formación específica del
+D — Do (Hacer) equipo. Durante la ejecución se recogen datos para controlar el proceso
+y medir resultados, registrando tanto los positivos como los negativos.
+Analizar los resultados con parámetros objetivos y cuantitativos,
+C — Check (Verificar) comparándolos con los parámetros anteriores. En esta etapa se
+identifican las fallas o problemas del proceso.
+Implementar las acciones necesarias para corregir las fallas detectadas.
+A — Act (Actuar) Se pueden plantear soluciones a los problemas y rehacer la planificación,
+incorporando los nuevos resultados.
+Objetivos del PDCA
+• Resolución de problemas.
+• Toma de decisiones.
+• Innovación.
+• Flexibilidad y agilidad.
+• Mejora de la calidad.
+Edificación secuencial del conocimiento
+Cada vuelta completa del ciclo acumula aprendizaje sobre el proceso, cuantas más veces se aplica el ciclo
+más conocimiento organizacional se tiene sobre ese proceso y mayor es la mejora lograda. Gráficamente
+se representa como una escalera ascendente de ciclos consecutivos, donde cada uno parte de un nivel de
+conocimiento más alto que el anterior. Por esto se dice que el PDCA es una edificación secuencial del
+conocimiento.
+Página 29 de 36
+
+--- PAGE 30 ---
+Dos tipos de mejora continua: bajo costo vs. innovación-inversión
+En Corea del Sur se detectó que los autos gastaban combustible buscando lugar para estacionar
+(recorriendo en promedio 500 metros por día buscando estacionamiento). Se plantearon dos enfoques
+posibles para resolver el mismo problema:
+• Mejora continua (Kaizen): soluciones de bajo costo, como mejorar la circulación, la señalización
+o la distribución del estacionamiento. Ahorro logrado sin grandes inversiones. La solución fue
+colocar globos en los lugares de estacionamiento para visualizar aquellos que se encuentran
+libres.
+• Innovación: tecnologías automatizadas y costosas (sensores, sistemas de guiado automático),
+que requieren inversiones importantes. La solución fue pantallas donde se visualice los espacios
+libres en ese piso de estacionamiento.
+Ambos enfoques funcionan, el Kaizen busca optimizar con lo que ya se tiene hoy: es más accesible, más
+participativo y sostenible en el tiempo que la innovación, que, si bien puede dar saltos más grandes,
+requiere capital y no siempre está disponible para todas las empresas o en todo momento.
+5S — Administración del piso de trabajo
+La metodología de las 5S es una herramienta de la Mejora Continua enfocada en generar ambientes de
+trabajo productivos y seguros a través del Orden y la Limpieza. Es un método simple pero altamente
+efectivo, que busca generar ambientes de trabajo limpios y ordenados a través de: organización del
+lugar, limpieza, comunicación visual y gestión, y estandarización de prácticas.
+Ventajas de aplicar 5S
+• Agiliza la búsqueda de elementos.
+• Optimiza el flujo de materiales e información.
+• Mejora la apariencia del lugar de trabajo.
+• Aumenta la productividad.
+• Reduce el desorden, los desperdicios y la probabilidad de error.
+• Reduce movimientos innecesarios.
+• Aumenta la moral y el orgullo de los trabajadores.
+Página 30 de 36
+
+--- PAGE 31 ---
+1S — Clasificar (Seiri) — “¿Realmente necesito esto aquí?”
+Separar lo necesario de lo innecesario.
+• Solo dejar lo necesario en el área de trabajo.
+• Ordenar por frecuencia de uso.
+• Guardar solo las cantidades apropiadas.
+• Eliminar todo lo que no sea necesario en el área de trabajo.
+El objetivo no es tirar, sino remover los ítems innecesarios del área de trabajo para optimizar el
+desempeño del sector. Se puede evaluar: donar, mover a otro sector o almacenar para uso futuro.
+El desorden (o acumulación) esconde problemas como pérdida de utensilios, equipos defectuosos,
+mercadería vencida, etc.
+Método de las tarjetas rojas
+1. Formar y entrenar un equipo de inspección.
+2. Proporcionar etiquetas rojas.
+3. Designar un centro de acopio.
+4. Colocar etiquetas rojas a los artículos que actualmente no se usan.
+5. Llevar esos artículos al centro de acopio para separarlos.
+6. Separar los artículos del centro de acopio en: artículos a conservar y artículos a desechar.
+7. Llevar un registro de las tarjetas rojas.
+2S — Ordenar (Seiton) — “Un lugar para cada cosa y cada cosa en su lugar”
+Que exista un lugar para cada artículo, adecuado a las rutinas de trabajo, listo para utilizarse y con su
+debida señalización.
+Pasos
+1. Asignar e identificar un lugar para cada artículo.
+2. Determinar la cantidad exacta que debe haber de cada artículo.
+3. Asegurar que cada artículo esté listo para usarse.
+4. Crear los medios para asegurar que cada artículo regrese a su lugar.
+Estrategias
+• Utilizar el control visual: códigos de colores, tableros de sombra, demarcaciones.
+• Distribuir los ítems por ubicación: ordenarlos por secuencia de uso, agrupar instrumentos
+similares.
+• Identificar la mejor ubicación, mejorando y definiendo el layout para asegurar el flujo de
+materiales y personas.
+Beneficios
+• Facilita el acceso rápido a los elementos necesarios para el trabajo.
+• Mejora la información en el sitio de trabajo, evitando errores y riesgos potenciales.
+• Facilita el aseo y la limpieza, con mayor seguridad.
+Página 31 de 36
+
+--- PAGE 32 ---
+• Mejora la presentación y estética del lugar (comunica orden, responsabilidad y compromiso).
+• Libera espacio.
+• Incrementa la seguridad mediante la demarcación de todos los sitios.
+3S — Limpiar (Seiso) — “Hágalo brillar”
+Establecer una metodología de limpieza que evite que el área de trabajo se ensucie.
+Pasos
+1. Identificar los materiales necesarios para la limpieza del área de trabajo.
+2. Asignar un lugar adecuado y funcional a cada artículo de limpieza.
+3. Establecer métodos de prevención que eviten que el área se ensucie.
+4. Implementar las actividades de limpieza como rutina.
+Estrategias
+• Limpiar las superficies y los equipos de manera profunda.
+• Integrar la limpieza como parte del trabajo diario.
+• Asumir la limpieza como una actividad de inspección y prevención.
+• Buscar las fuentes de contaminación con el objetivo de eliminar sus causas primarias.
+• Generar checklists y procedimientos.
+Limpiar no es solo una cuestión estética, también es una forma de inspección. Si un equipo se limpia
+regularmente, es más fácil detectar fugas, desgaste o anomalías a tiempo.
+4S — Estandarizar (Seiketsu) — “Todos de la misma manera”
+Evitar condiciones de trabajo que generen retrocesos en las primeras 3S.
+Pasos
+1. Estandarizar todo: visibilizar los estándares utilizados.
+2. Implementar métodos que faciliten el comportamiento apegado a los estándares.
+3. Disponibilizar la información en el lugar de trabajo.
+Estrategias
+• Desarrollar las “buenas prácticas” de manera conjunta.
+• Asegurar que todos las conozcan, acepten y entiendan.
+• Comunicar y entrenar; generar participación (el involucramiento es fundamental).
+• Desarrollar instructivos claros y precisos.
+• Generar checklists y lecciones de un punto (LUP).
+La lección de un punto (LUP) es una herramienta de comunicación utilizada para la transferencia de
+conocimientos y habilidades simples o breves.
+5S — Autodisciplina (Shitsuke) — “Sostener para mejorar”
+Mantener los pasos implementados con las 4S anteriores, y utilizar la Mejora Continua para seguir
+elevando los estándares en el lugar de trabajo.
+Página 32 de 36
+
+--- PAGE 33 ---
+Estrategias
+• Motivar para sostener el programa.
+• Realizar auditorías para analizar el cumplimiento.
+• Generar grupos de mejora para seguir elevando los niveles.
+• Pregonar con el ejemplo.
+• Comunicar y capacitar siempre.
+Algunas conclusiones de aplicar 5S
+• Genera menos defectos.
+• Mejora los tiempos de respuesta.
+• Es más seguro y productivo.
+• Hace crecer a la organización.
+• Y lo más importante: desarrolla un grupo humano motivado, comprometido y calificado.
+Lugar de Trabajo Visual (fábrica visual)
+La fábrica visual complementa las 5S con herramientas de gestión visual, para facilitar el orden, la
+comunicación y el control. Se organiza en tres grandes elementos:
+Señales de tráfico, layout e identificación del área de trabajo, mapas de
+Despliegues visuales
+5s, puntos de lubricación, diagramas de flujo de producción, muestra de
+(Información estática)
+productos, requerimientos de higiene e indumentaria personal.
+Indicadores de desempeño, planes de producción, programa de
+Comunicación visual
+mantenimiento, resultados clave de reuniones, quejas de consumidores,
+(Información dinámica)
+resultados de auditorías.
+Indicadores de nivel y manómetros, tableros de sombra, partes del
+Controles visuales (para
+cambio por equipo, rutas de evacuación, instrucciones de operación y
+guiar el comportamiento)
+mantenimiento.
+Indicador de fallas (andon)
+• Dispositivo que alerta al operador e identifica que ha ocurrido un paro automático debido a un
+mal funcionamiento del equipo o del proceso.
+• Es desencadenado por dispositivos mecánicos o eléctricos.
+• Permite al equipo saber rápidamente cuándo y dónde ocurrió una falla.
+Página 33 de 36
+
+--- PAGE 34 ---
+Integración total: cómo se conecta toda la materia
+El relato integrador
+Todo arranca con el artesano, que domina su proceso de punta a punta, pero no puede producir a
+escala. La Revolución Industrial y Taylor introducen la especialización y la estandarización para
+ganar escala, pero a costa de que el trabajador pierda la visión integral del producto. Ford lleva esto
+al extremo con la línea de ensamble: gana muchísima eficiencia, pero crea un trabajador que no
+conoce del producto. Elton Mayo introduce la idea de que ese trabajador es una persona, no un
+engranaje, y que su motivación y sentido de pertenencia también afectan la productividad. Toyota,
+después de la Segunda Guerra Mundial, toma lo mejor de Ford (flujo equilibrado y sincronizado) y lo
+mejor de Mayo (participación y compromiso del trabajador), y construye el JIT: un sistema que
+extiende el flujo de la línea de ensamble a TODA la fábrica, y que le devuelve al operario (en la celda
+de trabajo) parte del conocimiento integral que tenía el artesano. Para que el JIT funcione hacen
+falta máquinas siempre disponibles (TPM), productos bien hechos desde el origen (TQM), cambios
+de formato rápidos (SMED), un sistema que administre lo que todavía no es coincidente (Kanban),
+un lugar de trabajo ordenado y visual (5S / fábrica visual), y un motor que sostenga todo esto
+mejorando día a día (Kaizen / PDCA).
+Mapa de relaciones: tabla cruzada de conceptos
+Concepto A Concepto B Cómo se relacionan
+El SMED es una condición técnica necesaria para el JIT: reduce
+los tiempos de cambio de formato, permitiendo lotes cada vez
+JIT SMED
+más chicos hasta tender a producir pieza por pieza, que es la
+esencia del JIT.
+El Kanban es un “camino” hacia el JIT, no el JIT mismo.
+Administra el inventario entre operaciones que todavía no son
+JIT Kanban coincidentes. A medida que el SMED reduce los setups a cero,
+el Kanban se va achicando hasta volverse innecesario, y ahí se
+logra el JIT puro.
+El SMED reduce los tiempos de setup; eso permite que el
+Kanban trabaje con lotes cada vez más chicos (menos tarjetas,
+SMED Kanban
+menos stock de uso). Reducir el Kanban y aplicar SMED son, en
+la práctica, la misma estrategia vista desde dos ángulos.
+El JIT necesita que las máquinas estén disponibles cuando se las
+necesita (sin grandes stocks de respaldo que absorban una
+JIT TPM
+falla). El TPM garantiza esa disponibilidad mediante
+mantenimiento preventivo, predictivo y autónomo.
+El JIT trabaja con lotes chicos y poco inventario de respaldo: no
+JIT TQM hay margen para “tapar” defectos con stock. Por eso el JIT
+exige calidad en la fuente (Jidoka) — la idea central del TQM.
+Página 34 de 36
+
+--- PAGE 35 ---
+Concepto A Concepto B Cómo se relacionan
+Ambos comparten la misma lógica preventiva (vs. reactiva): el
+TPM previene fallas de equipo antes de que ocurran; el TQM
+TPM TQM previene defectos de calidad antes de que ocurran. Los dos
+reemplazan la “inspección/corrección posterior” por la
+“prevención en el origen”.
+El Mantenimiento Autónomo y las Mejoras Orientadas del TPM
+TPM Kaizen son, en esencia, aplicaciones de PDCA al mantenimiento. El
+TPM es uno de los “sistemas Kaizen” listados en la Unidad 5.
+El TQM es también uno de los “sistemas Kaizen”: la mejora
+continua de calidad usa exactamente el mismo PDCA (Rueda de
+TQM Kaizen
+Deming) que se ve en la Unidad 5, aplicado específicamente al
+control de calidad.
+Limpiar, ordenar y estandarizar el puesto de trabajo es la base
+TPM física que permite al operario inspeccionar visualmente su
+5S (Mantenimiento equipo y detectar anomalías a tiempo. La “fábrica visual” (5S) y
+Autónomo) el Mantenimiento Autónomo (TPM) comparten exactamente
+las mismas tareas: limpieza, inspección, orden.
+Ambos usan el mismo lenguaje de control visual (colores,
+tableros de sombra, señales) para hacer visibles los problemas
+5S Kanban en el momento en que ocurren — las luces amarillas/rojas de
+Kanban y el indicador de fallas de fábrica visual son la misma
+idea aplicada al flujo de producción.
+El diagrama de Pareto, la espina de pescado y el historial de
+máquinas son herramientas que el grupo de TPM usa para
+Herramientas
+TPM identificar y atacar las pérdidas que afectan al OEE — son las
+de calidad
+mismas 7 herramientas de calidad de la Unidad 3, aplicadas a
+mantenimiento.
+La “tasa de calidad” del OEE refleja directamente los costos de
+Costos de falla interna (defectos, reprocesos) vistos en costos de la
+OEE
+calidad calidad. Mejorar el OEE y reducir los costos de falla interna son,
+en el fondo, el mismo trabajo.
+En una celda de trabajo el operario tiene visión integral del
+proceso; eso mismo es lo que el Mantenimiento Autónomo
+Estructura Mantenimiento
+busca lograr respecto del equipo: que quien opera la máquina
+celular autónomo
+la conozca lo suficiente como para cuidarla y mejorarla, no solo
+usarla.
+Son dos lógicas opuestas y complementarias: el MRP planifica
+“hacia adelante” (push), anticipando necesidades de materiales
+MRP Kanban según un plan; el Kanban regula “hacia atrás” (pull), a partir del
+consumo real. Muchas plantas combinan ambos según el tipo
+de material o proceso.
+Página 35 de 36
+
+--- PAGE 36 ---
+Concepto A Concepto B Cómo se relacionan
+Heijunka nivela QUÉ y CUÁNTO se produce en el tiempo; la
+Carga fabril
+Estructura celda de trabajo es la estructura física que permite ejecutar esa
+uniforme
+celular nivelación con flexibilidad, ajustando operarios sin rediseñar el
+(Heijunka)
+layout.
+El Takt Time mide la velocidad de la demanda; Heijunka usa esa
+Takt Time Heijunka referencia para nivelar la frecuencia y el mix de producción,
+evitando picos y valles (MURA) y sobrecargas puntuales (MURI).
+Página 36 de 36
