@@ -3,7 +3,10 @@
   "generado_desde": "/resumen",
   "temas": [
     "Unidad 1: Administración de la Producción y Operaciones",
-    "Unidad 2: JIT y Herramientas Lean"
+    "Unidad 2: JIT y Herramientas Lean",
+    "Unidad 3: Administración de la Calidad Total",
+    "Unidad 4: Mantenimiento Productivo Total (TPM)",
+    "Unidad 5: Mejora Continua, 5S y Fábrica Visual"
   ],
   "preguntas": [
     {
@@ -643,8 +646,8 @@
         { "id": "c", "texto": "7" },
         { "id": "d", "texto": "8" }
       ],
-      "correcta": "b",
-      "explicacion": "El texto clasifica 6 tipos de MUDA: sobreproducción, esperas, transporte, inventarios, movimientos innecesarios y defectos (inspección y retrabajo). La confusión con 7 es común porque otras clasificaciones del TPS agregan 'procesamiento innecesario', pero ese no aparece en este resumen."
+      "correcta": "c",
+      "explicacion": "El resumen lista 7 tipos de MUDA: inventarios, transporte, sobreproducción, esperas, movimientos innecesarios, defectos/reprocesos y procesos innecesarios. Esta séptima categoría (procesos innecesarios) es la que más se omite. La versión occidental agrega el matiz de 'agregar valor al producto'."
     },
     {
       "id": "q041",
@@ -744,7 +747,7 @@
         { "id": "d", "texto": "Solo MUDA es un concepto formal del TPS; MURA y MURI son informales" }
       ],
       "correcta": "b",
-      "explicacion": "Son tres conceptos distintos del TPS: MUDA = desperdicios (las 6 categorías); MURA = irregularidades o desigualdades en el flujo; MURI = excesos o sobrecargas. Heijunka combate específicamente MURA. Un sistema equilibrado combate MURI."
+      "explicacion": "Son tres conceptos distintos del TPS: MUDA = desperdicios (7 categorías: inventarios, transporte, sobreproducción, esperas, movimientos, defectos y procesos innecesarios); MURA = irregularidades o desigualdades en el flujo; MURI = excesos o sobrecargas. Heijunka combate MURA y MURI simultáneamente."
     },
     {
       "id": "q047",
@@ -1127,6 +1130,1334 @@
       ],
       "correcta": { "1": "a", "2": "b", "3": "c", "4": "d" },
       "explicacion": "Heijunka genera 4 beneficios encadenados: menor inventario (proporcional al tamaño del lote), mejor curva de aprendizaje (producción diaria evita el olvido), flexibilidad para combinar productos (stock diario de cada modelo) y mejor calidad (el costo de falla se reduce con el tamaño del lote)."
+    },
+    {
+      "id": "q071",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "La celda de trabajo JIT busca recuperar una virtud del artesano aplicada a escala industrial. ¿Cuál es esa virtud?",
+      "opciones": [
+        { "id": "a", "texto": "La producción artesanal individualizada sin maquinaria" },
+        { "id": "b", "texto": "La visión integral de todo el proceso por parte del operario" },
+        { "id": "c", "texto": "La relación directa de producción bajo pedido con un único cliente" },
+        { "id": "d", "texto": "La eliminación total de la especialización del trabajo" }
+      ],
+      "correcta": "b",
+      "explicacion": "El JIT, a través de las celdas de trabajo, le devuelve al operario la visión integral del proceso que el artesano tenía naturalmente (diseñaba, fabricaba, vendía, conocía al cliente). La celda no elimina la especialización; recupera el conocimiento del proceso completo a escala industrial."
+    },
+    {
+      "id": "q072",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "verdadero_falso",
+      "dificultad": "dificil",
+      "capciosa": true,
+      "enunciado": "La debilidad estructural del fordismo es que el operario pierde la noción del producto completo debido a la especialización extrema.",
+      "opciones": [
+        { "id": "v", "texto": "Verdadero" },
+        { "id": "f", "texto": "Falso" }
+      ],
+      "correcta": "v",
+      "explicacion": "El texto lo señala explícitamente: Ford 'fomenta la especialización extrema, de modo que cada operario hace una sola tarea repetitiva y pierde la noción del producto completo'. El sistema fordista es además 'panóptico': se controla todo para poder vigilarlo todo. Esta es exactamente la debilidad que Toyota va a revisar."
+    },
+    {
+      "id": "q073",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "opcion_multiple",
+      "dificultad": "dificil",
+      "capciosa": false,
+      "enunciado": "Con la producción en masa del Ford T se logró una reducción del tiempo de ciclo del 99,8%. ¿Cuáles otros dos resultados se mencionan en el resumen?",
+      "opciones": [
+        { "id": "a", "texto": "Reducción de costos del 50% y duplicación de utilidades" },
+        { "id": "b", "texto": "Aumento de utilidades de 336 veces y reducción del precio del 54%" },
+        { "id": "c", "texto": "Triplicación de la producción y eliminación de defectos" },
+        { "id": "d", "texto": "Reducción de mano de obra al 30% y aumento salarial del 40%" }
+      ],
+      "correcta": "b",
+      "explicacion": "El Ford T logró tres resultados simultáneos: reducción del tiempo de ciclo del 99,8%, aumento de utilidades de 336 veces y reducción del precio del 54%. Estos números ilustran el impacto de la producción en masa estandarizada y explican por qué el fordismo fue un cambio de paradigma."
+    },
+    {
+      "id": "q074",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "opcion_multiple",
+      "dificultad": "dificil",
+      "capciosa": true,
+      "enunciado": "El resumen define 'empresa flexible' como aquella que:",
+      "opciones": [
+        { "id": "a", "texto": "Se adapta rápidamente a cambios organizacionales y culturales internos" },
+        { "id": "b", "texto": "Puede modificar su estructura corporativa fácilmente ante nuevas regulaciones" },
+        { "id": "c", "texto": "Se adapta rápida y fácilmente a los cambios en la demanda del cliente" },
+        { "id": "d", "texto": "Incorpora nuevas tecnologías más rápido que sus competidores" }
+      ],
+      "correcta": "c",
+      "explicacion": "El texto define explícitamente: 'una empresa flexible NO es la que se adapta rápido a cambios organizacionales o culturales. Es la que se adapta rápido y fácilmente a los cambios en la DEMANDA DEL CLIENTE.' Esta es 'la bisagra hacia toda la Unidad 2 (JIT)', porque la flexibilidad frente a la demanda es lo que persiguen Takt Time, SMED y Kanban."
+    },
+    {
+      "id": "q075",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "opcion_multiple",
+      "dificultad": "dificil",
+      "capciosa": false,
+      "enunciado": "¿Cómo Toyota amplió el modelo de Ford para construir el JIT?",
+      "opciones": [
+        { "id": "a", "texto": "Eliminó completamente la línea de ensamble y la reemplazó por celdas independientes" },
+        { "id": "b", "texto": "Tomó el flujo equilibrado y sincronizado interno de Ford y lo extendió a TODA la fábrica" },
+        { "id": "c", "texto": "Adoptó el control panóptico de Ford pero con operarios polivalentes" },
+        { "id": "d", "texto": "Redujo la velocidad de la línea para agregar control de calidad en cada etapa" }
+      ],
+      "correcta": "b",
+      "explicacion": "Las filosofías japonesas no son independientes del fordismo: Toyota toma el flujo equilibrado y sincronizado que Ford ya tenía DENTRO de la línea de ensamble y lo extiende a TODA la fábrica (compras, logística, calidad). La diferencia central es que en Toyota la calidad se fabrica desde el origen, con participación de los propios trabajadores en la mejora continua."
+    },
+    {
+      "id": "q076",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿Con qué experimento comenzaron los estudios de Elton Mayo que dieron origen al movimiento de relaciones humanas?",
+      "opciones": [
+        { "id": "a", "texto": "Estudios sobre el impacto del trabajo nocturno en la productividad" },
+        { "id": "b", "texto": "Estudios sobre el nivel óptimo de iluminación para maximizar la producción" },
+        { "id": "c", "texto": "Experimentos con sistemas de pago por incentivos en fábricas textiles" },
+        { "id": "d", "texto": "Investigación sobre el efecto del ruido ambiental en los errores de producción" }
+      ],
+      "correcta": "b",
+      "explicacion": "Los 'Estudios de Hawthorne' comenzaron buscando el nivel óptimo de iluminación para maximizar la producción, pero no pudieron correlacionar el entorno físico con la eficiencia. Al investigar por qué, Mayo descubrió que factores psicológicos y sociales (sentido de pertenencia, motivación, trabajo en equipo) son los que realmente afectan la productividad."
+    },
+    {
+      "id": "q077",
+      "tema": "Unidad 1: Administración de la Producción y Operaciones",
+      "tipo": "verdadero_falso",
+      "dificultad": "media",
+      "capciosa": true,
+      "enunciado": "El artesano no puede servir como referencia para el JIT porque producía a pequeña escala y sin estandarización.",
+      "opciones": [
+        { "id": "v", "texto": "Verdadero" },
+        { "id": "f", "texto": "Falso" }
+      ],
+      "correcta": "f",
+      "explicacion": "El artesano SÍ sirve como modelo conceptual para el JIT en un aspecto clave: tenía conocimiento integral de todo el proceso (diseñaba, fabricaba, vendía, conocía al cliente directamente, producía por pedido). El JIT, a través de la celda de trabajo, recupera esa visión integral. La limitación de escala se supera con la organización en celdas, no se ignora."
+    },
+    {
+      "id": "q078",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "opcion_multiple",
+      "dificultad": "dificil",
+      "capciosa": true,
+      "enunciado": "¿Cuál es la motivación REAL para implementar JIT según el resumen?",
+      "opciones": [
+        { "id": "a", "texto": "Reducir los costos de inventario y eliminar el MUDA de stocks" },
+        { "id": "b", "texto": "Cumplir con certificaciones internacionales de producción esbelta" },
+        { "id": "c", "texto": "Usar la producción como arma estratégica: aumentar calidad, mejorar servicio y bajar costos simultáneamente" },
+        { "id": "d", "texto": "Adaptar la producción a las demandas del mercado de exportación" }
+      ],
+      "correcta": "c",
+      "explicacion": "'El JIT se introduce porque la producción se concibe como un ARMA ESTRATÉGICA: sirve para aumentar la calidad, mejorar el servicio y bajar costos AL MISMO TIEMPO. NO se implementa primero por reducir costos o inventarios — eso es una consecuencia, no la motivación de fondo.' Este matiz es clave para el examen oral."
+    },
+    {
+      "id": "q079",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "Dos operaciones son 'coincidentes' cuando:",
+      "opciones": [
+        { "id": "a", "texto": "Se realizan simultáneamente en dos máquinas distintas sobre piezas diferentes" },
+        { "id": "b", "texto": "El inicio de la segunda coincide con el fin de la primera, ambas sobre la MISMA pieza" },
+        { "id": "c", "texto": "Comparten el mismo operario sin desplazamiento entre máquinas" },
+        { "id": "d", "texto": "Tienen el mismo tiempo de ciclo y están ubicadas una al lado de la otra" }
+      ],
+      "correcta": "b",
+      "explicacion": "Dos operaciones son coincidentes cuando, siendo consecutivas, el inicio de la segunda coincide con el fin de la primera, SOBRE LA MISMA PIEZA. Ejemplo: cortar un caño y perforarlo inmediatamente es coincidente. Cortar todos los caños y luego perforarlos todos no es coincidente (produce por lotes)."
+    },
+    {
+      "id": "q080",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿En qué situaciones aparece la necesidad de usar Kanban?",
+      "opciones": [
+        { "id": "a", "texto": "Siempre que se trabaje con más de 5 operarios en una celda" },
+        { "id": "b", "texto": "Cuando la producción supera el Takt Time establecido" },
+        { "id": "c", "texto": "Cuando hay distancia física, diferencias de setup, máquinas compartidas o problemas de mantenimiento entre operaciones" },
+        { "id": "d", "texto": "Cuando los clientes exigen entregas en lotes grandes y programadas" }
+      ],
+      "correcta": "c",
+      "explicacion": "Kanban aparece cuando NO se pueden lograr operaciones coincidentes, típicamente por: distancia física entre operaciones, diferencias importantes en tiempos de alistamiento, una máquina que enlaza varias celdas distintas, o problemas de mantenimiento. No es una herramienta de tamaño de equipo ni de volumen."
+    },
+    {
+      "id": "q081",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "opcion_multiple",
+      "dificultad": "facil",
+      "capciosa": false,
+      "enunciado": "¿Qué responde el MRP I?",
+      "opciones": [
+        { "id": "a", "texto": "Cuánto y cuándo se va a producir, incluyendo mano de obra y máquinas disponibles" },
+        { "id": "b", "texto": "Cuánto y cuándo aprovisionarse de materiales, en función del plan de producción previsto" },
+        { "id": "c", "texto": "Cómo distribuir el inventario entre distintas plantas de producción" },
+        { "id": "d", "texto": "Cuál es la combinación óptima de productos para maximizar ganancias" }
+      ],
+      "correcta": "b",
+      "explicacion": "MRP I (Material Requirement Planning) responde 'cuánto y cuándo aprovisionarse de materiales', basándose en el plan maestro de producción previsto y las políticas de inventario. Solo abarca producción, trabaja con tiempos y capacidades, y es un sistema abierto. No incluye mano de obra ni máquinas (eso es MRP II)."
+    },
+    {
+      "id": "q082",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": true,
+      "enunciado": "¿Cuál es la diferencia fundamental entre MRP I y MRP II?",
+      "opciones": [
+        { "id": "a", "texto": "El MRP II trabaja solo con materiales; el MRP I incluye mano de obra y máquinas" },
+        { "id": "b", "texto": "El MRP II agrega a los materiales la consideración de mano de obra, máquinas y más departamentos, con sistema de bucle cerrado" },
+        { "id": "c", "texto": "El MRP I es computarizado; el MRP II es manual y basado en experiencia" },
+        { "id": "d", "texto": "El MRP II es un sistema pull; el MRP I es un sistema push" }
+      ],
+      "correcta": "b",
+      "explicacion": "MRP II amplía al MRP I: además de materiales, considera mano de obra y máquinas, abarca más departamentos (compras, calidad, financiero), es un sistema de BUCLE CERRADO (permite replanificar ante errores) y permite simulación del sistema productivo. Ambos son sistemas push. No es una diferencia de automatización."
+    },
+    {
+      "id": "q083",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "verdadero_falso",
+      "dificultad": "dificil",
+      "capciosa": true,
+      "enunciado": "MRP y Kanban son sistemas incompatibles: una planta que usa MRP no puede usar Kanban.",
+      "opciones": [
+        { "id": "v", "texto": "Verdadero" },
+        { "id": "f", "texto": "Falso" }
+      ],
+      "correcta": "f",
+      "explicacion": "Son complementarios, no excluyentes. Muchas plantas usan MRP para materiales de proveedores externos (donde hace falta anticipación y planificación push) y Kanban para el flujo interno entre celdas (lógica pull a partir del consumo real). La diferencia es que MRP planifica 'hacia adelante' y Kanban regula 'hacia atrás'."
+    },
+    {
+      "id": "q084",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "opcion_multiple",
+      "dificultad": "dificil",
+      "capciosa": false,
+      "enunciado": "¿Cómo se reduce el tamaño de un Kanban?",
+      "opciones": [
+        { "id": "a", "texto": "Aumentando el número de operarios por celda para producir más rápido" },
+        { "id": "b", "texto": "Aplicando SMED para reducir tiempos de setup y poder fabricar lotes más chicos y frecuentes" },
+        { "id": "c", "texto": "Automatizando las operaciones para eliminar la dependencia de los operarios" },
+        { "id": "d", "texto": "Consolidando varios kanbans en uno de mayor capacidad" }
+      ],
+      "correcta": "b",
+      "explicacion": "Para achicar un Kanban se aplica SMED: al reducir los tiempos de setup, se pueden fabricar lotes más chicos y más seguido, acercándose al JIT. También se puede trabajar con el stock de uso (SU) y stock de seguridad (SS): se elimina gradualmente el SS verificando que la productividad se mantiene sin ese material extra."
+    },
+    {
+      "id": "q085",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿Cuál es el paso 5 (último) del método SMED?",
+      "opciones": [
+        { "id": "a", "texto": "Observar y comprender el proceso (filmar, documentar)" },
+        { "id": "b", "texto": "Optimizar los set-ups internos y externos por separado" },
+        { "id": "c", "texto": "Convertir tareas internas en externas" },
+        { "id": "d", "texto": "Estandarizar: documentar, procedimentar y capacitar" }
+      ],
+      "correcta": "d",
+      "explicacion": "Los 5 pasos de SMED son: 1. Observar y comprender (filmar, equipo interdisciplinario), 2. Clasificar en internas/externas, 3. Convertir internas en externas, 4. Optimizar internos y externos por separado, 5. ESTANDARIZAR (documentar, procedimentar, capacitar). Sin el paso 5, las mejoras logradas se pierden con el tiempo."
+    },
+    {
+      "id": "q086",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "opcion_multiple",
+      "dificultad": "dificil",
+      "capciosa": false,
+      "enunciado": "¿Qué meta de reducción porcentual propone SMED y con qué característica en cuanto a inversión?",
+      "opciones": [
+        { "id": "a", "texto": "90% de reducción, con alta inversión en tecnología nueva" },
+        { "id": "b", "texto": "50% de reducción, sin necesidad de invertir en nada" },
+        { "id": "c", "texto": "75% de reducción a bajo costo, en dos etapas de aproximadamente 50% cada una" },
+        { "id": "d", "texto": "100% de eliminación del tiempo de cambio, reemplazando las máquinas" }
+      ],
+      "correcta": "c",
+      "explicacion": "SMED apunta a una reducción del 75% del tiempo de cambio A BAJO COSTO, en dos etapas de ~50% cada una. No requiere grandes inversiones: son técnicas centradas en optimización de métodos, no en comprar tecnología nueva. Esto lo hace accesible para cualquier empresa."
+    },
+    {
+      "id": "q087",
+      "tema": "Unidad 2: JIT y Herramientas Lean",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "La configuración típica 'en C' de una celda de manufactura JIT tiene como ventaja principal:",
+      "opciones": [
+        { "id": "a", "texto": "Mayor espacio para que los operarios se muevan entre máquinas" },
+        { "id": "b", "texto": "Menor costo de transporte entre operaciones porque el punto de entrada y salida quedan cerca" },
+        { "id": "c", "texto": "Permite instalar máquinas de mayor tamaño en el mismo espacio físico" },
+        { "id": "d", "texto": "Facilita la supervisión visual de todos los operarios desde un solo punto" }
+      ],
+      "correcta": "b",
+      "explicacion": "La configuración en 'C' tiene como ventaja específica que el punto de entrada y el de salida de la celda quedan cerca, minimizando el costo de transporte entre la primera y la última operación. No es principalmente por espacio ni por supervisión."
+    },
+    {
+      "id": "q088",
+      "tema": "Unidad 3: Administración de la Calidad Total",
+      "tipo": "relacion",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "Relacioná cada paradigma histórico de la calidad con la forma en que se sostenía.",
+      "columna_izq": [
+        { "id": "1", "texto": "Producción artesanal" },
+        { "id": "2", "texto": "Producción e inspección en masa" },
+        { "id": "3", "texto": "TQM / Calidad impulsada por el cliente" }
+      ],
+      "columna_der": [
+        { "id": "a", "texto": "Previniendo problemas y reduciendo variabilidad del proceso desde el origen" },
+        { "id": "b", "texto": "Contacto directo y ajuste permanente a lo que el cliente pide" },
+        { "id": "c", "texto": "Inspeccionando al final y detectando productos defectuosos (con control estadístico)" }
+      ],
+      "correcta": { "1": "b", "2": "c", "3": "a" },
+      "explicacion": "Artesanal: ajuste directo con el cliente. Inspección en masa: calidad reactiva que detecta fallas al final, gastando recursos en reprocesos. TQM: proactiva, previene problemas desde el origen y reduce variabilidad. El control estadístico de procesos fue la innovación de la etapa de inspección en masa."
+    },
+    {
+      "id": "q089",
+      "tema": "Unidad 3: Administración de la Calidad Total",
+      "tipo": "relacion",
+      "dificultad": "dificil",
+      "capciosa": false,
+      "enunciado": "Relacioná cada etapa de la evolución de la gestión de calidad con su enfoque correcto.",
+      "columna_izq": [
+        { "id": "1", "texto": "1. Inspección" },
+        { "id": "2", "texto": "2. Control de calidad" },
+        { "id": "3", "texto": "3. Aseguramiento de la calidad" },
+        { "id": "4", "texto": "4. TQM" }
+      ],
+      "columna_der": [
+        { "id": "a", "texto": "Sistema integral que involucra TODA la compañía para satisfacer al cliente" },
+        { "id": "b", "texto": "Acciones planeadas para que productos cumplan requisitos de la compañía" },
+        { "id": "c", "texto": "Reactivo: encontrar y arreglar errores ya ocurridos" },
+        { "id": "d", "texto": "Reactivo: técnicas para inspeccionar más eficientemente y reducir costos" }
+      ],
+      "correcta": { "1": "c", "2": "d", "3": "b", "4": "a" },
+      "explicacion": "La evolución va de reactivo a proactivo: Inspección (corregir errores), Control (inspeccionar más eficientemente), Aseguramiento (planear para cumplir requisitos, empieza énfasis en diseño), TQM (proactivo total: previene, involucra a toda la empresa, orientado al cliente)."
+    },
+    {
+      "id": "q090",
+      "tema": "Unidad 3: Administración de la Calidad Total",
+      "tipo": "opcion_multiple",
+      "dificultad": "facil",
+      "capciosa": false,
+      "enunciado": "¿Por qué TQM se considera un enfoque PROACTIVO de calidad?",
+      "opciones": [
+        { "id": "a", "texto": "Porque tiene un departamento de calidad más grande y especializado" },
+        { "id": "b", "texto": "Porque detecta y corrige errores antes de que el producto llegue al cliente" },
+        { "id": "c", "texto": "Porque previene errores y mejora continuamente los procesos involucrando a todos los empleados" },
+        { "id": "d", "texto": "Porque aplica control estadístico al final de la línea de producción" }
+      ],
+      "correcta": "c",
+      "explicacion": "TQM es proactivo porque PREVIENE errores y mejora los procesos continuamente, haciendo las cosas bien desde el principio (primera vez), con la participación de todos los empleados. El enfoque reactivo detecta fallas ya producidas (inspección); el proactivo las anticipa y elimina en el origen."
+    },
+    {
+      "id": "q091",
+      "tema": "Unidad 3: Administración de la Calidad Total",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": true,
+      "enunciado": "En el enfoque REACTIVO de calidad, ¿cuál es el nivel de calidad aceptable?",
+      "opciones": [
+        { "id": "a", "texto": "Cero defectos (CD)" },
+        { "id": "b", "texto": "NCA (nivel de calidad aceptable), que admite cierto porcentaje de defectos" },
+        { "id": "c", "texto": "El nivel que fija la norma ISO vigente" },
+        { "id": "d", "texto": "El que define el cliente en el contrato de compra" }
+      ],
+      "correcta": "b",
+      "explicacion": "El enfoque reactivo trabaja con NCA (nivel de calidad aceptable): se acepta un porcentaje de defectos como normal. El enfoque proactivo (TQM) apunta a CD (cero defectos). Esta diferencia conceptual es central: pasar de 'aceptar defectos' a 'no producirlos' cambia toda la organización."
+    },
+    {
+      "id": "q092",
+      "tema": "Unidad 3: Administración de la Calidad Total",
+      "tipo": "opcion_multiple",
+      "dificultad": "dificil",
+      "capciosa": true,
+      "enunciado": "Según Kaoru Ishikawa, ¿por qué les costó menos a los japoneses alcanzar la calidad total?",
+      "opciones": [
+        { "id": "a", "texto": "Porque invirtieron más dinero en tecnología de control de calidad" },
+        { "id": "b", "texto": "Porque copiaron y mejoraron los sistemas de calidad occidentales más rápido" },
+        { "id": "c", "texto": "Porque convirtieron la calidad en responsabilidad compartida de toda la empresa, pensando a largo plazo" },
+        { "id": "d", "texto": "Porque el gobierno japonés financió programas de calidad obligatorios para la industria" }
+      ],
+      "correcta": "c",
+      "explicacion": "Ishikawa señala que los japoneses convirtieron la calidad en responsabilidad compartida por TODA la empresa, pensando a largo plazo. Mientras Occidente la limitaba a especialistas, trataba a los obreros como máquinas y priorizaba ganancias a corto plazo, Japón garantizó empleo vitalicio, invirtió en capacitación y fomentó la polifuncionalidad."
+    },
+    {
+      "id": "q093",
+      "tema": "Unidad 3: Administración de la Calidad Total",
+      "tipo": "opcion_multiple",
+      "dificultad": "facil",
+      "capciosa": false,
+      "enunciado": "¿Cómo define el resumen 'calidad'?",
+      "opciones": [
+        { "id": "a", "texto": "Cumplir con las especificaciones técnicas del producto según norma ISO" },
+        { "id": "b", "texto": "Dar al cliente lo que necesita, a tiempo, siempre, al precio justo" },
+        { "id": "c", "texto": "Minimizar los defectos de fabricación por debajo del nivel de calidad aceptable" },
+        { "id": "d", "texto": "Lograr la mayor producción posible con el menor número de retrabajos" }
+      ],
+      "correcta": "b",
+      "explicacion": "El resumen define calidad como 'dar al cliente lo que necesita, a tiempo, siempre, al precio justo'. Si la calidad no existe en la fuente, el JIT se vuelve frágil: al no haber stock de respaldo, una sola pieza defectuosa detiene toda la cadena de valor."
+    },
+    {
+      "id": "q094",
+      "tema": "Unidad 3: Administración de la Calidad Total",
+      "tipo": "verdadero_falso",
+      "dificultad": "dificil",
+      "capciosa": true,
+      "enunciado": "Sin calidad en la fuente, el JIT puede seguir funcionando porque el stock de seguridad absorbe los defectos.",
+      "opciones": [
+        { "id": "v", "texto": "Verdadero" },
+        { "id": "f", "texto": "Falso" }
+      ],
+      "correcta": "f",
+      "explicacion": "Falso. El resumen dice explícitamente: 'Si la calidad no existe en la fuente el JIT es frágil, ya que al no haber stock una sola pieza defectuosa detiene toda la cadena de valor.' JIT trabaja con inventarios mínimos o cero; no hay colchón para absorber defectos. La calidad en la fuente (Jidoka) es condición necesaria del JIT."
+    },
+    {
+      "id": "q095",
+      "tema": "Unidad 3: Administración de la Calidad Total",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿Cómo se define el 'valor' de un producto desde la perspectiva del CLIENTE?",
+      "opciones": [
+        { "id": "a", "texto": "Valor = Calidad / Precio (subjetivo: varía según las expectativas de cada cliente)" },
+        { "id": "b", "texto": "Valor = Precio de mercado / Costo de producción" },
+        { "id": "c", "texto": "Valor = Conformidad con las especificaciones técnicas de la empresa" },
+        { "id": "d", "texto": "Valor = Cantidad producida × tasa de defectos tolerada" }
+      ],
+      "correcta": "a",
+      "explicacion": "Desde el cliente, Valor = Calidad / Precio. Este valor es SUBJETIVO: depende de las expectativas, gustos y necesidades de cada cliente. Dos clientes pueden percibir el mismo producto con calidades distintas, aun siendo objetivamente el mismo. Desde el productor, la calidad se mide con indicadores objetivos."
+    },
+    {
+      "id": "q096",
+      "tema": "Unidad 3: Administración de la Calidad Total",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿Qué son las 'características sustitutas' de calidad?",
+      "opciones": [
+        { "id": "a", "texto": "Las características que el cliente describe en las encuestas de satisfacción" },
+        { "id": "b", "texto": "Las variables medibles en fábrica que representan lo que el cliente realmente valora" },
+        { "id": "c", "texto": "Los atributos del producto que se inspeccionan al final de la línea" },
+        { "id": "d", "texto": "Las características de un producto de la competencia usadas como referencia" }
+      ],
+      "correcta": "b",
+      "explicacion": "Las características REALES son lo que el cliente espera (difíciles de medir directamente). Las SUSTITUTAS son las variables medibles en fábrica que se usan para asegurar la satisfacción del cliente. Ejemplo: el cliente quiere una mesa robusta (real) → se especifica un tablón de lapacho de 3 cm de espesor (sustituta)."
+    },
+    {
+      "id": "q097",
+      "tema": "Unidad 3: Administración de la Calidad Total",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "En el ciclo PDCA aplicado a calidad, ¿qué se hace en la etapa ACTUAR (A)?",
+      "opciones": [
+        { "id": "a", "texto": "Recoger datos del proceso para medir resultados" },
+        { "id": "b", "texto": "Capacitar al equipo en los nuevos procedimientos" },
+        { "id": "c", "texto": "Encontrar las causas raíz y actuar para evitar que los errores se repitan" },
+        { "id": "d", "texto": "Comparar los resultados con las metas planificadas" }
+      ],
+      "correcta": "c",
+      "explicacion": "En el ciclo PDCA de calidad: Planear = definir metas y métodos; Hacer = capacitar y ejecutar; Verificar = comparar resultados con metas; ACTUAR = encontrar las causas raíz y actuar para evitar que los errores se repitan. Sin el paso A, el ciclo no cierra y los errores vuelven a ocurrir."
+    },
+    {
+      "id": "q098",
+      "tema": "Unidad 3: Administración de la Calidad Total",
+      "tipo": "opcion_multiple",
+      "dificultad": "facil",
+      "capciosa": false,
+      "enunciado": "¿Para qué sirve el Diagrama de Pareto en calidad?",
+      "opciones": [
+        { "id": "a", "texto": "Representar la distribución estadística de los tiempos de ciclo de un proceso" },
+        { "id": "b", "texto": "Organizar causas o problemas de mayor a menor para priorizar esfuerzos (regla 80/20)" },
+        { "id": "c", "texto": "Relacionar dos variables para detectar correlación entre defectos" },
+        { "id": "d", "texto": "Monitorear un proceso en el tiempo con límites de control superior e inferior" }
+      ],
+      "correcta": "b",
+      "explicacion": "El Diagrama de Pareto organiza causas o problemas de mayor a menor según su impacto (regla 80/20: un pequeño número de causas explica la mayoría de los problemas). Ayuda a priorizar la toma de decisiones y focalizar esfuerzos donde más impacto generan."
+    },
+    {
+      "id": "q099",
+      "tema": "Unidad 3: Administración de la Calidad Total",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿Cuáles son las 6 categorías del Diagrama de Causa-Efecto (Ishikawa / espina de pescado)?",
+      "opciones": [
+        { "id": "a", "texto": "Maquinaria, Método, Mano de obra, Material, Medición, Medio ambiente" },
+        { "id": "b", "texto": "Mantenimiento, Materiales, Máquinas, Motivación, Medición, Mejora" },
+        { "id": "c", "texto": "Mercado, Método, Mano de obra, Material, Merma, Medición" },
+        { "id": "d", "texto": "Máquinas, Movimiento, Método, Material, Muda, Medición" }
+      ],
+      "correcta": "a",
+      "explicacion": "Las 6 categorías del diagrama de Ishikawa son: Máquina, Método, Mano de obra, Material, Medio ambiente y Medición. El truco de memorización es que todas empiezan con M. Sirve para investigar TODAS las posibles causas de un problema, clasificándolas en estas seis ramas."
+    },
+    {
+      "id": "q100",
+      "tema": "Unidad 3: Administración de la Calidad Total",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿Para qué sirven los Gráficos de Control (cartas de control)?",
+      "opciones": [
+        { "id": "a", "texto": "Para mostrar la distribución de frecuencias de un conjunto de datos" },
+        { "id": "b", "texto": "Para relacionar dos variables y ver si existe correlación" },
+        { "id": "c", "texto": "Para monitorear un proceso en el tiempo y detectar cuándo se sale de control" },
+        { "id": "d", "texto": "Para priorizar los defectos más frecuentes según la regla 80/20" }
+      ],
+      "correcta": "c",
+      "explicacion": "Los gráficos de control monitorean un proceso a lo largo del tiempo incluyendo un límite central y límites de control superior e inferior. Detectan cuándo el proceso se sale de control, permitiendo prevenir fallas ANTES de que ocurran (son una herramienta proactiva dentro del TQM)."
+    },
+    {
+      "id": "q101",
+      "tema": "Unidad 3: Administración de la Calidad Total",
+      "tipo": "relacion",
+      "dificultad": "dificil",
+      "capciosa": false,
+      "enunciado": "Relacioná cada categoría de costos de calidad con su definición.",
+      "columna_izq": [
+        { "id": "1", "texto": "Prevención" },
+        { "id": "2", "texto": "Evaluación" },
+        { "id": "3", "texto": "Falla interna" },
+        { "id": "4", "texto": "Falla externa" }
+      ],
+      "columna_der": [
+        { "id": "a", "texto": "Defectos incurridos dentro del sistema, antes de transferirse al cliente" },
+        { "id": "b", "texto": "Inversión en actividades para evitar mala calidad (capacitación, rediseño)" },
+        { "id": "c", "texto": "El producto no cumple los requisitos LUEGO de ser adquirido por el cliente" },
+        { "id": "d", "texto": "Inversión en evaluar si la calidad especificada se logra y mantiene" }
+      ],
+      "correcta": { "1": "b", "2": "d", "3": "a", "4": "c" },
+      "explicacion": "Los costos de calidad se dividen en: CONTROLABLES (prevención = evitar problemas; evaluación = inspeccionar) y NO CONTROLABLES (falla interna = defectos dentro del sistema; falla externa = defectos que llegaron al cliente). La falla externa es la más costosa por su impacto en la imagen y la relación con el cliente."
+    },
+    {
+      "id": "q102",
+      "tema": "Unidad 3: Administración de la Calidad Total",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": true,
+      "enunciado": "¿Cuál de los dos tipos de falla (interna o externa) es más costosa y por qué?",
+      "opciones": [
+        { "id": "a", "texto": "La interna, porque implica retrabajos y pérdida de tiempo dentro de la planta" },
+        { "id": "b", "texto": "La externa, por su impacto en la imagen de la empresa y la pérdida de confianza del cliente" },
+        { "id": "c", "texto": "Son iguales en costo porque en ambos casos hay que reprocesar el producto" },
+        { "id": "d", "texto": "La interna, porque el costo de detectar el defecto antes de salir es siempre mayor" }
+      ],
+      "correcta": "b",
+      "explicacion": "La falla EXTERNA es más costosa: su impacto directo en el cliente (reclamos, garantías, pérdida del cliente, demandas, daño a la imagen de marca) supera ampliamente el costo monetario del reemplazo. La falla interna tiene costo, pero no daña la relación con el cliente."
+    },
+    {
+      "id": "q103",
+      "tema": "Unidad 3: Administración de la Calidad Total",
+      "tipo": "verdadero_falso",
+      "dificultad": "media",
+      "capciosa": true,
+      "enunciado": "Las actividades de PREVENCIÓN de calidad no agregan valor porque no transforman físicamente el producto.",
+      "opciones": [
+        { "id": "v", "texto": "Verdadero" },
+        { "id": "f", "texto": "Falso" }
+      ],
+      "correcta": "f",
+      "explicacion": "Falso. Las actividades de PREVENCIÓN sí agregan valor porque evitan pérdidas y errores futuros. Aunque no transforman físicamente el producto, reducen costos de falla y mejoran la calidad global. Las de EVALUACIÓN son las discutibles: no agregan valor directamente pero son necesarias para verificar el cumplimiento de requisitos."
+    },
+    {
+      "id": "q104",
+      "tema": "Unidad 3: Administración de la Calidad Total",
+      "tipo": "verdadero_falso",
+      "dificultad": "dificil",
+      "capciosa": true,
+      "enunciado": "Los costos de calidad son una buena métrica para comparar el desempeño de dos empresas de industrias distintas.",
+      "opciones": [
+        { "id": "v", "texto": "Verdadero" },
+        { "id": "f", "texto": "Falso" }
+      ],
+      "correcta": "f",
+      "explicacion": "Falso. Los costos de calidad NO suelen ser comparables entre empresas distintas salvo que tengan la misma actividad o usen la misma metodología de análisis. Su mayor utilidad es el seguimiento INTERNO de una misma empresa en el tiempo, para medir la evolución y efectividad de las acciones de mejora."
+    },
+    {
+      "id": "q105",
+      "tema": "Unidad 3: Administración de la Calidad Total",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿Por qué medir los costos de la no calidad es útil para la dirección?",
+      "opciones": [
+        { "id": "a", "texto": "Permite cumplir con requisitos legales de reporte de calidad" },
+        { "id": "b", "texto": "Transforma un problema abstracto en términos monetarios comprensibles para la dirección" },
+        { "id": "c", "texto": "Permite certificar ante ISO que se gestiona correctamente la calidad" },
+        { "id": "d", "texto": "Ayuda a determinar el precio de venta del producto" }
+      ],
+      "correcta": "b",
+      "explicacion": "Medir los costos de la no calidad transforma un concepto abstracto (defectos, variabilidad) en términos monetarios comprensibles para la dirección. Esto facilita la toma de decisiones, la priorización de inversiones en calidad y el seguimiento del impacto de las mejoras implementadas."
+    },
+    {
+      "id": "q106",
+      "tema": "Unidad 3: Administración de la Calidad Total",
+      "tipo": "verdadero_falso",
+      "dificultad": "dificil",
+      "capciosa": true,
+      "enunciado": "En TQM, los problemas de calidad son responsabilidad exclusiva del departamento de calidad.",
+      "opciones": [
+        { "id": "v", "texto": "Verdadero" },
+        { "id": "f", "texto": "Falso" }
+      ],
+      "correcta": "f",
+      "explicacion": "Falso: eso es el enfoque REACTIVO. En TQM (proactivo), los problemas de calidad son responsabilidad de Compras, I&D, Marketing y Operaciones, no del departamento de calidad en exclusiva. El cuadro reactivo/proactivo del resumen lo dice explícitamente: 'El depto de calidad tiene los problemas de calidad' (reactivo) vs. todos los departamentos (proactivo)."
+    },
+    {
+      "id": "q107",
+      "tema": "Unidad 3: Administración de la Calidad Total",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿Qué herramienta de calidad muestra la distribución de un conjunto de datos (ej. defectos por día, tiempos de parada)?",
+      "opciones": [
+        { "id": "a", "texto": "Diagrama de Pareto" },
+        { "id": "b", "texto": "Gráfico de control" },
+        { "id": "c", "texto": "Histograma" },
+        { "id": "d", "texto": "Diagrama de dispersión" }
+      ],
+      "correcta": "c",
+      "explicacion": "El HISTOGRAMA es el gráfico de barras que muestra la distribución de un conjunto de datos, visualizando variabilidad y frecuencia de ocurrencias. El Pareto prioriza causas; el gráfico de control monitorea en el tiempo con límites; el diagrama de dispersión muestra correlación entre dos variables."
+    },
+    {
+      "id": "q108",
+      "tema": "Unidad 3: Administración de la Calidad Total",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿En qué fases del PDCA de calidad se usan principalmente las planillas de inspección y los diagramas de flujo?",
+      "opciones": [
+        { "id": "a", "texto": "Solo en la fase Verificar" },
+        { "id": "b", "texto": "Solo en la fase Planear" },
+        { "id": "c", "texto": "En todas las fases: Planear, Hacer, Verificar y Actuar" },
+        { "id": "d", "texto": "Solo en las fases Hacer y Verificar" }
+      ],
+      "correcta": "c",
+      "explicacion": "Según el resumen, las planillas de inspección y los diagramas de flujo se usan en TODAS las fases del PDCA. El Pareto, histograma y gráfico de control se usan en Planear y Verificar. Las planillas y diagramas son las herramientas más transversales del ciclo de calidad."
+    },
+    {
+      "id": "q109",
+      "tema": "Unidad 3: Administración de la Calidad Total",
+      "tipo": "opcion_multiple",
+      "dificultad": "facil",
+      "capciosa": false,
+      "enunciado": "¿Para qué sirve el Diagrama de dispersión?",
+      "opciones": [
+        { "id": "a", "texto": "Para mostrar la secuencia de pasos y decisiones de un proceso" },
+        { "id": "b", "texto": "Para mostrar la relación entre dos variables (ej. temperatura vs. defectos) y detectar correlación" },
+        { "id": "c", "texto": "Para registrar la frecuencia de ocurrencia de defectos en tiempo real" },
+        { "id": "d", "texto": "Para priorizar causas según la regla 80/20" }
+      ],
+      "correcta": "b",
+      "explicacion": "El Diagrama de dispersión muestra la relación entre dos variables (ej. temperatura vs. defectos). Sirve para detectar si existe correlación y orientar acciones correctivas sobre la variable causa. No es para secuencias de proceso (flujo), ni para frecuencias (histograma), ni para priorización (Pareto)."
+    },
+    {
+      "id": "q110",
+      "tema": "Unidad 4: Mantenimiento Productivo Total (TPM)",
+      "tipo": "opcion_multiple",
+      "dificultad": "facil",
+      "capciosa": false,
+      "enunciado": "¿Cuál es el objetivo del mantenimiento según el resumen?",
+      "opciones": [
+        { "id": "a", "texto": "Minimizar el costo de reparaciones reduciendo el personal de mantenimiento" },
+        { "id": "b", "texto": "Asegurar la disponibilidad de producción en las condiciones de calidad deseadas" },
+        { "id": "c", "texto": "Reemplazar los equipos antes de que se rompan para evitar paradas" },
+        { "id": "d", "texto": "Maximizar la utilización de la capacidad instalada a cualquier costo" }
+      ],
+      "correcta": "b",
+      "explicacion": "El objetivo del mantenimiento es asegurar la DISPONIBILIDAD de producción en las condiciones de CALIDAD deseadas. Esta disponibilidad depende de dos factores: la frecuencia de las averías (fiabilidad) y el tiempo necesario para repararlas (mantenibilidad). Mejorar el mantenimiento siempre implica actuar sobre uno o ambos."
+    },
+    {
+      "id": "q111",
+      "tema": "Unidad 4: Mantenimiento Productivo Total (TPM)",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿Cuáles son los DOS factores críticos que determinan la disponibilidad de un equipo?",
+      "opciones": [
+        { "id": "a", "texto": "El costo de mantenimiento y la antigüedad del equipo" },
+        { "id": "b", "texto": "La fiabilidad (frecuencia de averías) y la mantenibilidad (tiempo de reparación)" },
+        { "id": "c", "texto": "La velocidad de producción y el número de operarios disponibles" },
+        { "id": "d", "texto": "El proveedor del equipo y la disponibilidad de repuestos en el mercado" }
+      ],
+      "correcta": "b",
+      "explicacion": "La disponibilidad depende de: FIABILIDAD (cuánto se rompe el equipo, es decir, la frecuencia de averías) y MANTENIBILIDAD (cuánto tarda en repararse). Mejorar el mantenimiento siempre significa actuar sobre uno de estos dos factores: reducir cuánto se rompe o reducir cuánto tarda en arreglarse."
+    },
+    {
+      "id": "q112",
+      "tema": "Unidad 4: Mantenimiento Productivo Total (TPM)",
+      "tipo": "opcion_multiple",
+      "dificultad": "facil",
+      "capciosa": false,
+      "enunciado": "¿Cuál es la forma de mantenimiento MÁS DEFICIENTE?",
+      "opciones": [
+        { "id": "a", "texto": "Mantenimiento preventivo" },
+        { "id": "b", "texto": "Mantenimiento predictivo" },
+        { "id": "c", "texto": "TPM" },
+        { "id": "d", "texto": "Mantenimiento correctivo" }
+      ],
+      "correcta": "d",
+      "explicacion": "El mantenimiento CORRECTIVO es el más deficiente: se usa la máquina hasta que falla y ahí se repara. No existe programación ni planificación. No hay aprovechamiento eficiente de equipos ni mano de obra. Es 'apagar incendios' en lugar de prevenirlos."
+    },
+    {
+      "id": "q113",
+      "tema": "Unidad 4: Mantenimiento Productivo Total (TPM)",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": true,
+      "enunciado": "¿Cuál es la diferencia principal entre mantenimiento PREVENTIVO y PREDICTIVO?",
+      "opciones": [
+        { "id": "a", "texto": "El preventivo es más costoso; el predictivo es más económico" },
+        { "id": "b", "texto": "El preventivo reemplaza/inspecciona a períodos constantes; el predictivo ajusta según la condición real del equipo" },
+        { "id": "c", "texto": "El preventivo lo hace el operario; el predictivo lo hace el especialista de mantenimiento" },
+        { "id": "d", "texto": "El predictivo es más antiguo que el preventivo" }
+      ],
+      "correcta": "b",
+      "explicacion": "El PREVENTIVO busca detectar/prevenir fallas con inspecciones y reemplazos a PERÍODOS CONSTANTES (calendario fijo). El PREDICTIVO ajusta los cambios según la condición REAL de las partes (deterioro real), lo que permite usar las piezas al máximo pero requiere métodos de inspección más sofisticados."
+    },
+    {
+      "id": "q114",
+      "tema": "Unidad 4: Mantenimiento Productivo Total (TPM)",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿Cuáles son las metas de TPM conocidas como los '5 ceros'?",
+      "opciones": [
+        { "id": "a", "texto": "Cero costos, cero empleados de mantenimiento, cero paradas, cero defectos, cero inventario" },
+        { "id": "b", "texto": "Cero paradas no planeadas, cero defectos por equipo, cero pérdida de velocidad, cero accidentes, mejora de habilidades" },
+        { "id": "c", "texto": "Cero defectos, cero retrasos, cero scrap, cero reclamos, cero devoluciones" },
+        { "id": "d", "texto": "Cero horas extras, cero rotación de personal, cero paradas, cero defectos, cero errores" }
+      ],
+      "correcta": "b",
+      "explicacion": "Las 5 metas del TPM son: 1) Cero paradas no planeadas, 2) Cero defectos causados por el equipo, 3) Cero pérdida de velocidad del equipo, 4) Cero accidentes, 5) Mejora de habilidades del personal (técnicas y trabajo en equipo). El quinto no es un 'cero' sino una mejora positiva."
+    },
+    {
+      "id": "q115",
+      "tema": "Unidad 4: Mantenimiento Productivo Total (TPM)",
+      "tipo": "relacion",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "Relacioná cada componente del TPM con su descripción.",
+      "columna_izq": [
+        { "id": "1", "texto": "Gerencia de Equipos (GE)" },
+        { "id": "2", "texto": "Mantenimiento Preventivo (MP)" },
+        { "id": "3", "texto": "Mantenimiento Autónomo (MA)" }
+      ],
+      "columna_der": [
+        { "id": "a", "texto": "Grupos autodirigidos, participación del empleado, mejora de habilidades" },
+        { "id": "b", "texto": "MP basado en el operador, inspección, MP dinámico, mantenimiento predictivo" },
+        { "id": "c", "texto": "Mejoras de equipo, análisis del desempeño, análisis de pérdidas, grupos naturales" }
+      ],
+      "correcta": { "1": "c", "2": "b", "3": "a" },
+      "explicacion": "GE = análisis y mejora del desempeño del equipo mediante grupos naturales. MP = inspección y mantenimiento preventivo con base en el operador y técnicas predictivas. MA = grupos autodirigidos donde el operario asume el cuidado básico del equipo y la mejora continua de su lugar de trabajo."
+    },
+    {
+      "id": "q116",
+      "tema": "Unidad 4: Mantenimiento Productivo Total (TPM)",
+      "tipo": "opcion_multiple",
+      "dificultad": "dificil",
+      "capciosa": false,
+      "enunciado": "¿Cuál es la fórmula del OEE (Efectividad Global de la Planta)?",
+      "opciones": [
+        { "id": "a", "texto": "OEE = Disponibilidad + Rendimiento + Calidad" },
+        { "id": "b", "texto": "OEE = Disponibilidad × Tasa de rendimiento × Tasa de calidad" },
+        { "id": "c", "texto": "OEE = (Tiempo de operación eficaz / Tiempo de calendario) × Calidad" },
+        { "id": "d", "texto": "OEE = Tiempo útil / (Tiempo de calendario - Paradas programadas)" }
+      ],
+      "correcta": "b",
+      "explicacion": "OEE = Disponibilidad × Tasa de rendimiento × Tasa de calidad = E / A × 100%. Donde A es el tiempo de calendario total y E es el tiempo de operación eficaz (luego de restar todas las pérdidas). Es la multiplicación de las tres tasas, no su suma."
+    },
+    {
+      "id": "q117",
+      "tema": "Unidad 4: Mantenimiento Productivo Total (TPM)",
+      "tipo": "opcion_multiple",
+      "dificultad": "dificil",
+      "capciosa": false,
+      "enunciado": "En la cascada de tiempos del OEE, ¿qué pérdidas se restan para ir del Tiempo de trabajo (B) al Tiempo de operación (C)?",
+      "opciones": [
+        { "id": "a", "texto": "Las pérdidas por defectos de calidad y reprocesamiento" },
+        { "id": "b", "texto": "Las paradas programadas (capacitaciones, mantenimiento preventivo, descansos)" },
+        { "id": "c", "texto": "Las pérdidas de rendimiento normales y anormales" },
+        { "id": "d", "texto": "Las paradas por fallas de equipo o de proceso" }
+      ],
+      "correcta": "d",
+      "explicacion": "De B (tiempo de trabajo) a C (tiempo de operación) se restan las PARADAS POR FALLAS: de equipo (roturas) y de proceso (materiales fuera de especificación, errores de operación). La Tasa de Disponibilidad = C/A × 100%. Las paradas programadas ya se restaron para ir de A a B."
+    },
+    {
+      "id": "q118",
+      "tema": "Unidad 4: Mantenimiento Productivo Total (TPM)",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿Cuál es el objetivo del Mantenimiento Autónomo (MA)?",
+      "opciones": [
+        { "id": "a", "texto": "Eliminar el departamento de mantenimiento especializado" },
+        { "id": "b", "texto": "Que los operarios realicen las tareas básicas de cuidado diario del equipo (limpiar, inspeccionar, lubricar)" },
+        { "id": "c", "texto": "Automatizar completamente el mantenimiento mediante sensores y sistemas IoT" },
+        { "id": "d", "texto": "Que el personal de mantenimiento trabaje directamente en la línea de producción" }
+      ],
+      "correcta": "b",
+      "explicacion": "El MA busca que los propios operarios se hagan cargo de las tareas básicas de cuidado diario: limpiar, inspeccionar, lubricar y realizar ajustes menores. Esto les da mayor conocimiento de 'su' máquina para detectar anomalías antes de que se conviertan en fallas graves, y libera al personal especializado para tareas técnicas más complejas."
+    },
+    {
+      "id": "q119",
+      "tema": "Unidad 4: Mantenimiento Productivo Total (TPM)",
+      "tipo": "verdadero_falso",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "En el Mantenimiento Autónomo, limpiar el equipo es, al mismo tiempo, inspeccionarlo.",
+      "opciones": [
+        { "id": "v", "texto": "Verdadero" },
+        { "id": "f", "texto": "Falso" }
+      ],
+      "correcta": "v",
+      "explicacion": "Al limpiar el equipo, el operario lo está tocando e inspeccionando al mismo tiempo, detectando fugas, ruidos anormales o desgaste mucho antes de que se conviertan en falla. La limpieza no es solo estética: es una herramienta de inspección y prevención del deterioro."
+    },
+    {
+      "id": "q120",
+      "tema": "Unidad 4: Mantenimiento Productivo Total (TPM)",
+      "tipo": "relacion",
+      "dificultad": "dificil",
+      "capciosa": false,
+      "enunciado": "Relacioná cada etapa del Mantenimiento Autónomo con los pasos que le corresponden.",
+      "columna_izq": [
+        { "id": "1", "texto": "Etapa 1: Establecer condición básica del equipo" },
+        { "id": "2", "texto": "Etapa 2: Inspección diaria y mantenimiento básico" },
+        { "id": "3", "texto": "Etapa 3: Impulsar mejora continua y calidad" }
+      ],
+      "columna_der": [
+        { "id": "a", "texto": "Pasos 6-7: Responsabilidad del lugar de trabajo y mejora continua" },
+        { "id": "b", "texto": "Pasos 1-3: Limpieza inicial, eliminar contaminación, estandarizar" },
+        { "id": "c", "texto": "Pasos 4-5: Entrenar operadores para inspección y mantenimiento básico" }
+      ],
+      "correcta": { "1": "b", "2": "c", "3": "a" },
+      "explicacion": "El MA tiene 3 etapas y 7 pasos: Etapa 1 (pasos 1-3): limpiar profundo, eliminar fuentes de contaminación, estandarizar. Etapa 2 (pasos 4-5): entrenar y ejecutar inspección/mantenimiento básico. Etapa 3 (pasos 6-7): responsabilidad del lugar de trabajo y mejora continua."
+    },
+    {
+      "id": "q121",
+      "tema": "Unidad 4: Mantenimiento Productivo Total (TPM)",
+      "tipo": "verdadero_falso",
+      "dificultad": "dificil",
+      "capciosa": true,
+      "enunciado": "El TPM reemplaza al personal especializado de mantenimiento porque los operarios asumen todas las tareas.",
+      "opciones": [
+        { "id": "v", "texto": "Verdadero" },
+        { "id": "f", "texto": "Falso" }
+      ],
+      "correcta": "f",
+      "explicacion": "Falso. TPM NO reemplaza al mantenimiento profesional: lo complementa y libera tiempo para tareas más técnicas. Los operarios asumen tareas BÁSICAS (limpieza, inspección, lubricación, ajustes menores). El personal especializado se ocupa de reparaciones mayores, mantenimiento predictivo, diagnóstico avanzado y mejora de la mantenibilidad."
+    },
+    {
+      "id": "q122",
+      "tema": "Unidad 4: Mantenimiento Productivo Total (TPM)",
+      "tipo": "verdadero_falso",
+      "dificultad": "dificil",
+      "capciosa": true,
+      "enunciado": "El Mantenimiento Autónomo es suficiente por sí solo para constituir un TPM completo.",
+      "opciones": [
+        { "id": "v", "texto": "Verdadero" },
+        { "id": "f", "texto": "Falso" }
+      ],
+      "correcta": "f",
+      "explicacion": "Falso. El MA es el elemento clave del TPM pero no el único. 'El Mantenimiento Autónomo sin Gerencia de Equipos (GE) ni Mantenimiento Preventivo (MP) profesional no constituye TPM completo.' Puede ser difícil de implementar si se hace a destiempo y sin preparación adecuada."
+    },
+    {
+      "id": "q123",
+      "tema": "Unidad 4: Mantenimiento Productivo Total (TPM)",
+      "tipo": "opcion_multiple",
+      "dificultad": "dificil",
+      "capciosa": false,
+      "enunciado": "¿Cómo se conecta el TPM con el SMED según el resumen?",
+      "opciones": [
+        { "id": "a", "texto": "El SMED reemplaza al TPM cuando los equipos son nuevos" },
+        { "id": "b", "texto": "La tasa de disponibilidad del OEE mejora con las mismas herramientas que reducen el tiempo de cambio de formato (SMED)" },
+        { "id": "c", "texto": "El TPM implementa el SMED como uno de sus pasos del Mantenimiento Autónomo" },
+        { "id": "d", "texto": "El SMED forma parte de los 5 ceros del TPM" }
+      ],
+      "correcta": "b",
+      "explicacion": "El resumen lo señala explícitamente: 'La tasa de disponibilidad mejora exactamente con las mismas herramientas que reducen el tiempo de cambio de formato (SMED).' Reducir el tiempo de setup reduce también el tiempo con la máquina parada, mejorando la disponibilidad que mide el OEE."
+    },
+    {
+      "id": "q124",
+      "tema": "Unidad 4: Mantenimiento Productivo Total (TPM)",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿Por qué el JIT necesita del TPM para funcionar correctamente?",
+      "opciones": [
+        { "id": "a", "texto": "Porque el TPM establece los estándares de calidad del producto" },
+        { "id": "b", "texto": "Porque JIT trabaja con mínimo inventario: si una máquina falla, no hay stock de respaldo para absorber la parada" },
+        { "id": "c", "texto": "Porque el TPM define el Takt Time de la línea de producción" },
+        { "id": "d", "texto": "Porque el Mantenimiento Autónomo reemplaza al Kanban" }
+      ],
+      "correcta": "b",
+      "explicacion": "JIT trabaja con mínimo o cero inventario de respaldo. Si una máquina se detiene, no hay stock para mantener funcionando el resto de la cadena. El TPM garantiza la disponibilidad de las máquinas cuando se las necesita, siendo una condición necesaria para que el JIT funcione."
+    },
+    {
+      "id": "q125",
+      "tema": "Unidad 4: Mantenimiento Productivo Total (TPM)",
+      "tipo": "opcion_multiple",
+      "dificultad": "dificil",
+      "capciosa": true,
+      "enunciado": "La 'tasa de calidad' del OEE mide lo mismo que los costos de falla _____ de la Unidad 3.",
+      "opciones": [
+        { "id": "a", "texto": "Externa (producto defectuoso que llegó al cliente)" },
+        { "id": "b", "texto": "Interna (defectos y reprocesos dentro del sistema productivo)" },
+        { "id": "c", "texto": "De prevención (inversión en evitar defectos)" },
+        { "id": "d", "texto": "De evaluación (inspecciones y laboratorios)" }
+      ],
+      "correcta": "b",
+      "explicacion": "El resumen lo vincula explícitamente: 'la tasa de calidad del OEE es el reflejo operativo de los costos de FALLA INTERNA (defectos, reprocesos) vistos en costos de calidad.' Mejorar el OEE y reducir los costos de falla interna son, en el fondo, el mismo trabajo. Ambos apuntan a eliminar lo que no salió bien la primera vez dentro del sistema."
+    },
+    {
+      "id": "q126",
+      "tema": "Unidad 4: Mantenimiento Productivo Total (TPM)",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿Qué herramientas usan los grupos de TPM para identificar pérdidas que afectan al OEE?",
+      "opciones": [
+        { "id": "a", "texto": "Kanban, SMED y Heijunka" },
+        { "id": "b", "texto": "Espina de pescado (Ishikawa), OEE, historial de máquinas y Diagrama de Pareto" },
+        { "id": "c", "texto": "Planillas de producción, encuestas de clima laboral y gráficos de ventas" },
+        { "id": "d", "texto": "MRP I, gráficos de Gantt y simulaciones Monte Carlo" }
+      ],
+      "correcta": "b",
+      "explicacion": "Los grupos de TPM usan: espina de pescado (Ishikawa) para analizar causas, OEE para medir efectividad, historial de máquinas para tendencias y Diagrama de Pareto para priorizar pérdidas. Son exactamente las mismas 7 herramientas de calidad de la Unidad 3, aplicadas al mantenimiento."
+    },
+    {
+      "id": "q127",
+      "tema": "Unidad 5: Mejora Continua, 5S y Fábrica Visual",
+      "tipo": "opcion_multiple",
+      "dificultad": "facil",
+      "capciosa": false,
+      "enunciado": "¿Qué significa KAIZEN?",
+      "opciones": [
+        { "id": "a", "texto": "Kai = producción, Zen = eficiencia" },
+        { "id": "b", "texto": "Kai = cambio, Zen = bueno (para mejorar)" },
+        { "id": "c", "texto": "Kai = calidad, Zen = proceso" },
+        { "id": "d", "texto": "Kai = trabajo, Zen = equipo" }
+      ],
+      "correcta": "b",
+      "explicacion": "Kai = Cambio, Zen = Bueno (para mejorar). Kaizen es la mejora continua: pequeños cambios incrementales en procesos productivos y prácticas de trabajo que mejoran algún indicador, sin necesidad de grandes inversiones, con el involucramiento de todos."
+    },
+    {
+      "id": "q128",
+      "tema": "Unidad 5: Mejora Continua, 5S y Fábrica Visual",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": true,
+      "enunciado": "¿Cuál de las siguientes es una característica del Kaizen que lo diferencia claramente de la innovación?",
+      "opciones": [
+        { "id": "a", "texto": "Requiere alta inversión inicial para producir resultados" },
+        { "id": "b", "texto": "Se centra en el resultado final, no en el proceso" },
+        { "id": "c", "texto": "Es de bajo costo, incremental y centrado en el proceso" },
+        { "id": "d", "texto": "Solo la alta gerencia es responsable de implementarlo" }
+      ],
+      "correcta": "c",
+      "explicacion": "El Kaizen usa el sentido común, es de bajo costo, tiene progreso incremental y continuo a largo plazo, y está CENTRADO EN EL PROCESO (no solo en el resultado). La innovación, en contraste, implica cambios disruptivos con alta inversión. Kaizen es responsabilidad de todos los niveles, no solo de la gerencia."
+    },
+    {
+      "id": "q129",
+      "tema": "Unidad 5: Mejora Continua, 5S y Fábrica Visual",
+      "tipo": "relacion",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "Relacioná cada tipo de mejora con sus características principales.",
+      "columna_izq": [
+        { "id": "1", "texto": "Mantenimiento" },
+        { "id": "2", "texto": "Kaizen (mejora continua)" },
+        { "id": "3", "texto": "Innovación" }
+      ],
+      "columna_der": [
+        { "id": "a", "texto": "Conserva los estándares actuales. Sin inversión." },
+        { "id": "b", "texto": "Cambios disruptivos. Alta inversión." },
+        { "id": "c", "texto": "Eleva los estándares actuales. Baja o nula inversión." }
+      ],
+      "correcta": { "1": "a", "2": "c", "3": "b" },
+      "explicacion": "Mantenimiento = conservar; Kaizen = elevar gradualmente sin gran inversión; Innovación = saltos disruptivos con alta inversión. En la pirámide organizacional, el mantenimiento es responsabilidad de operarios y supervisores; Kaizen de todos los niveles; innovación principalmente de la alta gerencia."
+    },
+    {
+      "id": "q130",
+      "tema": "Unidad 5: Mejora Continua, 5S y Fábrica Visual",
+      "tipo": "opcion_multiple",
+      "dificultad": "dificil",
+      "capciosa": false,
+      "enunciado": "¿Cuáles son los 6 sistemas Kaizen que integran la Mejora Continua?",
+      "opciones": [
+        { "id": "a", "texto": "TQM, JIT, SMED, Kanban, 5S y Fábrica Visual" },
+        { "id": "b", "texto": "TQM, JIT, TPM, Despliegue de políticas, Sistema de sugerencias y Actividades en grupos pequeños" },
+        { "id": "c", "texto": "PDCA, SMED, Kanban, Heijunka, Jidoka y TPM" },
+        { "id": "d", "texto": "5S, Andon, Kaizen, OEE, MRP y Kanban" }
+      ],
+      "correcta": "b",
+      "explicacion": "Los 6 sistemas Kaizen son: 1) TQM, 2) JIT, 3) TPM, 4) Despliegue de políticas, 5) Sistema de sugerencias, 6) Actividades en grupos pequeños (equipos de mejora). El Kaizen es el marco integrador que sostiene y alimenta a todos estos sistemas en el tiempo."
+    },
+    {
+      "id": "q131",
+      "tema": "Unidad 5: Mejora Continua, 5S y Fábrica Visual",
+      "tipo": "relacion",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "Relacioná cada etapa del ciclo PDCA con lo que se hace en ella.",
+      "columna_izq": [
+        { "id": "1", "texto": "P — Plan (Planear)" },
+        { "id": "2", "texto": "D — Do (Hacer)" },
+        { "id": "3", "texto": "C — Check (Verificar)" },
+        { "id": "4", "texto": "A — Act (Actuar)" }
+      ],
+      "columna_der": [
+        { "id": "a", "texto": "Implementar acciones correctivas, replantear soluciones e incorporar nuevos resultados" },
+        { "id": "b", "texto": "Diagnosticar, priorizar, reunir datos, crear plan de acción con plazos e indicadores" },
+        { "id": "c", "texto": "Analizar resultados con parámetros objetivos e identificar fallas del proceso" },
+        { "id": "d", "texto": "Poner en práctica lo planificado; recoger datos durante la ejecución" }
+      ],
+      "correcta": { "1": "b", "2": "d", "3": "c", "4": "a" },
+      "explicacion": "PDCA: Planear = diagnóstico + plan de acción; Hacer = ejecutar + recoger datos; Verificar = analizar resultados vs. metas; Actuar = corregir fallas detectadas e incorporar aprendizaje. Cada ciclo completo acumula conocimiento ('edificación secuencial'), por eso cada vuelta parte de un nivel más alto."
+    },
+    {
+      "id": "q132",
+      "tema": "Unidad 5: Mejora Continua, 5S y Fábrica Visual",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿Qué es la 'edificación secuencial del conocimiento' en el contexto del PDCA?",
+      "opciones": [
+        { "id": "a", "texto": "La capacitación obligatoria para aplicar el ciclo PDCA en cada turno" },
+        { "id": "b", "texto": "Que cada vuelta completa del ciclo acumula aprendizaje, partiendo cada vez de un nivel más alto" },
+        { "id": "c", "texto": "El manual de procedimientos que se construye al finalizar el primer ciclo PDCA" },
+        { "id": "d", "texto": "La jerarquía de conocimientos que va de operarios a gerentes" }
+      ],
+      "correcta": "b",
+      "explicacion": "La edificación secuencial del conocimiento significa que cada vuelta completa del ciclo PDCA acumula aprendizaje sobre el proceso. Cuantas más veces se aplica el ciclo, más conocimiento organizacional se tiene y mayor es la mejora lograda. Gráficamente es una escalera ascendente de ciclos consecutivos."
+    },
+    {
+      "id": "q133",
+      "tema": "Unidad 5: Mejora Continua, 5S y Fábrica Visual",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": true,
+      "enunciado": "En el ejemplo coreano del estacionamiento, ¿cuál fue la solución Kaizen (no la de innovación)?",
+      "opciones": [
+        { "id": "a", "texto": "Pantallas digitales en cada piso mostrando espacios libres" },
+        { "id": "b", "texto": "Sensores automáticos con sistema de guiado al espacio libre" },
+        { "id": "c", "texto": "Globos en los lugares de estacionamiento libres para visualizarlos desde lejos" },
+        { "id": "d", "texto": "Ampliar el estacionamiento construyendo un nuevo nivel" }
+      ],
+      "correcta": "c",
+      "explicacion": "La solución KAIZEN fue colocar globos en los lugares libres: solución de bajo costo, que optimiza con lo que ya existe. La solución de INNOVACIÓN fue instalar pantallas digitales con información de espacios libres por piso, requiriendo mayor inversión. Ambas resuelven el mismo problema, pero con filosofías distintas."
+    },
+    {
+      "id": "q134",
+      "tema": "Unidad 5: Mejora Continua, 5S y Fábrica Visual",
+      "tipo": "opcion_multiple",
+      "dificultad": "facil",
+      "capciosa": false,
+      "enunciado": "¿Qué metodología es la 5S?",
+      "opciones": [
+        { "id": "a", "texto": "Un sistema de gestión de inventarios basado en demanda del cliente" },
+        { "id": "b", "texto": "Una herramienta de Mejora Continua para generar ambientes de trabajo productivos y seguros a través del orden y la limpieza" },
+        { "id": "c", "texto": "Un sistema de evaluación del desempeño de los operarios" },
+        { "id": "d", "texto": "Un proceso de certificación de calidad para proveedores" }
+      ],
+      "correcta": "b",
+      "explicacion": "Las 5S es una herramienta de la Mejora Continua enfocada en generar ambientes de trabajo productivos y seguros a través del ORDEN y la LIMPIEZA. Es simple pero altamente efectiva, y genera: organización del lugar, limpieza, comunicación visual y estandarización de prácticas."
+    },
+    {
+      "id": "q135",
+      "tema": "Unidad 5: Mejora Continua, 5S y Fábrica Visual",
+      "tipo": "relacion",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "Relacioná cada 'S' con su nombre japonés y su principio.",
+      "columna_izq": [
+        { "id": "1", "texto": "1S — Seiri" },
+        { "id": "2", "texto": "2S — Seiton" },
+        { "id": "3", "texto": "3S — Seiso" },
+        { "id": "4", "texto": "4S — Seiketsu" }
+      ],
+      "columna_der": [
+        { "id": "a", "texto": "Estandarizar: todos de la misma manera" },
+        { "id": "b", "texto": "Clasificar: separar lo necesario de lo innecesario" },
+        { "id": "c", "texto": "Limpiar: hágalo brillar (limpieza como inspección)" },
+        { "id": "d", "texto": "Ordenar: un lugar para cada cosa y cada cosa en su lugar" }
+      ],
+      "correcta": { "1": "b", "2": "d", "3": "c", "4": "a" },
+      "explicacion": "1S Seiri = Clasificar (separar lo necesario de lo innecesario). 2S Seiton = Ordenar (un lugar para cada cosa). 3S Seiso = Limpiar (la limpieza es también inspección). 4S Seiketsu = Estandarizar (todos de la misma manera, documentar con LUP). 5S Shitsuke = Autodisciplina (sostener y mejorar)."
+    },
+    {
+      "id": "q136",
+      "tema": "Unidad 5: Mejora Continua, 5S y Fábrica Visual",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿Para qué sirve el método de las 'tarjetas rojas' en las 5S?",
+      "opciones": [
+        { "id": "a", "texto": "Para identificar defectos de calidad en los productos terminados" },
+        { "id": "b", "texto": "Para señalar artículos que actualmente no se usan en el área de trabajo y llevarlos a un centro de acopio" },
+        { "id": "c", "texto": "Para alertar sobre condiciones de seguridad peligrosas en la planta" },
+        { "id": "d", "texto": "Para registrar reclamos de clientes en el proceso de post-venta" }
+      ],
+      "correcta": "b",
+      "explicacion": "Las tarjetas rojas son parte de la 1S (Seiri / Clasificar): se colocan en los artículos que actualmente no se usan y se llevan al centro de acopio para separarlos. Luego se decide qué conservar, donar, mover a otro sector o desechar. El desorden puede esconder problemas como equipos defectuosos o mercadería vencida."
+    },
+    {
+      "id": "q137",
+      "tema": "Unidad 5: Mejora Continua, 5S y Fábrica Visual",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿Qué es una LUP (Lección de Un Punto) en el contexto de las 5S?",
+      "opciones": [
+        { "id": "a", "texto": "Un indicador de desempeño del operario durante la jornada" },
+        { "id": "b", "texto": "Una herramienta de comunicación para transferir conocimientos simples o breves" },
+        { "id": "c", "texto": "Una tarjeta de colores para identificar artículos innecesarios" },
+        { "id": "d", "texto": "Un formulario de auditoría de las 5S para medir cumplimiento" }
+      ],
+      "correcta": "b",
+      "explicacion": "La LUP (Lección de Un Punto) es una herramienta de comunicación de la 4S (Seiketsu / Estandarizar) utilizada para la transferencia de conocimientos y habilidades simples o breves. Hace que los estándares sean accesibles y comprensibles para todos."
+    },
+    {
+      "id": "q138",
+      "tema": "Unidad 5: Mejora Continua, 5S y Fábrica Visual",
+      "tipo": "verdadero_falso",
+      "dificultad": "dificil",
+      "capciosa": true,
+      "enunciado": "Implementar las 5S requiere una gran inversión económica porque implica rediseñar el layout de la planta.",
+      "opciones": [
+        { "id": "v", "texto": "Verdadero" },
+        { "id": "f", "texto": "Falso" }
+      ],
+      "correcta": "f",
+      "explicacion": "Falso. Las 5S es una metodología de Mejora Continua que se caracteriza específicamente por ser de BAJO COSTO. Usa herramientas simples (tarjetas, tableros de sombra, códigos de color, checklists) y se basa en el involucramiento del personal más que en la inversión de capital."
+    },
+    {
+      "id": "q139",
+      "tema": "Unidad 5: Mejora Continua, 5S y Fábrica Visual",
+      "tipo": "opcion_multiple",
+      "dificultad": "dificil",
+      "capciosa": false,
+      "enunciado": "Relacionando 5S con TPM: ¿qué tienen en común la 3S (Seiso/Limpiar) y el Mantenimiento Autónomo?",
+      "opciones": [
+        { "id": "a", "texto": "Ambos son métodos para reducir el tiempo de setup de las máquinas" },
+        { "id": "b", "texto": "Ambos buscan que la limpieza sea una herramienta de inspección para detectar anomalías del equipo" },
+        { "id": "c", "texto": "Ambos requieren que el personal de mantenimiento realice las tareas en la línea" },
+        { "id": "d", "texto": "Ambos se implementan exclusivamente en la fase 3 del Mantenimiento Autónomo" }
+      ],
+      "correcta": "b",
+      "explicacion": "El resumen lo indica: '5S (Mantenimiento Autónomo) comparten exactamente las mismas tareas: limpieza, inspección, orden.' La 3S considera la limpieza como inspección (no solo estética), igual que el MA. Limpiar el equipo mientras se lo toca equivale a inspeccionarlo y detectar fugas, ruidos anormales o desgaste."
+    },
+    {
+      "id": "q140",
+      "tema": "Unidad 5: Mejora Continua, 5S y Fábrica Visual",
+      "tipo": "relacion",
+      "dificultad": "dificil",
+      "capciosa": false,
+      "enunciado": "Relacioná cada elemento de la Fábrica Visual con el tipo de información que proporciona.",
+      "columna_izq": [
+        { "id": "1", "texto": "Despliegues visuales" },
+        { "id": "2", "texto": "Comunicación visual" },
+        { "id": "3", "texto": "Controles visuales" }
+      ],
+      "columna_der": [
+        { "id": "a", "texto": "Información dinámica: indicadores de desempeño, planes de producción, resultados de auditorías" },
+        { "id": "b", "texto": "Para guiar el comportamiento: tableros de sombra, rutas de evacuación, instrucciones de operación" },
+        { "id": "c", "texto": "Información estática: señales de tráfico, layout del área, diagramas de flujo de producción" }
+      ],
+      "correcta": { "1": "c", "2": "a", "3": "b" },
+      "explicacion": "Fábrica visual tiene 3 tipos: Despliegues visuales (información ESTÁTICA: señales, layout, mapas 5S), Comunicación visual (información DINÁMICA: indicadores, planes, auditorías) y Controles visuales (para GUIAR el comportamiento: tableros de sombra, instrucciones de operación, Andon)."
+    },
+    {
+      "id": "q141",
+      "tema": "Unidad 5: Mejora Continua, 5S y Fábrica Visual",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿Qué es el ANDON?",
+      "opciones": [
+        { "id": "a", "texto": "Un sistema de gestión de turnos del personal de producción" },
+        { "id": "b", "texto": "Un dispositivo que alerta e identifica que ocurrió un paro por mal funcionamiento del equipo o proceso" },
+        { "id": "c", "texto": "Un tablero de sombra para ubicar herramientas en el puesto de trabajo" },
+        { "id": "d", "texto": "El nombre japonés del diagrama de Pareto aplicado al mantenimiento" }
+      ],
+      "correcta": "b",
+      "explicacion": "El Andon es un dispositivo de la Fábrica Visual que alerta al operador e identifica que ocurrió un paro automático por mal funcionamiento del equipo o del proceso. Es desencadenado por dispositivos mecánicos o eléctricos, y permite al equipo saber rápidamente cuándo y dónde ocurrió una falla."
+    },
+    {
+      "id": "q142",
+      "tema": "Unidad 5: Mejora Continua, 5S y Fábrica Visual",
+      "tipo": "opcion_multiple",
+      "dificultad": "dificil",
+      "capciosa": false,
+      "enunciado": "Según el resumen integrador final, ¿cuál es el ROL de Kaizen respecto al JIT, SMED, Kanban, TPM y TQM?",
+      "opciones": [
+        { "id": "a", "texto": "Es el punto de partida que da origen al JIT, SMED, Kanban, TPM y TQM" },
+        { "id": "b", "texto": "Es el motor que impulsa y sostiene en el tiempo al JIT, SMED, Kanban, TPM y TQM" },
+        { "id": "c", "texto": "Reemplaza al JIT y TQM en empresas donde ya no se necesitan mejoras de proceso" },
+        { "id": "d", "texto": "Es el sistema más específico, enfocado solo en el piso de producción" }
+      ],
+      "correcta": "b",
+      "explicacion": "El resumen lo dice con claridad: 'El JIT es el destino; SMED y Kanban son los caminos del flujo; TPM es la garantía de disponibilidad; TQM es la garantía de calidad; y KAIZEN es el motor que impulsa a los cuatro de manera sostenida en el tiempo.' Kaizen no origina ni reemplaza: sostiene y mejora continuamente."
+    },
+    {
+      "id": "q143",
+      "tema": "Unidad 5: Mejora Continua, 5S y Fábrica Visual",
+      "tipo": "opcion_multiple",
+      "dificultad": "dificil",
+      "capciosa": true,
+      "enunciado": "¿En qué se diferencia la Mejora Continua (Kaizen) de estar centrado solo en el resultado?",
+      "opciones": [
+        { "id": "a", "texto": "La Mejora Continua no mide resultados; solo mide esfuerzo" },
+        { "id": "b", "texto": "La Mejora Continua está centrada en el PROCESO: mejorando el proceso, los resultados mejoran en consecuencia" },
+        { "id": "c", "texto": "La Mejora Continua ignora los indicadores de producción" },
+        { "id": "d", "texto": "No hay diferencia; Kaizen mide resultados como cualquier otro sistema" }
+      ],
+      "correcta": "b",
+      "explicacion": "Una característica central del Kaizen es que está CENTRADA EN EL PROCESO, no únicamente en el resultado. Si el proceso mejora de manera continua e incremental, los resultados mejorarán como consecuencia. Esto contrasta con el enfoque solo en el output, que puede ignorar cómo se llega a ese resultado."
+    },
+    {
+      "id": "q144",
+      "tema": "Unidad 5: Mejora Continua, 5S y Fábrica Visual",
+      "tipo": "verdadero_falso",
+      "dificultad": "facil",
+      "capciosa": false,
+      "enunciado": "La 5S 'Shitsuke' (5ª S) consiste en estandarizar procedimientos y visibilizar los estándares utilizados.",
+      "opciones": [
+        { "id": "v", "texto": "Verdadero" },
+        { "id": "f", "texto": "Falso" }
+      ],
+      "correcta": "f",
+      "explicacion": "Falso. Estandarizar es la 4S (SEIKETSU). La 5S SHITSUKE es la AUTODISCIPLINA: mantener los pasos implementados por las 4S anteriores y usar la Mejora Continua para seguir elevando los estándares. Se sostiene con motivación, auditorías, grupos de mejora y el ejemplo de los líderes."
+    },
+    {
+      "id": "q145",
+      "tema": "Unidad 5: Mejora Continua, 5S y Fábrica Visual",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿Cuál es el principal beneficio humano mencionado al final de la descripción de las 5S?",
+      "opciones": [
+        { "id": "a", "texto": "Reduce los accidentes laborales en más del 50%" },
+        { "id": "b", "texto": "Desarrolla un grupo humano motivado, comprometido y calificado" },
+        { "id": "c", "texto": "Permite implementar el TPM sin necesidad de capacitación previa" },
+        { "id": "d", "texto": "Elimina la necesidad de supervisión directa en el área de trabajo" }
+      ],
+      "correcta": "b",
+      "explicacion": "'Y lo más importante: desarrolla un grupo humano motivado, comprometido y calificado.' Más allá de los beneficios operativos (menos defectos, mejor respuesta, más seguridad), el resumen destaca que el resultado más valioso de las 5S es el desarrollo del factor humano de la organización."
+    },
+    {
+      "id": "q146",
+      "tema": "Unidad 4: Mantenimiento Productivo Total (TPM)",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": false,
+      "enunciado": "¿Cuáles son los 3 principios del TPM?",
+      "opciones": [
+        { "id": "a", "texto": "1) Los operarios reparan el equipo. 2) Los gerentes deciden. 3) Los técnicos capacitan." },
+        { "id": "b", "texto": "1) El mantenimiento básico lo llevan a cabo quienes operan el equipo. 2) Metas y actividades son implementadas por grupos de trabajo. 3) Información de objetivos disponible para todos." },
+        { "id": "c", "texto": "1) Cero defectos. 2) Cero accidentes. 3) Cero paradas no planeadas." },
+        { "id": "d", "texto": "1) Preventivo, 2) Predictivo, 3) Correctivo con grupos de mejora." }
+      ],
+      "correcta": "b",
+      "explicacion": "Los 3 principios del TPM son: 1) El mantenimiento básico de los equipos será llevado a cabo por las personas que los operan. 2) Las metas, decisiones y actividades del TPM serán implementadas por grupos de trabajo. 3) La información de los objetivos del negocio y sus resultados estará disponible para todos."
+    },
+    {
+      "id": "q147",
+      "tema": "Unidad 4: Mantenimiento Productivo Total (TPM)",
+      "tipo": "opcion_multiple",
+      "dificultad": "dificil",
+      "capciosa": false,
+      "enunciado": "¿Cuáles son los resultados esperados de las 'Mejoras Orientadas' dentro del TPM?",
+      "opciones": [
+        { "id": "a", "texto": "Reducción de costos y aumento de la tasa de rotación de inventarios" },
+        { "id": "b", "texto": "Eliminación del mantenimiento correctivo y aumento de la velocidad de producción" },
+        { "id": "c", "texto": "Estandarización del proceso de limpieza y mayor satisfacción del operario" },
+        { "id": "d", "texto": "Reducción de la fuerza laboral y automatización de las inspecciones" }
+      ],
+      "correcta": "a",
+      "explicacion": "Las Mejoras Orientadas buscan maximizar la eficacia global de los equipos y sus resultados esperados son: reducción de COSTOS y aumento de la TASA DE ROTACIÓN DE INVENTARIOS. Involucran equipos de proyecto combinando ingeniería, mantenimiento, producción y personal especializado."
+    },
+    {
+      "id": "q148",
+      "tema": "Unidad 4: Mantenimiento Productivo Total (TPM)",
+      "tipo": "verdadero_falso",
+      "dificultad": "media",
+      "capciosa": true,
+      "enunciado": "El mantenimiento PREDICTIVO es más sencillo que el preventivo porque no requiere planificar con anticipación.",
+      "opciones": [
+        { "id": "v", "texto": "Verdadero" },
+        { "id": "f", "texto": "Falso" }
+      ],
+      "correcta": "f",
+      "explicacion": "Falso. El predictivo es más SOFISTICADO, no más sencillo. Requiere 'métodos de inspección más sofisticados para diagnosticar el deterioro y anticipar la etapa de fallas crecientes.' El preventivo es más directo (intervalos fijos). El predictivo usa diagnósticos de la condición real del equipo, lo que exige tecnología y análisis más complejos."
+    },
+    {
+      "id": "q149",
+      "tema": "Unidad 4: Mantenimiento Productivo Total (TPM)",
+      "tipo": "opcion_multiple",
+      "dificultad": "dificil",
+      "capciosa": false,
+      "enunciado": "¿Qué pasa con la curva de confiabilidad de un equipo si se aplica TPM desde el inicio de su vida útil?",
+      "opciones": [
+        { "id": "a", "texto": "Se logra una etapa de operación normal sostenida seguida de desgaste gradual y previsible" },
+        { "id": "b", "texto": "La confiabilidad cae más rápido porque el operario manipula el equipo con mayor frecuencia" },
+        { "id": "c", "texto": "El equipo no necesita reemplazos porque el TPM elimina el desgaste" },
+        { "id": "d", "texto": "La confiabilidad se mantiene igual: el TPM no impacta en la vida útil" }
+      ],
+      "correcta": "a",
+      "explicacion": "Si se aplica mejora de equipo desde el inicio de su vida, se logra una etapa de operación normal SOSTENIDA y luego un desgaste gradual y PREVISIBLE. Sin TPM, la confiabilidad baja de forma más abrupta y la vida útil del equipo se acorta. El TPM mejora y extiende la curva de confiabilidad."
+    },
+    {
+      "id": "q150",
+      "tema": "Unidad 5: Mejora Continua, 5S y Fábrica Visual",
+      "tipo": "opcion_multiple",
+      "dificultad": "dificil",
+      "capciosa": false,
+      "enunciado": "En la jerarquía organizacional, ¿quién tiene principalmente a cargo la INNOVACIÓN?",
+      "opciones": [
+        { "id": "a", "texto": "Los supervisores de línea, que conocen los problemas operativos" },
+        { "id": "b", "texto": "Los operarios, como parte de su mejora continua diaria" },
+        { "id": "c", "texto": "La alta gerencia, que puede destinar los recursos para cambios disruptivos" },
+        { "id": "d", "texto": "El departamento de calidad, a través de los proyectos de mejora orientada" }
+      ],
+      "correcta": "c",
+      "explicacion": "Cuanto más arriba en la pirámide, más peso tiene la INNOVACIÓN. La alta gerencia es responsable principal de la innovación (cambios disruptivos con alta inversión). La gerencia media y supervisores lideran el Kaizen. Los operarios y supervisores mantienen los estándares. El Kaizen es el puente que atraviesa todos los niveles."
+    },
+    {
+      "id": "q151",
+      "tema": "Unidad 5: Mejora Continua, 5S y Fábrica Visual",
+      "tipo": "opcion_multiple",
+      "dificultad": "media",
+      "capciosa": true,
+      "enunciado": "¿En qué áreas de la empresa se puede aplicar Kaizen?",
+      "opciones": [
+        { "id": "a", "texto": "Solo en el piso de producción, porque es donde se genera el valor" },
+        { "id": "b", "texto": "Solo en producción y calidad" },
+        { "id": "c", "texto": "En procesos operativos, diseño de productos, calidad, materiales, recorridos y funciones laborales" },
+        { "id": "d", "texto": "Solo en las áreas que tengan indicadores de eficiencia medibles" }
+      ],
+      "correcta": "c",
+      "explicacion": "Kaizen se aplica a TODA la empresa: procesos operativos, diseño de productos, calidad, materiales, recorridos y funciones laborales. No se limita al piso de producción. Su objetivo es mejorar procesos e indicadores en TODA la organización con el involucramiento de todas las personas que la integran, desde operarios hasta gerentes."
+    },
+    {
+      "id": "q152",
+      "tema": "Unidad 5: Mejora Continua, 5S y Fábrica Visual",
+      "tipo": "verdadero_falso",
+      "dificultad": "media",
+      "capciosa": true,
+      "enunciado": "El JIT es uno de los sistemas Kaizen porque la mejora continua sostiene al JIT en el tiempo.",
+      "opciones": [
+        { "id": "v", "texto": "Verdadero" },
+        { "id": "f", "texto": "Falso" }
+      ],
+      "correcta": "v",
+      "explicacion": "Verdadero. JIT es explícitamente uno de los 6 sistemas Kaizen. La Mejora Continua no es solo una herramienta aislada: es el marco que integra y sostiene en el tiempo a TQM, JIT, TPM, despliegue de políticas, sistema de sugerencias y actividades en grupos pequeños. Kaizen es el motor, y JIT es uno de los sistemas que impulsa."
     }
   ]
 }
